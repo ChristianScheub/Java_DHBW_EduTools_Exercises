@@ -1,9 +1,13 @@
+## Übung: Vorkommen eines Zeichens in einer Zeichenkette
 
-### Aufgabe 3 - Vorkommen eines Zeichens ermitteln
+In dieser Übung sollen Sie eine Methode schreiben, die alle Vorkommen eines bestimmten Zeichens in einer gegebenen Zeichenkette ermittelt.
 
+### Anforderungen:
 
-Erstellen Sie eine Methode, die alle Vorkommen eines gegebenen Zeichens in einer
-Zeichenkette ermittelt und mit System.out.println ausgibt.
+1. Erstellen Sie eine Klasse namens `StringAnalyzer`.
+2. Innerhalb der `StringAnalyzer`-Klasse definieren Sie die Methode `printOccurrences`.
+3. Die Methode `printOccurrences` soll zwei Parameter haben: Ein `String` und ein `char`.
+4. Für jedes Vorkommen des Zeichens in der Zeichenkette soll die Methode die Position dieses Zeichens (0-basiert) mit `System.out.println` ausgeben.
+5. Wenn das Zeichen nicht in der Zeichenkette vorkommt, soll die Methode "Character not found" ausgeben.
 
-### Methode:
-- `public static void printOccurrences(String input, char c)`
+Viel Erfolg!

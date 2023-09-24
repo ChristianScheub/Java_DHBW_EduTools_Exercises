@@ -7,19 +7,25 @@ public class Tests {
 
   @Test
   public void testPrintOccurrences() {
-    // Prepare to capture the output of System.out.println
+    StringAnalyzer analyzer = new StringAnalyzer();
     ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     System.setOut(new PrintStream(outContent));
 
-    // Call the method
-    CharacterOccurrences.printOccurrences("hallo", 'l');
+    analyzer.printOccurrences("hello world", 'l');
 
-    // Check the output
-    String expectedOutput = "Char 'l' found at position: 2" + System.lineSeparator()
-            + "Char 'l' found at position: 3" + System.lineSeparator();
+    String expectedOutput = "2\n" + "3\n" + "9\n";  // Die Zeichen 'l' sind an den Positionen 2, 3 und 9.
     assertEquals(expectedOutput, outContent.toString());
+  }
 
-    // Reset the System.out
-    System.setOut(System.out);
+  @Test
+  public void testCharacterNotFound() {
+    StringAnalyzer analyzer = new StringAnalyzer();
+    ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+    System.setOut(new PrintStream(outContent));
+
+    analyzer.printOccurrences("hello world", 'z');
+
+    String expectedOutput = "Character not found\n";
+    assertEquals(expectedOutput, outContent.toString());
   }
 }

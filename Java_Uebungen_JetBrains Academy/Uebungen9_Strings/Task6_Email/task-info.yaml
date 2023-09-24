@@ -2,5 +2,5 @@ type: edu
 files:
   - name: test/Tests.java
     visible: false
-  - name: src/StringAnalyzer.java
+  - name: src/EmailInverter.java
     visible: true
