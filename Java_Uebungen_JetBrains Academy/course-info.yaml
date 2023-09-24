@@ -7,3 +7,6 @@ programming_language: Java
 content:
   - Uebungen1_Grundlagen
   - Uebungen2_Variablen
+  - Uebungen3_Eingaben
+  - Uebungen4_Arrays
+  - Uebungen5_Methoden
