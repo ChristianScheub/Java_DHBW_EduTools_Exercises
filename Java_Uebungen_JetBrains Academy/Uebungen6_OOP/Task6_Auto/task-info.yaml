@@ -1,0 +1,8 @@
+type: edu
+files:
+  - name: test/Tests.java
+    visible: false
+  - name: src/Fahrzeug.java
+    visible: true
+  - name: src/Point.java
+    visible: true
