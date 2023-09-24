@@ -1,11 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="delegatedBuild" value="false" />
         <option name="distributionType" value="WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Uebungen1_Grundlagen/task1" />
+            <option value="$PROJECT_DIR$/Uebungen1_Grundlagen/task2_datentyp" />
+            <option value="$PROJECT_DIR$/Uebungen1_Grundlagen/task3_Compiler" />
+            <option value="$PROJECT_DIR$/Uebungen1_Grundlagen/task4_ByteCode" />
+            <option value="$PROJECT_DIR$/Uebungen1_Grundlagen/task5_Meldung" />
+            <option value="$PROJECT_DIR$/Uebungen1_Grundlagen/task6_math" />
+            <option value="$PROJECT_DIR$/Uebungen2_Variablen/task1_Datentypen" />
+            <option value="$PROJECT_DIR$/Uebungen2_Variablen/task2_Referenztypen" />
+            <option value="$PROJECT_DIR$/Uebungen2_Variablen/task3_Zeichencodierung" />
+            <option value="$PROJECT_DIR$/Uebungen2_Variablen/task4_Casting" />
+            <option value="$PROJECT_DIR$/Uebungen2_Variablen/task5_Konvertierung" />
+            <option value="$PROJECT_DIR$/Uebungen2_Variablen/task6_Byte" />
+            <option value="$PROJECT_DIR$/Uebungen2_Variablen/task7_Zinsrechnung" />
+            <option value="$PROJECT_DIR$/Uebungen2_Variablen/task8_Schaltjahrprüfung" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
       </GradleProjectSettings>
     </option>
   </component>

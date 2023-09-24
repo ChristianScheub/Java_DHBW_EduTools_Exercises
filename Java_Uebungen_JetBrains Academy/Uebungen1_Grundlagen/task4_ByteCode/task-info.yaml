@@ -1,0 +1,13 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Byte Code wird in der Java Virtual Machine (JVM) ausgeführt, während Maschinencode direkt von der Computerhardware ausgeführt wird.
+    is_correct: true
+  - text: Byte Code und Maschinencode sind dasselbe.
+    is_correct: false
+  - text: Maschinencode wird in der JVM ausgeführt.
+    is_correct: false
+  - text: Byte Code ist eine ältere Technologie als Maschinencode.
+    is_correct: false
+message_correct: Richtig!
+message_incorrect: Das ist nicht korrekt.

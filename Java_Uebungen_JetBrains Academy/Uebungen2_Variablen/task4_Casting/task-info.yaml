@@ -1,0 +1,13 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "Das Umwandeln eines Wertes eines Datentyps in einen anderen Datentyp."
+    is_correct: true
+  - text: "Das Löschen eines Objekts aus dem Speicher."
+    is_correct: false
+  - text: "Das Erstellen einer Instanz einer Klasse."
+    is_correct: false
+  - text: "Das Anfordern von Speicherplatz für eine Variable."
+    is_correct: false
+message_correct: "Richtig! Casting bezeichnet das Umwandeln eines Wertes eines Datentyps in einen anderen Datentyp."
+message_incorrect: "Das ist leider nicht korrekt."

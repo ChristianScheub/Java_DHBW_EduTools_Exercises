@@ -1,0 +1,13 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Übersetzt Hochsprachen-Code in Maschinencode.
+    is_correct: true
+  - text: Führt den geschriebenen Code direkt aus.
+    is_correct: false
+  - text: Hilft bei der Erstellung von Benutzeroberflächen für Anwendungen.
+    is_correct: false
+  - text: Speichert Daten in Datenbanken.
+    is_correct: false
+message_correct: Richtig!
+message_incorrect: Das ist nicht korrekt.
