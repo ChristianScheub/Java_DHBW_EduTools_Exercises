@@ -1,0 +1,8 @@
+type: marketplace
+title: Wirtschaftsinformatik_EinfuehrungInJava
+language: English
+summary: Das ist ein Begleitkurs für die Vorlesung "Einführung in die Programmierung"
+  an der DHBW Stuttgart.
+programming_language: Java
+content:
+  - lesson1
