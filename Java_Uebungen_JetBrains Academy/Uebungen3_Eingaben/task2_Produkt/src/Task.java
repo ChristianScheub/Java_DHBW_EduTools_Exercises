@@ -1,6 +1,6 @@
 public class Task {
-    public static int calculateFactorial(int n) {
-        // TODO: Implementieren Sie die Methode, die n! zurückgibt.
-        return 1;
+    public static void main(String[] args) {
+        int n = Integer.parseInt(args[0]);
+        // TODO: Berechnen Sie n! und geben Sie es auf der Konsole aus.
     }
 }

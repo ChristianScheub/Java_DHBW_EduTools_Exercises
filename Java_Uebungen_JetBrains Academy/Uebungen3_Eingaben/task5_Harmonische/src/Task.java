@@ -1,6 +1,6 @@
 public class Task {
-    public static double calculateHarmonic(int n) {
-        // TODO: Implementieren Sie die Berechnung der n-ten harmonischen Zahl.
-        return 0;
+    public static void main(String[] args) {
+        int n = Integer.parseInt(args[0]);
+        // TODO: Berechnen Sie die n-te harmonische Zahl und geben Sie sie auf der Konsole aus.
     }
 }

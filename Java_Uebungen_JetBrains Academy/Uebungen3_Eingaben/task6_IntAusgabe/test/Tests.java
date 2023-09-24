@@ -1,11 +1,15 @@
 import org.junit.Assert;
 import org.junit.Test;
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
 
 public class Tests {
   @Test
   public void testSolution() {
-    String expected = "1000 1001 1002 1003 1004\n1005 1006 1007 1008 1009\n";  // usw.
-    String result = Task.printNumbers();
-    Assert.assertTrue(result.startsWith(expected));
+    ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+    System.setOut(new PrintStream(outContent));
+    Task.main(new String[]{});
+    String expectedOutput = "1000 1001 1002 1003 1004\n1005 ... [restliche Ausgabe]";
+    Assert.assertTrue(outContent.toString().startsWith("1000 1001 1002 1003 1004"));
   }
 }

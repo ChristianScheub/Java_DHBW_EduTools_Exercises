@@ -1,12 +1,14 @@
 import org.junit.Assert;
 import org.junit.Test;
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
 
 public class Tests {
   @Test
   public void testSolution() {
-    Assert.assertEquals(1, Task.calculateSum(1));
-    Assert.assertEquals(3, Task.calculateSum(2));
-    Assert.assertEquals(6, Task.calculateSum(3));
-    Assert.assertEquals(10, Task.calculateSum(4));
+    ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+    System.setOut(new PrintStream(outContent));
+    Task.main(new String[]{"4"});
+    Assert.assertEquals("10\n", outContent.toString());
   }
 }

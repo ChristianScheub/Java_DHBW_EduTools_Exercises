@@ -1,6 +1,6 @@
 public class Task {
-    public static double calculateWindchill(double t, double v) {
+    public static void main(String[] args) {
         // TODO: Implementieren Sie die Windchill-Berechnung.
-        return 0;
+
     }
 }

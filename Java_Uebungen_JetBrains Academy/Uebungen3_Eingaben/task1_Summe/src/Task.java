@@ -1,6 +1,6 @@
 public class Task {
-    public static int calculateSum(int n) {
-        // TODO: Implementieren Sie die Methode, die die Summe der ersten n Zahlen zurückgibt.
-        return 0;
+    public static void main(String[] args) {
+        int n = Integer.parseInt(args[0]);
+        // TODO: Berechnen Sie die Summe und geben Sie sie auf der Konsole aus.
     }
 }

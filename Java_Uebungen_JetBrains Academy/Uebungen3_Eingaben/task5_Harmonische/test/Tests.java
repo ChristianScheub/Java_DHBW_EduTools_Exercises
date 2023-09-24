@@ -1,12 +1,14 @@
 import org.junit.Assert;
 import org.junit.Test;
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
 
 public class Tests {
   @Test
   public void testSolution() {
-    double epsilon = 0.01;
-    Assert.assertEquals(1.0, Task.calculateHarmonic(1), epsilon);
-    Assert.assertEquals(1.5, Task.calculateHarmonic(2), epsilon);
-    Assert.assertEquals(1.83, Task.calculateHarmonic(3), 0.01);
+    ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+    System.setOut(new PrintStream(outContent));
+    Task.main(new String[]{"4"});
+    Assert.assertEquals("2.083333333333333\n", outContent.toString());
   }
 }

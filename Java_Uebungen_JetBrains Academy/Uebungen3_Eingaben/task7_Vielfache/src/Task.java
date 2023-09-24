@@ -1,6 +1,6 @@
 public class Task {
-    public static String printMultiples(int n) {
-        // TODO: Implementieren Sie die Methode, die alle positiven Vielfache von n zurückgibt, die im Wertebereich des Datentyps long enthalten sind.
-        return "";
+    public static void main(String[] args) {
+        int n = Integer.parseInt(args[0]);
+        // TODO: Geben Sie alle positiven Vielfache von n aus, die im Wertebereich von long enthalten sind.
     }
 }
