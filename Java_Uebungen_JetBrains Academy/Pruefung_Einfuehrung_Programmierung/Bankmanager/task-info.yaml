@@ -1,0 +1,12 @@
+type: edu
+files:
+  - name: src/Task.java
+    visible: true
+  - name: test/Tests.java
+    visible: false
+  - name: src/main/java/de/dhbw/assignments/bankmanager/impl/BankAccountImpl.java
+    visible: true
+  - name: src/main/java/de/dhbw/assignments/bankmanager/impl/BankImpl.java
+    visible: true
+  - name: src/pom.xml
+    visible: true
