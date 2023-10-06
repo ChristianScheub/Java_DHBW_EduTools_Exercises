@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Uebungen7_Datentypen-Task2_Stack" external.linked.project.path="$MODULE_DIR$/../../../../Uebungen7_Datentypen/Task2_Stack" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="Repo" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../Uebungen7_Datentypen/Task2_Stack">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Uebungen7_Datentypen/Task2_Stack/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Uebungen7_Datentypen/Task2_Stack/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Uebungen7_Datentypen/Task2_Stack/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

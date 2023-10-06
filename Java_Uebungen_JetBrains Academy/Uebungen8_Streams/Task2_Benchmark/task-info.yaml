@@ -1,0 +1,6 @@
+type: edu
+files:
+  - name: src/Benchmark.java
+    visible: true
+  - name: test/Tests.java
+    visible: false

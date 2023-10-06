@@ -1,6 +1,0 @@
-type: edu
-files:
-  - name: test/Tests.java
-    visible: false
-  - name: src/IterateMap.java
-    visible: true
