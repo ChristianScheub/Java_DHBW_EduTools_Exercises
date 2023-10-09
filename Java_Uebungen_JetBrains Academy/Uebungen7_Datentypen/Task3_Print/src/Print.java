@@ -1,3 +1,9 @@
+import java.util.List;
+import java.util.Iterator;
+
 public class Print {
-  //put your task here
+    public static void printList(List<?> list) {
+
+
+    }
 }

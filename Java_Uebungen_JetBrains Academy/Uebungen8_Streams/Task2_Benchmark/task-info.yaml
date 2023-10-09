@@ -4,3 +4,7 @@ files:
     visible: true
   - name: test/Tests.java
     visible: false
+  - name: unbuffered_test_file.txt
+    visible: true
+  - name: buffered_test_file.txt
+    visible: true

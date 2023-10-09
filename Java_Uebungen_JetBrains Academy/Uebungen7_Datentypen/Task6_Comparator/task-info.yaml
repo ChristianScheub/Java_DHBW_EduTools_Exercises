@@ -1,6 +1,10 @@
 type: edu
 files:
-  - name: src/Comparator.java
+  - name: src/Person.java
     visible: true
   - name: test/Tests.java
     visible: false
+  - name: src/PLZComparator.java
+    visible: true
+  - name: src/NameComparator.java
+    visible: true

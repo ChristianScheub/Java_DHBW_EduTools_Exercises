@@ -1,3 +1,9 @@
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+
 public class FindWord {
-  //put your task here
+    public static void searchWordInFile(String fileName, String targetWord) {
+
+    }
 }

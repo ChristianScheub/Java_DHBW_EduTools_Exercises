@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Tests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-09T20:02:10" hostname="CORONA17" time="0.06">
+  <properties/>
+  <testcase name="testFileWritingTimes" classname="Tests" time="0.06"/>
+  <system-out><![CDATA[Unbuffered: 11
+Buffered: 11
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
