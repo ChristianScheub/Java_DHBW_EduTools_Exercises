@@ -1,7 +1,7 @@
 import org.junit.Assert;
 import org.junit.Test;
 
-public class MultiplyByTenTest {
+public class Tests {
   @Test
   public void testMultiplyByTen() {
     Assert.assertEquals("5 mal 10 sollte 50 sein.", 50, Task.multiplyByTen(5));

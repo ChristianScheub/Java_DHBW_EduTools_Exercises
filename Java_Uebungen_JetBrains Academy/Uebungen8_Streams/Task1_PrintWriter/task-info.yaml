@@ -1,8 +1,8 @@
 type: edu
 files:
-  - name: src/RandomPrintWriter.java
+  - name: src/PrintWriter.java
     visible: true
   - name: test/Tests.java
     visible: false
-  - name: test_random_numbers.txt
+  - name: src/RandomPrintWriter.java
     visible: true

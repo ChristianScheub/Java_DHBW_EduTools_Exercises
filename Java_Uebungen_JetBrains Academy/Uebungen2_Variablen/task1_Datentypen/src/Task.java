@@ -10,5 +10,6 @@ public class Task {
 
     public Task() {
         // TODO: Definieren Sie hier alle primitiven Datentypen von oben und initialisieren Sie diese mit einem Wert.
+
     }
 }
