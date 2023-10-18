@@ -1,13 +1,21 @@
 type: choice
 is_multiple_choice: false
 options:
-  - text: Eine Variable ist ein Speicherort im Computer, während ein Wert die Information ist, die in dieser Speicherstelle gespeichert ist.
+  - text: "Eine Variable ist ein Speicherort im Computer, während ein Wert die Information\
+    \ ist, die in dieser Speicherstelle gespeichert ist."
     is_correct: true
   - text: Eine Variable und ein Wert sind dasselbe.
     is_correct: false
-  - text: Werte können ohne Variablen existieren, aber Variablen können nicht ohne Werte existieren.
+  - text: "Werte können ohne Variablen existieren, aber Variablen können nicht ohne\
+    \ Werte existieren."
     is_correct: false
   - text: Eine Variable kann mehrere Werte gleichzeitig speichern.
     is_correct: false
 message_correct: Richtig!
 message_incorrect: Das ist nicht korrekt.
+files:
+  - name: src/Task.java
+    visible: true
+  - name: test/Tests.java
+    visible: true
+local_check: true

@@ -6,6 +6,7 @@
       <excludeFolder url="file://$MODULE_DIR$/../../../../Uebungen1_Grundlagen/task3_Compiler/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../../Uebungen1_Grundlagen/task3_Compiler/build" />
       <excludeFolder url="file://$MODULE_DIR$/../../../../Uebungen1_Grundlagen/task3_Compiler/out" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Uebungen1_Grundlagen/task3_Compiler" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

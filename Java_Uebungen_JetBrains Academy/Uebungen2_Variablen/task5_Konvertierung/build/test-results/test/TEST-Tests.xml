@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Tests" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-10-11T23:18:01" hostname="DESKTOP-0ERH70K" time="0.008">
+<testsuite name="Tests" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-10-18T18:50:00" hostname="CORONA17" time="0.006">
   <properties/>
-  <testcase name="testSolution" classname="Tests" time="0.008">
+  <testcase name="testSolution" classname="Tests" time="0.006">
     <failure message="java.lang.AssertionError: Int nach Double Konvertierung ist falsch. expected:&lt;5.0&gt; but was:&lt;0.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Int nach Double Konvertierung ist falsch. expected:&lt;5.0&gt; but was:&lt;0.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)

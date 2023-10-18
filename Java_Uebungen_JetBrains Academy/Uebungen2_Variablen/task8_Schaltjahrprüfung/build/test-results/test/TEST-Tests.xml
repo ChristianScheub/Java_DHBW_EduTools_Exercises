@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Tests" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-10-11T23:23:59" hostname="DESKTOP-0ERH70K" time="0.019">
+<testsuite name="Tests" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-10-18T18:50:11" hostname="CORONA17" time="0.009">
   <properties/>
-  <testcase name="testSolution" classname="Tests" time="0.019">
+  <testcase name="testSolution" classname="Tests" time="0.009">
     <failure message="java.lang.AssertionError: 2000 sollte ein Schaltjahr sein." type="java.lang.AssertionError">java.lang.AssertionError: 2000 sollte ein Schaltjahr sein.
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.assertTrue(Assert.java:41)

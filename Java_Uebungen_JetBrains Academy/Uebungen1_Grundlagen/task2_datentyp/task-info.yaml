@@ -3,11 +3,15 @@ is_multiple_choice: false
 options:
   - text: Um den Speicherplatz im Computer zu begrenzen.
     is_correct: false
-  - text: Um zu bestimmen, welche Art von Werten die Variable speichern kann.
+  - text: "Um zu bestimmen, welche Art von Werten die Variable speichern kann."
     is_correct: true
-  - text: Weil es in Java vorgeschrieben ist, ohne besonderen Grund.
+  - text: "Weil es in Java vorgeschrieben ist, ohne besonderen Grund."
     is_correct: false
   - text: Um die Ausführungsgeschwindigkeit des Programms zu erhöhen.
     is_correct: false
 message_correct: Richtig!
 message_incorrect: Das ist nicht korrekt.
+files:
+  - name: src/Main.java
+    visible: true
+local_check: true
