@@ -1,6 +1,15 @@
+import java.util.Scanner;
 public class Task {
     public static void main(String[] args) {
-        int n = Integer.parseInt(args[0]);
-        // TODO: Berechnen Sie n! und geben Sie es auf der Konsole aus.
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Geben Sie eine positive ganze Zahl n ein: ");
+
+
+            System.out.print(calculateFactorial(n));
+
+    }
+
+    public static long calculateFactorial(int n) {
+
     }
 }
