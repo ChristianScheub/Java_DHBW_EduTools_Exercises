@@ -1,6 +1,13 @@
+import java.util.Scanner;
+
 public class Task {
     public static void main(String[] args) {
-        // TODO: Implementieren Sie die Windchill-Berechnung.
+        Scanner scanner = new Scanner(System.in);
 
+
+    }
+
+    public static double calculateWindchill(double t, double v) {
+        return 0;
     }
 }
