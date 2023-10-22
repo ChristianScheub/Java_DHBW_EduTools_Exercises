@@ -3,13 +3,26 @@ import org.junit.Test;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
+
 public class Tests {
+
   @Test
-  public void testSolution() {
-    ByteArrayOutputStream outContent = new ByteArrayOutputStream();
-    System.setOut(new PrintStream(outContent));
-    Task.main(new String[]{});
-    String expectedOutput = "1000 1001 1002 1003 1004\n1005 ... [restliche Ausgabe]";
-    Assert.assertTrue(outContent.toString().startsWith("1000 1001 1002 1003 1004"));
+  public void testPrintInt() {
+    ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+    PrintStream originalOut = System.out;
+    System.setOut(new PrintStream(outputStream));
+
+    PrintInteger.main(new String[]{});
+
+    System.setOut(originalOut);
+
+    String output = outputStream.toString();
+    String expectedStart = "1000 1001 1002 1003 1004 \r\n";
+    String expectedEnd = "1995 1996 1997 1998 1999 \r\n2000 ";
+
+    Assert.assertTrue(output.startsWith(expectedStart));
+    Assert.assertTrue(output.endsWith(expectedEnd));
+
   }
+
 }

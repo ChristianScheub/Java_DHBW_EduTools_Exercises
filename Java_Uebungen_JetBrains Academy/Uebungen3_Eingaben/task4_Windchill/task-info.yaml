@@ -1,6 +1,6 @@
 type: edu
 files:
-  - name: src/Task.java
+  - name: src/Windchill.java
     visible: true
   - name: test/Tests.java
     visible: false

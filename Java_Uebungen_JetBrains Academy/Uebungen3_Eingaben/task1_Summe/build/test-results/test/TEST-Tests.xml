@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Tests" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-10-21T10:11:31" hostname="DESKTOP-0ERH70K" time="0.006">
+<testsuite name="Tests" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-10-22T16:59:17" hostname="CORONA17" time="0.003">
   <properties/>
-  <testcase name="testMainMethodWithValidInput" classname="Tests" time="0.006"/>
-  <testcase name="testAddition" classname="Tests" time="0.0"/>
+  <testcase name="testAdditionWithOne" classname="Tests" time="0.002"/>
+  <testcase name="testAdditionWithFive" classname="Tests" time="0.0"/>
+  <testcase name="testAdditionWithNull" classname="Tests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

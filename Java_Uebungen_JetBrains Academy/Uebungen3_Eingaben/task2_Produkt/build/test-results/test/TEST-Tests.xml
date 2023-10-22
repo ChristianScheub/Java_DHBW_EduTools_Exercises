@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Tests" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-10-21T12:30:44" hostname="DESKTOP-0ERH70K" time="0.008">
+<testsuite name="Tests" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-10-22T18:06:20" hostname="CORONA17" time="0.003">
   <properties/>
-  <testcase name="testFactorialCalculationWithValidInput" classname="Tests" time="0.007"/>
-  <testcase name="testFactorialOfLargeNumber" classname="Tests" time="0.0"/>
-  <testcase name="testFactorialOfOne" classname="Tests" time="0.0"/>
-  <testcase name="testFactorialOfSmallNumber" classname="Tests" time="0.0"/>
-  <testcase name="testFactorialOfZero" classname="Tests" time="0.0"/>
+  <testcase name="testProductWithNull" classname="Tests" time="0.002"/>
+  <testcase name="testProductWithOne" classname="Tests" time="0.0"/>
+  <testcase name="testAdditionWithFive" classname="Tests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

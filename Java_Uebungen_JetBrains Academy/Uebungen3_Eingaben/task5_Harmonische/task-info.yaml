@@ -1,7 +1,7 @@
 type: edu
 custom_name: 'task5_Harmonische '
 files:
-  - name: src/Task.java
+  - name: src/HarmonicSeries.java
     visible: true
   - name: test/Tests.java
     visible: false
