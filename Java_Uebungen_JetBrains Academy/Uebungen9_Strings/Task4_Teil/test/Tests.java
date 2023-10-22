@@ -13,7 +13,8 @@ public class Tests {
 
     splitter.printSubstrings("Hallo Welt, wie geht's?");
 
-    String expectedOutput = "Hallo\nWelt,\nwie\ngeht's?\n";
+    String lineSeparator = System.getProperty("line.separator");
+    String expectedOutput = "Hallo" + lineSeparator + "Welt," + lineSeparator + "wie" + lineSeparator + "geht's?" + lineSeparator;
     assertEquals(expectedOutput, outContent.toString());
   }
 }

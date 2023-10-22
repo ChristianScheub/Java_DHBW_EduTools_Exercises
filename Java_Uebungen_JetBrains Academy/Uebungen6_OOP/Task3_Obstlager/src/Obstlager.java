@@ -11,5 +11,8 @@ class Obstlager {
 
     public void print() {
         // TODO: Drucken Sie die Namen und Farben der Früchte im Lager.
+        // Etwa so: System.out.println("Name: " + obst.getName() + ", Farbe: " + obst.getFarbe());
+
     }
+
 }

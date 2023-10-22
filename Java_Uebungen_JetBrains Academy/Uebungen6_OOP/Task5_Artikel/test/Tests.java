@@ -26,6 +26,6 @@ public class Tests {
     Auftrag auf2 = new Auftrag(a2, 3);
 
     double gesamtwert = Auftrag.getGesamtwert(auf1, auf2);
-    Assert.assertEquals(90.0, gesamtwert, 0.001);
+    Assert.assertEquals(80.0, gesamtwert, 0.001);
   }
 }

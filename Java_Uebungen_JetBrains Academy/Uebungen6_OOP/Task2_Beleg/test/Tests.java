@@ -1,10 +1,17 @@
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.Before;
+
 
 public class Tests {
 
+  @Before
+  public void setUp() {
+    Beleg.resetBelegnummer();
+  }
+
   @Test
-  public void testBelegnummerIncrement() {
+  public void testBelegnummerInkrement() {
     Beleg beleg1 = new Beleg();
     Beleg beleg2 = new Beleg();
     Beleg beleg3 = new Beleg();
@@ -15,9 +22,13 @@ public class Tests {
   }
 
   @Test
-  public void testBelegnummerNachReset() {
-    Beleg.resetBelegnummer();
+  public void testResetBelegnummer() {
     Beleg beleg1 = new Beleg();
+    Beleg.resetBelegnummer();
+
+    Beleg beleg2 = new Beleg();
+
     Assert.assertEquals(10000, beleg1.getBelegnummer());
+    Assert.assertEquals(10000, beleg2.getBelegnummer());
   }
 }

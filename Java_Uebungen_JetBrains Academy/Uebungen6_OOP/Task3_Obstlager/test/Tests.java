@@ -1,26 +1,30 @@
 import org.junit.Assert;
 import org.junit.Test;
 
+import org.junit.After;
+import org.junit.Before;
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
 public class Tests {
   @Test
   public void testApfel() {
     Apfel apfel = new Apfel();
     Assert.assertEquals("Apfel", apfel.getName());
-    Assert.assertEquals("rot", apfel.getFarbe());
+    Assert.assertEquals("Rot", apfel.getFarbe());
   }
 
   @Test
   public void testBirne() {
     Birne birne = new Birne();
     Assert.assertEquals("Birne", birne.getName());
-    Assert.assertEquals("grün", birne.getFarbe());
+    Assert.assertEquals("Grün", birne.getFarbe());
   }
 
   @Test
   public void testOrange() {
     Orange orange = new Orange();
     Assert.assertEquals("Orange", orange.getName());
-    Assert.assertEquals("orange", orange.getFarbe());
+    Assert.assertEquals("Orange", orange.getFarbe());
   }
 
   @Test
@@ -30,9 +34,32 @@ public class Tests {
     lager.addObst(new Birne());
     lager.addObst(new Orange());
 
-    // Hier könnten wir prüfen, ob das Lager tatsächlich drei Obstsorten enthält.
-    // Da die `print()` Methode void ist und nur Ausgaben macht, ist es schwierig, dies in einem JUnit-Test direkt zu überprüfen.
-    // Stattdessen könnten Sie die Methode `print()` so ändern, dass sie einen String zurückgibt oder Sie verwenden spezielle Techniken, um die Konsolenausgabe zu überprüfen (etwas fortgeschrittener).
-    // Für den Moment nehmen wir an, dass Sie den Test manuell durchführen, indem Sie `print()` aufrufen und die Konsolenausgabe überprüfen.
   }
+
+  private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+  private final PrintStream originalOut = System.out;
+  @Before
+  public void setUpStreams() {
+    System.setOut(new PrintStream(outContent));
+  }
+
+  @After
+  public void restoreStreams() {
+    System.setOut(originalOut);
+  }
+  @Test
+  public void testPrintFunction() {
+    Obstlager lager = new Obstlager();
+    lager.addObst(new Apfel());
+    lager.addObst(new Birne());
+    lager.addObst(new Orange());
+
+    lager.print();
+
+    String expectedOutput = "Name: Apfel, Farbe: Rot" + System.lineSeparator() +
+            "Name: Birne, Farbe: Grün" + System.lineSeparator() +
+            "Name: Orange, Farbe: Orange" + System.lineSeparator();
+    Assert.assertEquals(expectedOutput, outContent.toString());
+  }
+
 }

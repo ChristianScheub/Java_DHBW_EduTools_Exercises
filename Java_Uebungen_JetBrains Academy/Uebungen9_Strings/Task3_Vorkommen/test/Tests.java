@@ -13,7 +13,7 @@ public class Tests {
 
     analyzer.printOccurrences("hello world", 'l');
 
-    String expectedOutput = "2\n" + "3\n" + "9\n";  // Die Zeichen 'l' sind an den Positionen 2, 3 und 9.
+    String expectedOutput = "2;" + "3;" + "9;";  // Die Zeichen 'l' sind an den Positionen 2, 3 und 9.
     assertEquals(expectedOutput, outContent.toString());
   }
 
@@ -25,7 +25,7 @@ public class Tests {
 
     analyzer.printOccurrences("hello world", 'z');
 
-    String expectedOutput = "Character not found\n";
+    String expectedOutput = "Character not found";
     assertEquals(expectedOutput, outContent.toString());
   }
 }
