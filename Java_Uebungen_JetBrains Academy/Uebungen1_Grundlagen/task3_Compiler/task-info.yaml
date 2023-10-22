@@ -11,3 +11,8 @@ options:
     is_correct: false
 message_correct: Richtig!
 message_incorrect: Das ist nicht korrekt.
+files:
+  - name: src/Task.java
+    visible: true
+  - name: test/Tests.java
+    visible: false

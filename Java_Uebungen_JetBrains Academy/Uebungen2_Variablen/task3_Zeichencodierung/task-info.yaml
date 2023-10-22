@@ -11,3 +11,8 @@ options:
     is_correct: false
 message_correct: "Richtig! Zeichen in Java werden in Unicode codiert."
 message_incorrect: "Das ist leider nicht korrekt."
+files:
+  - name: src/Task.java
+    visible: true
+  - name: test/Tests.java
+    visible: false

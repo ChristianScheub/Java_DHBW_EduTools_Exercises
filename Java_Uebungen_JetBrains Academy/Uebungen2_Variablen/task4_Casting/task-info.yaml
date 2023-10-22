@@ -11,3 +11,8 @@ options:
     is_correct: false
 message_correct: "Richtig! Casting bezeichnet das Umwandeln eines Wertes eines Datentyps in einen anderen Datentyp."
 message_incorrect: "Das ist leider nicht korrekt."
+files:
+  - name: src/Task.java
+    visible: true
+  - name: test/Tests.java
+    visible: false

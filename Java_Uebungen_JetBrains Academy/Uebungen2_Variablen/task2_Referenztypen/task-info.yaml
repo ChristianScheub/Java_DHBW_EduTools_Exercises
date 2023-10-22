@@ -11,3 +11,8 @@ options:
     is_correct: false
 message_correct: "Richtig! Primitive Datentypen speichern direkt den Wert, während Referenztypen Adressen oder Verweise auf Werte speichern."
 message_incorrect: "Das ist leider nicht korrekt."
+files:
+  - name: src/Task.java
+    visible: true
+  - name: test/Tests.java
+    visible: false
