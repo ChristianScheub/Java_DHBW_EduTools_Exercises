@@ -10,22 +10,7 @@ public class Tests {
   @Test
   public void testWindchill() {
 
-    String input = "8\n20\n";
-
-    InputStream inputStream = new ByteArrayInputStream(input.getBytes());
-    System.setIn(inputStream);
-
-    ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
-    PrintStream originalOut = System.out;
-    System.setOut(new PrintStream(outputStream));
-
-    Windchill.main(new String[]{});
-
-    System.setIn(System.in);
-
-    String expected = "t: v: 4.85";
-
-    Assert.assertEquals("The Windchill with t=8 and v=20 should be 4.85",expected, outputStream.toString());
+    Assert.assertEquals("Der Windchill mit t=8 und v=20 ist 4.85", 4.85, Windchill.calcWindchill(8,20));
 
   }
 

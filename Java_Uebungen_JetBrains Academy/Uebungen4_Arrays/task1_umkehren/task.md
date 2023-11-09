@@ -1,14 +1,7 @@
 ## Umkehren eines Arrays
 
-Schreiben Sie ein Java-Programm, das die Reihenfolge der Elemente eines Arrays umkehrt.
+Implementieren Sie die Java-Methode `reverseArray(int[] arr)`, die ein Array als Methodenparameter entgegennimmt und die Reihenfolge der Elemente eines Arrays umkehrt.
 
+### Beispiel 
 
-Tipp: Mit dem Befehl return können sie Variablen aus einer Funktion raus zurükc geben.
-Der Datentyp der zurück gegeben wird steht in der Funktion.
-Geben sie also einfach den Zielwert der Funktion so zurück. Mehr über Methoden lernen sie später noch.
-Beispiel:
-return true;
-
-oder
-
-return istSchaltjahr;
+Das Array `{3, 2, 1}` ist umgekehrt `{1, 2, 3}`

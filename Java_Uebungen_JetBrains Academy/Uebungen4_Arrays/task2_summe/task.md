@@ -1,13 +1,8 @@
 ## Summe der Elemente eines Arrays
 
-Schreiben Sie ein Java-Programm, das die Summe der Elemente eines Arrays (bestehend aus int-Werten) bildet.
+Implementieren Sie die Java-Methode `sumArray(int[] arr)`, die ein Array als Methodenparameter entgegennimmt und die Summe der Elemente des Arrays (bestehend aus int-Werten) bildet.
 
-Tipp: Mit dem Befehl return können sie Variablen aus einer Funktion raus zurükc geben.
-Der Datentyp der zurück gegeben wird steht in der Funktion.
-Geben sie also einfach den Zielwert der Funktion so zurück. Mehr über Methoden lernen sie später noch.
-Beispiel:
-return true;
+### Beispiel 
 
-oder
+Die Summe von dem Array {1, 2, 3} ist 6
 
-return istSchaltjahr;

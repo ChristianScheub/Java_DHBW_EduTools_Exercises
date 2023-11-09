@@ -1,6 +1,6 @@
 ## Summe der ersten n Zahlen
 
-Schreiben Sie ein Java-Programm, das ein Integer n als Konsoleneingabe mit `System.out.print("n: ")` entgegennimmt und die Summe s = 1+2+3+…+n bildet. Geben Sie anschließend die Summe mit `System.out.print()`aus.   
+Implementieren Sie die Java-Methode `sumInt(int n)`, die ein Integer `n` als Methodenparameter entgegennimmt und die Summe sum = 1 + 2 +3 +…+ n bildet.
 
 
-Tipp: Nutzen Sie zum Einlesen der Konsoleneingabe die Scanner Klasse.
+Zum Testen können Sie die Methode über die main-Methode testen.

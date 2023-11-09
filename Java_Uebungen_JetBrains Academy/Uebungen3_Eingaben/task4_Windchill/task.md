@@ -9,23 +9,9 @@ Kilometer pro Stunde) wird der Windchill wie folgt berechnet:
 
 
 
-## Anforderungen:
+## Aufgabe:
 
-- Berechnen Sie den Windchill mit den Double t und v als Konsoleneingabe. `System.out.println("t: ")` und `System.out.println("v: ")`
+- Berechnen Sie den Windchill mit mit Hilfe der `calcWindchill(double t, double v)`
 - Runden Sie den berechneten Windchill-Wert auf 2 Dezimalstellen.
-- Geben Sie den Windchill mit `System.out.print` aus
 
-## Beispiel:
 
-Eingabe:
-```
-t = 
-6.0
-v = 
-10.0
-```
-
-Ausgabe:
-```
-3.85
-```
