@@ -4,9 +4,7 @@
     <output-test url="file://$MODULE_DIR$/../../../../Uebungen1_1_SetUp/Task6_CodeAusfuehren/out/test/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../Uebungen1_1_SetUp/Task6_CodeAusfuehren/src/test" />
-    <content url="file://$MODULE_DIR$/../../../../Uebungen1_1_SetUp/Task6_CodeAusfuehren/test">
-      <sourceFolder url="file://$MODULE_DIR$/../../../../Uebungen1_1_SetUp/Task6_CodeAusfuehren/test" isTestSource="true" />
-    </content>
+    <content url="file://$MODULE_DIR$/../../../../Uebungen1_1_SetUp/Task6_CodeAusfuehren/test" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Repo.Uebungen1_1_SetUp-Task6_CodeAusfuehren.main" />

@@ -1,0 +1,13 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "'4 + 7 = 11'"
+    is_correct: false
+  - text: "'4 + 7 = 47'"
+    is_correct: true
+  - text: "'11'"
+    is_correct: false
+  - text: "'4 + 7 = 4 + 7'"
+    is_correct: false
+message_correct: "Richtig! Java führt eine String-Konkatenation durch, die den numerischen Wert `4` und `7` als Strings an den initialen String anhängt, was zu '4 + 7 = 47' führt."
+message_incorrect: "Das ist nicht korrekt. Beachten Sie, dass die `+`-Operation in Java, wenn sie auf Strings angewandt wird, eine Konkatenation durchführt, keine arithmetische Addition."

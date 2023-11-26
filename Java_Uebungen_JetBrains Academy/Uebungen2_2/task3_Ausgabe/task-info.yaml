@@ -1,0 +1,13 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "16.8"
+    is_correct: false
+  - text: "17.7"
+    is_correct: true
+  - text: "11.8"
+    is_correct: false
+  - text: "14.5"
+    is_correct: false
+message_correct: "Richtig! Java führt zuerst die Division aus (7 / 2), dann die Multiplikation mit 4.1 und zuletzt die Addition von 2.3, was zu '17.7' führt."
+message_incorrect: "Das ist nicht korrekt. Denken Sie an die Operatorpriorität: Division und Multiplikation werden vor Addition und Subtraktion durchgeführt."

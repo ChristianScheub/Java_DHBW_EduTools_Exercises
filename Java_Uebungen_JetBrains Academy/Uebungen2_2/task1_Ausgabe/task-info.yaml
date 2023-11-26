@@ -1,0 +1,13 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "Die Ausgabe für `value_2` ist in beiden Fällen gleich, weil `value_1` auf 1 gesetzt wird."
+    is_correct: false
+  - text: "Die Ausgabe für `value_2` ist beim ersten Mal größer, da der präfixierte `++`-Operator `value_1` vor der Addition erhöht."
+    is_correct: true
+  - text: "Die Ausgabe für `value_2` ist beim zweiten Mal größer, da der postfixierte `++`-Operator `value_1` nach der Addition erhöht."
+    is_correct: false
+  - text: "Der Wert von `value_2` ist beim ersten Mal 11 und beim zweiten Mal 12."
+    is_correct: false
+message_correct: "Richtig! Beim präfixierten `++`-Operator wird `value_1` erhöht, bevor es zu 10 addiert wird, was zu einem größeren Wert für `value_2` führt."
+message_incorrect: "Das ist nicht korrekt. Beachten Sie den Unterschied zwischen dem präfixierten und postfixierten `++`-Operator und wie sie den Wert der Variablen beeinflussen, bevor sie zur anderen Zahl addiert werden."

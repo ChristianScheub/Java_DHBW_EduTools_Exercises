@@ -1,0 +1,13 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "Für -1 ist die Ausgabe 0, für 0 ist die Ausgabe 3, und für 1 ist die Ausgabe 5."
+    is_correct: true
+  - text: "Für -1 ist die Ausgabe -1, für 0 ist die Ausgabe 2, und für 1 ist die Ausgabe 4."
+    is_correct: false
+  - text: "Für -1 ist die Ausgabe 1, für 0 ist die Ausgabe 2, und für 1 ist die Ausgabe 3."
+    is_correct: false
+  - text: "Für -1 ist die Ausgabe 2, für 0 ist die Ausgabe 3, und für 1 ist die Ausgabe 4."
+    is_correct: false
+message_correct: "Richtig! Der ternäre Operator bewertet zuerst den Ausdruck `(i < 0)`. Wenn dies wahr ist, wird `(i + 1)` ausgeführt, was 0 ergibt, wenn i -1 ist. Ist der Ausdruck falsch, wird als nächstes `(i == 0)` ausgewertet. Ist dies wahr, ergibt sich `(i + 2) + 1`, was 3 ergibt, wenn i 0 ist. Andernfalls wird `(i + 3) + 1` ausgeführt, was 5 ergibt, wenn i 1 ist."
+message_incorrect: "Das ist nicht korrekt. Überprüfen Sie, wie der ternäre Operator bedingte Ausdrücke auswertet und vergessen Sie nicht die zusätzliche Addition außerhalb des zweiten ternären Operators."
