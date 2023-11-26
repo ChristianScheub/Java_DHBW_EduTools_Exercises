@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: "Das Jahr muss vier oder zwei Ziffern haben."
+    is_correct: true
+  - text: "Der Monat muss zwischen 1 und 12 liegen."
+    is_correct: true
+  - text: "Der Tag muss zwischen 1 und dem maximalen Tag des angegebenen Monats liegen, abhängig vom Jahr (unter Berücksichtigung von Schaltjahren)."
+    is_correct: true
+  - text: "Das Datum muss in der Zukunft liegen."
+    is_correct: false
+message_correct: "Richtig! Diese Nebenbedingungen stellen sicher, dass das Datum nicht nur der Form nach korrekt ist, sondern auch gültige Werte enthält."
+message_incorrect: "Das ist nicht korrekt. Überprüfen Sie die Regeln für gültige Datumsformate und versuchen Sie es noch einmal."
+files:
+  - name: src/Task.java
+    visible: true
+  - name: test/Tests.java
+    visible: false
+local_check: true
