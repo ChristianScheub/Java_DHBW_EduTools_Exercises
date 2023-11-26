@@ -4,7 +4,7 @@ import org.junit.Test;
 public class Tests {
   @Test
   public void testSolution() {
-    // put your test here
+    //Just do the Quiz :)
     Assert.fail("Tests not implemented for the task");
   }
 }

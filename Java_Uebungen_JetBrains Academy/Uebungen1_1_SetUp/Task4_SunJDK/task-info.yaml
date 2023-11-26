@@ -1,0 +1,13 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "Im Hauptverzeichnis des JDK."
+    is_correct: false
+  - text: "Im 'bin' Verzeichnis des JDK."
+    is_correct: false
+  - text: "Im 'lib' Verzeichnis des JDK."
+    is_correct: false
+  - text: "Im 'jre' Verzeichnis des JDK."
+    is_correct: true
+message_correct: "Richtig! Die JRE befindet sich im 'jre' Verzeichnis des JDK."
+message_incorrect: "Das ist nicht korrekt. Die JRE befindet sich im 'jre' Verzeichnis des JDK."

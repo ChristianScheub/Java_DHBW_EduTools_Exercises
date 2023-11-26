@@ -1,0 +1,16 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: "Übung 2a enthält keinen Fehler und kompiliert fehlerfrei."
+    is_correct: true
+  - text: "In Übung 2b fehlt die Klassendefinition um die 'main' Methode."
+    is_correct: true
+  - text: "Übung 2b enthält eine Endlosschleife, die das Programm zum Absturz bringt."
+    is_correct: false
+  - text: "In Übung 2c ist der Code außerhalb einer Methode platziert, was nicht zulässig ist."
+    is_correct: true
+  - text: "Übung 2c enthält eine 'main' Methode, aber sie ist nicht korrekt implementiert."
+    is_correct: false
+message_correct: "Gut gemacht! Sie haben die Fehler erfolgreich identifiziert: Übung 2b benötigt eine Klassendefinition und in Übung 2c muss der Code in einer Methode stehen."
+message_incorrect: "Das ist nicht ganz richtig. Bitte überprüfen Sie die Dateien noch einmal und achten Sie darauf, ob die 'main' Methode korrekt definiert ist und ob der Code innerhalb der Klassenmethoden platziert ist."
+

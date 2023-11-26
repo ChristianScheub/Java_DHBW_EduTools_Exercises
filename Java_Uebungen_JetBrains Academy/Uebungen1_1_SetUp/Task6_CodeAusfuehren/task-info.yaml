@@ -1,0 +1,16 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Das Programm gibt 'Hallo Welt!' aus.
+    is_correct: true
+  - text: Das Programm erzeugt einen Fehler beim Kompilieren.
+    is_correct: false
+  - text: "Das Programm gibt nichts aus, da 'System.out.println' nicht verwendet wurde."
+    is_correct: false
+  - text: "Das Programm läuft unendlich, weil keine Beendigungsbedingung vorhanden ist."
+    is_correct: false
+message_correct: Richtig! Das Programm gibt den Text 'Hallo Welt!' aus.
+message_incorrect: "Das ist nicht korrekt. Das 'HalloWelt'-Programm sollte 'Hallo\
+  \ Welt!' in der Konsole ausgeben, wenn es erfolgreich kompiliert und ausgeführt\
+  \ wird."
+local_check: true

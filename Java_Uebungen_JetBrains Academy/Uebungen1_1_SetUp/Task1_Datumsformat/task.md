@@ -1,9 +1,9 @@
 # Datumsformate
 
 Gegeben seien folgende Datumsformate:
-- 1. November 2014
-- 1. 11.14
-- 1. 11. 2014
+- 1.November 2014
+- 11.14
+- 1.11.2014
 - 2014-11-01
 - 14-11-01
 
