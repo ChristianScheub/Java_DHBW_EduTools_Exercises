@@ -31,4 +31,5 @@ public class Main {
 }
 ```
 Führen Sie Ähnliches für die anderen Datentypen durch und zeigen Sie die Ergebnisse der Operationen in der Konsole an. Testen Sie auch, was passiert, wenn Sie unterschiedliche Datentypen in Operationen mischen (z.B. int und double).
+Anbei die Testfunktion funktioniert bei dieser Aufgabe leider nicht.
 
