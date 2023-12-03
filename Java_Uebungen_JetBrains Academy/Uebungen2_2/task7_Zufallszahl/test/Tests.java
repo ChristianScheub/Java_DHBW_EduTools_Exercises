@@ -4,22 +4,29 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
+import static org.junit.Assert.assertEquals;
+
 public class Tests {
   @Test
   public void testSolution() {
-    // Simulierte Eingabe, die wahrscheinlich zu einer der drei Ausgaben führt
-    String simulatedInput = "50\n";
-    ByteArrayInputStream inContent = new ByteArrayInputStream(simulatedInput.getBytes());
-    ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+    String input = "5" + System.lineSeparator() + "20" + System.lineSeparator() + "30" + System.lineSeparator();
+    ByteArrayInputStream in = new ByteArrayInputStream(input.getBytes());
+    ByteArrayOutputStream out = new ByteArrayOutputStream();
+    PrintStream ps = new PrintStream(out);
 
-    System.setIn(inContent);
-    System.setOut(new PrintStream(outContent));
+    // Setzen des System.in und System.out auf die simulierten Streams
+    System.setIn(in);
+    System.setOut(ps);
 
+    // Ausführen der main-Methode der Task-Klasse
     Task.main(new String[0]);
 
+    // Zurücksetzen von System.in und System.out auf die Standard-Streams
+    System.setIn(System.in);
     System.setOut(System.out);
 
-    String actualOutput = outContent.toString().trim();
+    String actualOutput = out.toString();
+
     boolean containsExpectedOutput = actualOutput.contains("Zu niedrig!") || actualOutput.contains("Zu hoch!") || actualOutput.contains("Korrekt!");
 
     Assert.assertTrue("Die Ausgabe des Ratespiels sollte eine der erwarteten Antworten enthalten.", containsExpectedOutput);

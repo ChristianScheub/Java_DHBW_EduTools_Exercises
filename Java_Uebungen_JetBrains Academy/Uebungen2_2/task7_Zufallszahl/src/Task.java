@@ -3,11 +3,12 @@ import java.util.Scanner;
 public class Task {
     public static void main(String[] args) {
         int zufallszahl = (int) (Math.random() * 101);
+
         Scanner scanner = new Scanner(System.in);
         int versuche = 0;
         int gerateneZahl;
         boolean istRichtigGeraten = false;
-        int maxVersuche = 10; // Maximale Anzahl von Versuchen
+        int maxVersuche = 3; // Maximale Anzahl von Versuchen
 
         while (!istRichtigGeraten && versuche < maxVersuche) {
             System.out.print("Raten Sie die Zahl (zwischen 0 und 100): ");

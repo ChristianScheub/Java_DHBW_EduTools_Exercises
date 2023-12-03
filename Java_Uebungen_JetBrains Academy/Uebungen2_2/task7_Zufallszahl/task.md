@@ -10,7 +10,7 @@ In dieser Übung werden Sie ein einfaches Ratespiel programmieren. Das Programm 
   - Wenn die Eingabe zu hoch ist, soll "Zu hoch!" ausgegeben werden.
   - Wenn die Eingabe zu niedrig ist, soll "Zu niedrig!" ausgegeben werden.
   - Wenn die Eingabe korrekt ist, soll "Korrekt! Sie haben die Zahl nach X Versuchen erraten." ausgegeben werden, wobei X die Anzahl der Versuche ist.
-4. Das Programm soll beendet werden, sobald die Zahl richtig geraten wurde.
+4. Das Programm soll beendet werden, sobald die Zahl richtig geraten wurde oder 3 Versuche schon gemacht wurden.
 
 ## Hinweise
 
