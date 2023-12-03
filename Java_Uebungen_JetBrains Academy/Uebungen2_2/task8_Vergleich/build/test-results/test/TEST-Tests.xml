@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Tests" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-12-03T13:01:45" hostname="DESKTOP-0ERH70K" time="0.015">
+  <properties/>
+  <testcase name="testNonMatchingLetters" classname="Tests" time="0.012"/>
+  <testcase name="testMatchingLetters" classname="Tests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
