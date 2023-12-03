@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Tests" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-12-02T18:57:50" hostname="DESKTOP-0ERH70K" time="0.043">
+<testsuite name="Tests" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-12-03T11:17:48" hostname="DESKTOP-0ERH70K" time="0.02">
   <properties/>
-  <testcase name="testSolution" classname="Tests" time="0.043">
+  <testcase name="testSolution" classname="Tests" time="0.02">
     <failure message="java.util.NoSuchElementException" type="java.util.NoSuchElementException">java.util.NoSuchElementException
 	at java.base/java.util.Scanner.throwFor(Scanner.java:937)
 	at java.base/java.util.Scanner.next(Scanner.java:1594)

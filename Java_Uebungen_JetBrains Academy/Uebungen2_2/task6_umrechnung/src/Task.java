@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class Task {
     public static void main(String[] args) {
         // Erstellen eines Scanner-Objekts, um Benutzereingaben zu lesen
