@@ -1,0 +1,11 @@
+type: edu
+files:
+  - name: src/RectCalculator.java
+    visible: true
+    placeholders:
+      - offset: 0
+        length: 455
+        placeholder_text: /* Implementieren Sie hier die Klasse RectCalculator */
+  - name: test/RectCalculatorTests.java
+    visible: false
+

@@ -1,0 +1,10 @@
+type: edu
+files:
+  - name: src/CircleCalculator.java
+    visible: true
+    placeholders:
+      - offset: 0
+        length: 424
+        placeholder_text: /* Implementieren Sie die Klasse CircleCalculator hier */
+  - name: test/CircleCalculatorTests.java
+    visible: false

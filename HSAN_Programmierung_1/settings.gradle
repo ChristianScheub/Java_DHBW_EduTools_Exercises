@@ -1,0 +1,51 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        gradlePluginPortal()
+    }
+    dependencies {
+        classpath 'org.kordamp.gradle:enforcer-gradle-plugin:0.13.0'
+    }
+}
+apply plugin: 'org.kordamp.gradle.enforcer'
+
+enforce {
+    allprojects {
+        // Gradle Version: 8 or higher
+        rule(enforcer.rules.RequireGradleVersion) {
+            r -> r.version = "[8,)"
+        }
+
+        // Java Version: 17 or higher
+        rule(enforcer.rules.RequireJavaVersion) {
+            r -> r.version = "[17,)"
+        }
+    }
+
+}
+
+static String sanitizeName(String name) {
+    return name.replaceAll("[ /\\\\:<>\"?*|()]", "_").replaceAll("(^[.]+)|([.]+\$)", "")
+}
+
+rootProject.name = 'Programmierung-1-Course'
+
+rootProject.projectDir.eachDirRecurse {
+    if (!isTaskDir(it) || it.path.contains(".idea")) {
+        return
+    }
+    def taskRelativePath = rootDir.toPath().relativize(it.toPath())
+    def parts = []
+    for (name in taskRelativePath) {
+        parts.add(sanitizeName(name.toString()))
+    }
+    def moduleName =  parts.join("-")
+    include "$moduleName"
+    project(":$moduleName").projectDir = it
+}
+
+def isTaskDir(File dir) {
+    return new File(dir, "src").exists()
+}
+
+include 'util'

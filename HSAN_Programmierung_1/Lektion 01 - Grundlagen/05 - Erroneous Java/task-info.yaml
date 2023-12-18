@@ -1,0 +1,10 @@
+type: edu
+files:
+  - name: test/ErroneousJavaTests.java
+    visible: false
+  - name: src/ErroneousJava.java
+    visible: true
+    placeholders:
+      - offset: 0
+        length: 221
+        placeholder_text: /* Fügen Sie hier den Code aus der Aufgabenstellung ein */

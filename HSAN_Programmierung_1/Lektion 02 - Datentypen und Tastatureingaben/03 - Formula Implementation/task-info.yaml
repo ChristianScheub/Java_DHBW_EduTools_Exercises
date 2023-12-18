@@ -1,0 +1,10 @@
+type: edu
+files:
+  - name: src/Formula.java
+    visible: true
+    placeholders:
+      - offset: 76
+        length: 261
+        placeholder_text: /* Implementieren Sie die Aufgabe hier */
+  - name: test/FormulaTests.java
+    visible: false

@@ -1,0 +1,13 @@
+type: edu
+files:
+  - name: src/de/hans/wif/lectures/prog1/HalloAnsbach.java
+    visible: true
+    placeholders:
+      - offset: 111
+        length: 12
+        placeholder_text: /* Insert valid class name */
+      - offset: 131
+        length: 142
+        placeholder_text: /* Write your program here */
+  - name: test/de/hans/wif/lectures/prog1/tests/HalloAnsbachTests.java
+    visible: false

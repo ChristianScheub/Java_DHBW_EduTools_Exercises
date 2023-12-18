@@ -1,0 +1,14 @@
+type: edu
+files:
+  - name: src/InterestRate.java
+    visible: true
+    placeholders:
+      - offset: 81
+        length: 903
+        placeholder_text: /* Implementieren Sie die Aufgabe hier */
+  - name: test/InterestRateTests.java
+    visible: false
+  - name: Zinsberechnung-output.png
+    visible: false
+  - name: Zinsberechnung.png
+    visible: false

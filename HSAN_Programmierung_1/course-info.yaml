@@ -1,0 +1,9 @@
+title: Programmierung 1
+language: German
+summary: Java Einführung und Grundlagen
+programming_language: Java
+solutions_hidden: true
+content:
+  - Lektion 00 - Konfiguration
+  - Lektion 01 - Grundlagen
+  - Lektion 02 - Datentypen und Tastatureingaben
