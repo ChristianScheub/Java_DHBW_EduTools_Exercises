@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="960f8990-02f7-42e6-8297-d094e7f0d619" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Uebungen1_1_SetUp/Task1_Datumsformat/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen1_1_SetUp/Task2_SunJDK/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen1_1_SetUp/Task3_SunJDK/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen1_1_SetUp/Task4_SunJDK/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen1_1_SetUp/Task5_SunJDK/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen1_1_SetUp/Task6_CodeAusfuehren/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen1_1_SetUp/Task7_FehlerFinden/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen1_1_SetUp/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen2_2/lesson-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen2_2/task1_Ausgabe/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen2_2/task2_Ausgabe/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen2_2/task3_Ausgabe/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen2_2/task4_Ausgabe/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen2_2/task5_datentypen/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen2_2/task6_umrechnung/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen2_2/task7_Zufallszahl/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebungen2_2/task8_Vergleich/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.coursecreator/Wirtschaftsinformatik_EinfuehrungInJava.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.coursecreator/Wirtschaftsinformatik_EinfuehrungInJava.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.coursecreator/course/course.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uebungen4_Arrays/task1_umkehren/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/Uebungen4_Arrays/task1_umkehren/src/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uebungen4_Arrays/task2_summe/build/classes/java/main/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/Uebungen4_Arrays/task2_summe/build/classes/java/main/Task.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uebungen4_Arrays/task2_summe/build/classes/java/test/Tests.class" beforeDir="false" afterPath="$PROJECT_DIR$/Uebungen4_Arrays/task2_summe/build/classes/java/test/Tests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uebungen4_Arrays/task2_summe/build/reports/tests/test/classes/Tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/Uebungen4_Arrays/task2_summe/build/reports/tests/test/classes/Tests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uebungen4_Arrays/task2_summe/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Uebungen4_Arrays/task2_summe/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uebungen4_Arrays/task2_summe/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/Uebungen4_Arrays/task2_summe/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uebungen4_Arrays/task2_summe/build/test-results/test/TEST-Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Uebungen4_Arrays/task2_summe/build/test-results/test/TEST-Tests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uebungen4_Arrays/task2_summe/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Uebungen4_Arrays/task2_summe/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uebungen4_Arrays/task2_summe/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Uebungen4_Arrays/task2_summe/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uebungen4_Arrays/task2_summe/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Uebungen4_Arrays/task2_summe/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uebungen4_Arrays/task2_summe/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/Uebungen4_Arrays/task2_summe/src/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uebungen4_Arrays/task2_summe/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Uebungen4_Arrays/task2_summe/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/course-info.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Uebungen2_Variablen/task5_Konvertierung/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen2_Variablen/task6_Byte/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen2_Variablen/task7_Zinsrechnung/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen2_Variablen/task8_Schaltjahrprüfung/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen2_Variablen/task8_Schaltjahrprüfung/test/Tests.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen3_Eingaben/task1_Summe/src/Summe.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen3_Eingaben/task1_Summe/test/Tests.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen3_Eingaben/task2_Produkt/src/Product.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen3_Eingaben/task2_Produkt/test/Tests.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen3_Eingaben/task3_Tabelle/src/MultiTable.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen3_Eingaben/task3_Tabelle/test/Tests.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen3_Eingaben/task4_Windchill/src/Windchill.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen3_Eingaben/task4_Windchill/test/Tests.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen3_Eingaben/task5_Harmonische/src/HarmonicSeries.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen3_Eingaben/task5_Harmonische/test/Tests.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen3_Eingaben/task6_IntAusgabe/src/PrintInteger.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen3_Eingaben/task6_IntAusgabe/test/Tests.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen4_Arrays/task1_umkehren/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen4_Arrays/task1_umkehren/test/Tests.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen4_Arrays/task2_summe/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen4_Arrays/task2_summe/test/Tests.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen4_Arrays/task3_maximum/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen4_Arrays/task3_maximum/test/Tests.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen4_Arrays/task4_minimum/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen4_Arrays/task4_minimum/test/Tests.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen4_Arrays/task5_primzahlen/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen7_Datentypen/Task1_Konto/src/Konto.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen7_Datentypen/Task1_Konto/test/Tests.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen7_Datentypen/Task2_Stack/src/Stack.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen7_Datentypen/Task2_Stack/test/Tests.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen7_Datentypen/Task3_Print/src/Print.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen7_Datentypen/Task3_Print/test/Tests.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen7_Datentypen/Task4_Person/src/Person.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen7_Datentypen/Task4_Person/test/Tests.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen7_Datentypen/Task5_PersonComparable/src/Person.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen7_Datentypen/Task5_PersonComparable/test/Tests.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen7_Datentypen/Task6_Comparator/src/NameComparator.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen7_Datentypen/Task6_Comparator/src/PLZComparator.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen7_Datentypen/Task6_Comparator/src/Person.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen7_Datentypen/Task6_Comparator/test/Tests.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen7_Datentypen/Task7_Paar/src/Paar.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen7_Datentypen/Task7_Paar/test/Tests.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen7_Datentypen/Task8_IterateMap/src/IterateMap.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen8_Streams/Task1_PrintWriter/src/RandomPrintWriter.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen8_Streams/Task1_PrintWriter/test/Tests.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen8_Streams/Task2_Benchmark/src/Benchmark.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen8_Streams/Task2_Benchmark/test/Tests.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen8_Streams/Task3_ReadData/src/ReadData.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen8_Streams/Task4_ReadCharacter/src/ReadCharacter.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen8_Streams/Task5_CopyFile/src/CopyFile.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen8_Streams/Task5_CopyFile/test/Tests.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen8_Streams/Task6_ReadLine/src/ReadLine.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen8_Streams/Task6_ReadLine/test/Tests.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen8_Streams/Task7_FindWord/src/FindWord.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Uebungen8_Streams/Task7_FindWord/test/Tests.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2VwpFXkm0QtdNCEqq93MJ40TvKN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Edu.Author.Name&quot;: &quot;Julia Wellbrink&quot;,
+    &quot;Edu.CourseCreator.LastArchiveLocation&quot;: &quot;C:/Users/Wellbrink/Documents/GitHub/Java_DHBW_EduTools_Exercises/Java_Uebungen_JetBrains Academy/Wirtschaftsinformatik_EinfuehrungInJava.zip&quot;,
+    &quot;Edu.Yaml.Migrate&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;jbr-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Wellbrink/Documents/GitHub/Java_DHBW_EduTools_Exercises/Java_Uebungen_JetBrains Academy/Uebungen4_Arrays/task2_summe/src/Task.java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;C:/Users/Wellbrink/Documents/GitHub/Java_DHBW_EduTools_Exercises/Java_Uebungen_JetBrains Academy/Uebungen4_Arrays/task2_summe/src/Task.java&quot;,
+    &quot;two.files.diff.last.used.folder&quot;: &quot;C:/Users/Wellbrink/Documents/GitHub/Java_DHBW_EduTools_Exercises/Java_Uebungen_JetBrains Academy/Uebungen1_Grundlagen/task5_Meldung&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.Task (1)">
+    <configuration name="MultiTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiTable" />
+      <module name="Repo.Uebungen3_Eingaben-task3_Tabelle.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Summe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Summe" />
+      <module name="Repo.Uebungen3_Eingaben-task1_Summe.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task" />
+      <module name="Repo.Uebungen2_Variablen-task5_Konvertierung.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task" />
+      <module name="Repo.Uebungen3_Eingaben-task6_IntAusgabe.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Vielfache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Vielfache" />
+      <module name="Repo.Uebungen3_Eingaben-task7_Vielfache.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Task (1)" />
+        <item itemvalue="Application.MultiTable" />
+        <item itemvalue="Application.Summe" />
+        <item itemvalue="Application.Vielfache" />
+        <item itemvalue="Application.Task" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="960f8990-02f7-42e6-8297-d094e7f0d619" name="Changes" comment="" />
+      <created>1695756894178</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695756894178</updated>
+      <workItem from="1695756895190" duration="1970000" />
+      <workItem from="1696616920175" duration="22195000" />
+      <workItem from="1696871200403" duration="5513000" />
+      <workItem from="1697034301224" duration="3838000" />
+      <workItem from="1697653627487" duration="2696000" />
+      <workItem from="1697656407471" duration="319000" />
+      <workItem from="1697988457678" duration="12106000" />
+      <workItem from="1698095273668" duration="3438000" />
+      <workItem from="1698163197268" duration="462000" />
+      <workItem from="1698246326086" duration="2362000" />
+      <workItem from="1699560426273" duration="6258000" />
+      <workItem from="1699567394039" duration="3700000" />
+      <workItem from="1701811859119" duration="955000" />
+      <workItem from="1702920000482" duration="1766000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
