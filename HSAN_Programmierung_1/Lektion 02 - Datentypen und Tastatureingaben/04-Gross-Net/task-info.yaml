@@ -1,0 +1,10 @@
+type: edu
+files:
+  - name: src/BruttoNetto.java
+    visible: true
+    placeholders:
+      - offset: 80
+        length: 703
+        placeholder_text: /* Implementieren Sie die Aufgabe hier */
+  - name: test/BruttoNettoTests.java
+    visible: false

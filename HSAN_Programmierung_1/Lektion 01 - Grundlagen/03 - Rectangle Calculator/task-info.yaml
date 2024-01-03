@@ -8,4 +8,3 @@ files:
         placeholder_text: /* Implementieren Sie hier die Klasse RectCalculator */
   - name: test/RectCalculatorTests.java
     visible: false
-
