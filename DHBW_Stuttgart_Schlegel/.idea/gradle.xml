@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Uebungen1_1_SetUp/Task1_Datumsformat" />
+            <option value="$PROJECT_DIR$/Uebungen1_1_SetUp/Task2_SunJDK" />
+            <option value="$PROJECT_DIR$/Uebungen1_1_SetUp/Task3_SunJDK" />
+            <option value="$PROJECT_DIR$/Uebungen1_1_SetUp/Task4_SunJDK" />
+            <option value="$PROJECT_DIR$/Uebungen1_1_SetUp/Task5_SunJDK" />
+            <option value="$PROJECT_DIR$/Uebungen1_1_SetUp/Task6_CodeAusfuehren" />
+            <option value="$PROJECT_DIR$/Uebungen1_1_SetUp/Task7_FehlerFinden" />
+            <option value="$PROJECT_DIR$/Uebungen2_2/task1_Ausgabe" />
+            <option value="$PROJECT_DIR$/Uebungen2_2/task2_Ausgabe" />
+            <option value="$PROJECT_DIR$/Uebungen2_2/task3_Ausgabe" />
+            <option value="$PROJECT_DIR$/Uebungen2_2/task4_Ausgabe" />
+            <option value="$PROJECT_DIR$/Uebungen2_2/task5_datentypen" />
+            <option value="$PROJECT_DIR$/Uebungen2_2/task6_umrechnung" />
+            <option value="$PROJECT_DIR$/Uebungen2_2/task7_Zufallszahl" />
+            <option value="$PROJECT_DIR$/Uebungen2_2/task8_Vergleich" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
