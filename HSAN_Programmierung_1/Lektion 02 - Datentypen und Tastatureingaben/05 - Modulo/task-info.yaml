@@ -1,0 +1,10 @@
+type: edu
+files:
+  - name: src/Modulo.java
+    visible: true
+    placeholders:
+      - offset: 26
+        length: 197
+        placeholder_text: /* Implementieren Sie das Programm hier */
+  - name: test/ModuloTests.java
+    visible: false
