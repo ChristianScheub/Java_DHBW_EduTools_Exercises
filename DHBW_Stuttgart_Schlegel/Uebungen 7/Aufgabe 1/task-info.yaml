@@ -1,0 +1,22 @@
+type: edu
+files:
+  - name: src/Task.java
+    visible: true
+  - name: test/Tests.java
+    visible: false
+  - name: src/Bruch.java
+    visible: true
+    placeholders:
+      - offset: 46
+        length: 769
+        placeholder_text: /* TODO */
+  - name: src/BruchRechnung.java
+    visible: true
+    placeholders:
+      - offset: 62
+        length: 1907
+        placeholder_text: /* TODO */
+  - name: src/BruchInterface.java
+    visible: false
+  - name: src/BruchRechnungInterface.java
+    visible: false
