@@ -2,5 +2,10 @@ type: edu
 files:
   - name: src/Task.java
     visible: true
+    placeholders:
+      - offset: 103
+        length: 193
+        placeholder_text: "/* TODO: Errechnen Sie den Kontostand nach Ablauf von 2 Jahren.\
+      \ */"
   - name: test/Tests.java
     visible: false

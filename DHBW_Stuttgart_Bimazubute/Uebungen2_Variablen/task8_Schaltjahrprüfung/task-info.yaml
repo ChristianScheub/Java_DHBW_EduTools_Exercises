@@ -2,5 +2,10 @@ type: edu
 files:
   - name: src/Task.java
     visible: true
+    placeholders:
+      - offset: 109
+        length: 137
+        placeholder_text: "/* TODO: Überprüfen Sie, ob das übergebene Jahr ein Schaltjahr\
+      \ ist. */"
   - name: test/Tests.java
     visible: false

@@ -2,5 +2,9 @@ type: edu
 files:
   - name: src/Summe.java
     visible: true
+    placeholders:
+      - offset: 91
+        length: 63
+        placeholder_text: "/* TODO: Berechnen Sie die Summe sum = 1+2+3+…+n */"
   - name: test/Tests.java
     visible: false

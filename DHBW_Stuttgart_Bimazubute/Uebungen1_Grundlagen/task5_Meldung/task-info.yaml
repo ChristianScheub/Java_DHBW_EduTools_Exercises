@@ -2,5 +2,10 @@ type: edu
 files:
   - name: src/Task.java
     visible: true
+    placeholders:
+      - offset: 95
+        length: 24
+        placeholder_text: "/* TODO: Initialisieren Sie den String mit den Wert \"Hallo\
+      \ Edu!\" */"
   - name: test/Tests.java
     visible: false

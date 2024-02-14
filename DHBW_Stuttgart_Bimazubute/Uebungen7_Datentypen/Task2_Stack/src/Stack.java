@@ -1,25 +1,34 @@
 import java.util.ArrayList;
-import java.util.List;
 
 public class Stack<T> {
 
-    private List<T> list = new ArrayList<T>();
+    private ArrayList<T> stack;
 
-        public <T> Stack() { }
+    public Stack() {
+        stack = new ArrayList<>();
+    }
 
-        public boolean empty() {
+    public boolean empty() {
+        return stack.isEmpty();
+    }
 
+    public T push(T item) {
+        stack.add(item);
+        return item;
+    }
+
+    public T pop() {
+        if (empty()) {
+            throw new IllegalStateException("Stack is empty");
         }
+        T item = stack.remove(stack.size() - 1);
+        return item;
+    }
 
-        public T push(T item) {
-
+    public T peek() {
+        if (empty()) {
+            throw new IllegalStateException("Stack is empty");
         }
-
-        public T pop() {
-
-        }
-
-        public T peek() {
-
-        }
+        return stack.get(stack.size() - 1);
+    }
 }

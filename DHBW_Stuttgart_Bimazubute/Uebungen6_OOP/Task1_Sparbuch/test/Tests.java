@@ -39,7 +39,7 @@ public class Tests {
   }
 
   @Test(expected = IllegalArgumentException.class)
-  public void testNegativeEinzahlung() {
+  public void testNegativeEinzahlung()  {
     sparbuch.zahleEin(-50.0);
   }
 

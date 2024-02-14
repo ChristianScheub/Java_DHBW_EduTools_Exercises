@@ -2,5 +2,9 @@ type: edu
 files:
   - name: src/CopyFile.java
     visible: true
+    placeholders:
+      - offset: 200
+        length: 556
+        placeholder_text: "/* TODO: Implementieren Sie die Methode. */"
   - name: test/Tests.java
     visible: false

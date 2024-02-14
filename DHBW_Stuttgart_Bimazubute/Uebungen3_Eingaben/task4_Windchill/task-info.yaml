@@ -2,5 +2,10 @@ type: edu
 files:
   - name: src/Windchill.java
     visible: true
+    placeholders:
+      - offset: 153
+        length: 141
+        placeholder_text: "/* TODO: Berechnen Sie den Windchill aus Temperatur t und Windgeschwindigkeit\
+      \ v */"
   - name: test/Tests.java
     visible: false

@@ -2,5 +2,9 @@ type: edu
 files:
   - name: src/Person.java
     visible: true
+    placeholders:
+      - offset: 26
+        length: 685
+        placeholder_text: "/* TODO: Implementieren Sie die Klasse Person. */"
   - name: test/Tests.java
     visible: false

@@ -2,5 +2,10 @@ type: edu
 files:
   - name: src/Product.java
     visible: true
+    placeholders:
+      - offset: 99
+        length: 71
+        placeholder_text: "/* TODO: Berechnen Sie das Produkt product n! = 1 * 2 * 3 *…\
+      *n */"
   - name: test/Tests.java
     visible: false

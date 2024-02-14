@@ -1,6 +1,4 @@
 public class Person implements Comparable<Person> {
-
-
     private String name;
     private String vorname;
     private int postleitzahl;
@@ -15,11 +13,25 @@ public class Person implements Comparable<Person> {
         this.hausnummer = hausnummer;
     }
 
+    // Getter- und Setter-Methoden hier einfügen
+
     @Override
-    public int compareTo(Person otherPerson) {
-
+    public int compareTo(Person other) {
         // Vergleiche die Attribute in der genannten Reihenfolge
-
+        int result = this.name.compareTo(other.name);
+        if (result == 0) {
+            result = this.vorname.compareTo(other.vorname);
+            if (result == 0) {
+                result = Integer.compare(this.postleitzahl, other.postleitzahl);
+                if (result == 0) {
+                    result = this.strasse.compareTo(other.strasse);
+                    if (result == 0) {
+                        result = Integer.compare(this.hausnummer, other.hausnummer);
+                    }
+                }
+            }
+        }
+        return result;
     }
 
 }

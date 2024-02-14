@@ -3,5 +3,12 @@ custom_name: 'task5_Konvertierung '
 files:
   - name: src/Task.java
     visible: true
+    placeholders:
+      - offset: 120
+        length: 25
+        placeholder_text: /* TODO Konvertieren Sie den int-Wert zu einem double-Wert */
+      - offset: 280
+        length: 31
+        placeholder_text: /* TODO Konvertieren Sie den double-Wert zu einem int-Wert */
   - name: test/Tests.java
     visible: false

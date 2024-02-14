@@ -2,7 +2,9 @@ type: edu
 files:
   - name: src/ReadLine.java
     visible: true
+    placeholders:
+      - offset: 178
+        length: 292
+        placeholder_text: "/* TODO: Implementieren Sie die Methode. */"
   - name: test/Tests.java
     visible: false
-  - name: test_example.txt
-    visible: true

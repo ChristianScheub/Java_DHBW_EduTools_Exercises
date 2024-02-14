@@ -1,4 +1,4 @@
-# Aufgabe 1: Invertieren eines Strings
+# Invertieren eines Strings
 
 Erstellen Sie eine Methode, die als Input eine Zeichenkette erhält und als Ergebnis eine
 Zeichenkette liefert, bei der die Reihenfolge, im Gegensatz zur Ausgangszeichenkette

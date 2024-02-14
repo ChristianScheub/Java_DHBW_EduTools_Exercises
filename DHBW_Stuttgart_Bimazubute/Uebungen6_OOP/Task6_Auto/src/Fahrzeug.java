@@ -5,24 +5,26 @@ public class Fahrzeug {
     private double aktuelleGeschwindigkeit;
 
     public Fahrzeug(int x, int y, int anzahlRaeder, double leergewicht, double startGeschwindigkeit) {
-        // TODO: Implementieren Sie den Konstruktor
+       this.position = new Point(x,y);
+       this.anzahlRaeder = anzahlRaeder;
+       this.leergewicht = leergewicht;
+       this.aktuelleGeschwindigkeit = startGeschwindigkeit;
     }
 
     public void beschleunigen(double wert) {
-        // TODO: Implementieren Sie diese Methode
+        this.aktuelleGeschwindigkeit += wert;
     }
 
     public void fahren(int dx, int dy) {
-        // TODO: Implementieren Sie diese Methode
+        this.position.move(dx,dy);
     }
 
     public double getAktuelleGeschwindigkeit() {
-        // TODO: Implementieren Sie diese Methode
-        return 0;
+        return this.aktuelleGeschwindigkeit;
     }
 
     public Point getPosition(){
-        // TODO: Implementieren Sie diese Methode
-
+        return this.position;
     }
+
 }

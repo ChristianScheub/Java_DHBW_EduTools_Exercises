@@ -2,5 +2,9 @@ type: edu
 files:
   - name: src/Print.java
     visible: true
+    placeholders:
+      - offset: 76
+        length: 194
+        placeholder_text: "/* TODO: Implementieren Sie die Methode printList */"
   - name: test/Tests.java
     visible: false

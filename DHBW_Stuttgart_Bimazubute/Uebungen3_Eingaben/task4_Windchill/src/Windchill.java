@@ -6,7 +6,9 @@ public class Windchill {
 
         double windchill = 0;
 
-        // TODO: Berechnen Sie den Windchill aus Temperatur t und Windgeschwindigkeit v und geben Sie das Ergebnis anschließend zurück
+        windchill = 13.12 + 0.6215*t - 11.37*Math.pow(v,0.16) + 0.3965*t*Math.pow(v,0.16);
+        windchill = Math.round(windchill * 100.0) / 100.0;
+
 
         return windchill;
     }

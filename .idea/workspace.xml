@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="38a86446-b6a8-4643-ad75-7b1689a9fb55" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/.gradle/8.2/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/.gradle/8.2/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/.gradle/8.2/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/.gradle/8.2/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/.gradle/8.2/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/.gradle/8.2/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen7_Datentypen/Task1 - Konto/src/Konto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen7_Datentypen/Task1 - Konto/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen7_Datentypen/Task1 - Konto/task.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen7_Datentypen/Task1 - Konto/test/Tests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen7_Datentypen/Task2 - Stack/src/Stack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen7_Datentypen/Task2 - Stack/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen7_Datentypen/Task2 - Stack/task.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen7_Datentypen/Task2 - Stack/test/Tests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen7_Datentypen/Task3 - Print/src/Print.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen7_Datentypen/Task3 - Print/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen7_Datentypen/Task3 - Print/task.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen7_Datentypen/Task3 - Print/test/Tests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen7_Datentypen/Task4 - Person/src/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen7_Datentypen/Task4 - Person/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen7_Datentypen/Task4 - Person/task.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen7_Datentypen/Task4 - Person/test/Tests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen7_Datentypen/Task5 - PersonComparable/src/PersonComparable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen7_Datentypen/Task5 - PersonComparable/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen7_Datentypen/Task5 - PersonComparable/task.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen7_Datentypen/Task5 - PersonComparable/test/Tests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen7_Datentypen/Task6- Comparator/src/Comparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen7_Datentypen/Task6- Comparator/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen7_Datentypen/Task6- Comparator/task.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen7_Datentypen/Task6- Comparator/test/Tests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen7_Datentypen/Task7 -Paar/src/Paar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen7_Datentypen/Task7 -Paar/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen7_Datentypen/Task7 -Paar/task.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen7_Datentypen/Task7 -Paar/test/Tests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen7_Datentypen/Task8 - IterateMap/src/IterateMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen7_Datentypen/Task8 - IterateMap/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen7_Datentypen/Task8 - IterateMap/task.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen7_Datentypen/Task8 - IterateMap/test/Tests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen8_Streams/Task1 - PrintWriter/src/RandomPrintWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen8_Streams/Task1 - PrintWriter/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen8_Streams/Task1 - PrintWriter/task.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen8_Streams/Task1 - PrintWriter/test/Tests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen8_Streams/Task2 - Benchmark/src/Benchmark.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen8_Streams/Task2 - Benchmark/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen8_Streams/Task2 - Benchmark/task.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen8_Streams/Task2 - Benchmark/test/Tests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen8_Streams/Task3 - ReadData/src/ReadData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen8_Streams/Task3 - ReadData/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen8_Streams/Task3 - ReadData/task.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen8_Streams/Task3 - ReadData/test/Tests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen8_Streams/Task4 - ReadCharacter/src/ReadCharacter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen8_Streams/Task4 - ReadCharacter/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen8_Streams/Task4 - ReadCharacter/task.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen8_Streams/Task4 - ReadCharacter/test/Tests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen8_Streams/Task5 - CopyFile/src/CopyFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen8_Streams/Task5 - CopyFile/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen8_Streams/Task5 - CopyFile/task.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen8_Streams/Task5 - CopyFile/test/Tests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen8_Streams/Task6 - ReadLine/src/ReadLine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen8_Streams/Task6 - ReadLine/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen8_Streams/Task6 - ReadLine/task.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen8_Streams/Task6 - ReadLine/test/Tests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen8_Streams/Task7 - FindWord/src/FindWord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen8_Streams/Task7 - FindWord/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen8_Streams/Task7 - FindWord/task.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen8_Streams/Task7 - FindWord/test/Tests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/Java_Uebungen_JetBrains Academy">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen6_OOP/Task1_Sparbuch/test/Tests.java" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Java_Uebungen_JetBrains Academy/Uebungen7_Datentypen/Task1_Konto/src/Konto.java" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2VtxxEf5XHmSQdVMskn6KSTtHWX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Wellbrink/Documents/GitHub/Java_DHBW_EduTools_Exercises/Java_Uebungen_JetBrains Academy",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="38a86446-b6a8-4643-ad75-7b1689a9fb55" name="Changes" comment="" />
+      <created>1695669421440</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695669421440</updated>
+      <workItem from="1695669422488" duration="6301000" />
+      <workItem from="1695756259583" duration="634000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

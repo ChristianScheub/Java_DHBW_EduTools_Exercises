@@ -2,5 +2,10 @@ type: edu
 files:
   - name: src/Task.java
     visible: true
+    placeholders:
+      - offset: 24
+        length: 585
+        placeholder_text: "/* TODO: Implementieren Sie die Methode fibonacciNumbers, um\
+      \ rekuriv die Fibonacci Folge zu bestimmen. */"
   - name: test/Tests.java
     visible: false

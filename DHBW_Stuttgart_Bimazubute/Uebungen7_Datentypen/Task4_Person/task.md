@@ -7,3 +7,5 @@ Attribute aufweisen:
 - Postleitzahl
 - Straße
 - Hausnummer
+
+Implementieren Sie einen passenden Konstruktor und alle Getter-Methoden

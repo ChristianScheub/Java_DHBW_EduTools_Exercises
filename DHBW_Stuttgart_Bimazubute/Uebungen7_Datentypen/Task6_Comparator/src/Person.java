@@ -10,8 +10,8 @@ public class Person {
     private String strasse;
     private int hausnr;
 
-    Comparator<Person> compName = new NameComparator();
-    Comparator<Person> compPLZ  = new PLZComparator();
+    static Comparator<Person> compName = new NameComparator();
+    static Comparator<Person> compPLZ  = new PLZComparator();
 
     public Person(String name, String vorname, int plz, String strasse, int hausnr) {
         this.name = name;
@@ -39,24 +39,46 @@ public class Person {
         return strasse;
     }
 
-    public int getHausnr() {
+    public int getHausNummer() {
         return hausnr;
     }
 
-    public Person[] sortByName(Person[] listToSort){
-
-
+    public static Person[] sortByName(Person[] listToSort){
+        Arrays.sort(listToSort,compName);
+        return listToSort;
     }
 
-    public Person[] sortByPLZ(Person[] listToSort){
-
-
-
+    public static Person[] sortByPLZ(Person[] listToSort){
+        Arrays.sort(listToSort,compPLZ);
+        return listToSort;
     }
 
     public String toString() {
         return this.name + ", " + this.vorname + ", " + this.plz + ", " +
                 this.strasse + " " + this.hausnr;
+    }
+    private static void ausgeben(Object[] o) {
+        for (int i=0 ; i<o.length ; i++) {
+            System.out.println(o[i]);
+        }
+        System.out.println();
+    }
+
+    public static void main(String[] args) {
+        Person[] person = new Person[6];
+
+        person[0] = new Person("Pfleiderer", "Johann", 71032, "Sindelfinger Strasse", 42);
+        person[1] = new Person("Schmitz", "Jupp", 50996, "Domgasse", 4711);
+        person[2] = new Person("Moser", "Franz", 80336, "Viktualienmarkt", 99);
+        person[3] = new Person("Pfeffersack", "Olaf", 22587, "Wasebergstrasse", 42);
+        person[4] = new Person("Schmitz", "Jupp", 50765, "Kalifengasse", 19);
+        person[5] = new Person("Moser", "Anton", 80336, "Viktualienmarkt", 99);
+
+        sortByName(person);
+        ausgeben(person);
+
+        sortByPLZ(person);
+        ausgeben(person);
     }
 
 

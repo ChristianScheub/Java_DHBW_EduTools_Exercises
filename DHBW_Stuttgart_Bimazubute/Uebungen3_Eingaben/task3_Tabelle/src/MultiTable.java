@@ -2,7 +2,15 @@ import java.util.Scanner;
 
 public class MultiTable {
     public static void main(String[] args) {
-       // TODO: Erstellen Sie die Multiplikationstabelle von n und geben Sie aus.
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("n: ");
+        int n = scanner.nextInt();
+
+        for (int i = 1; i <= n; i++) {
+            System.out.println(i+ " x " +n+ " = "+ i*n);
+        }
+
 
 
     }

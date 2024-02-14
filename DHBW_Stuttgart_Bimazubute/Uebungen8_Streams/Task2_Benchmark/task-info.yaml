@@ -2,9 +2,12 @@ type: edu
 files:
   - name: src/Benchmark.java
     visible: true
+    placeholders:
+      - offset: 193
+        length: 304
+        placeholder_text: "/* TODO: Implementieren Sie die Methode. */"
+      - offset: 582
+        length: 328
+        placeholder_text: "/* TODO: Implementieren Sie die Methode. */"
   - name: test/Tests.java
     visible: false
-  - name: unbuffered_test_file.txt
-    visible: true
-  - name: buffered_test_file.txt
-    visible: true

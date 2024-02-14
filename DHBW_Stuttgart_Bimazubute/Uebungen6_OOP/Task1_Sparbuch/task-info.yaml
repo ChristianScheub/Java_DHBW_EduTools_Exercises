@@ -4,3 +4,8 @@ files:
     visible: false
   - name: src/Sparbuch.java
     visible: true
+    placeholders:
+      - offset: 0
+        length: 1077
+        placeholder_text: "/* TODO: Implementieren Sie die Sparbuch-Klasse mit allen geforderten\
+      \ Attributen und Methoden. */"

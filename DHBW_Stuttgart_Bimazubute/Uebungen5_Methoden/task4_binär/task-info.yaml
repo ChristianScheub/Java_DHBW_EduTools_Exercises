@@ -2,5 +2,10 @@ type: edu
 files:
   - name: src/Task.java
     visible: true
+    placeholders:
+      - offset: 84
+        length: 219
+        placeholder_text: "/* TODO: Implementieren Sie die Methode, um Integer als binä\
+      re Zahl darzustellen. */"
   - name: test/Tests.java
     visible: false

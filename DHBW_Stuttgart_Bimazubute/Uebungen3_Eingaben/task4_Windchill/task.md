@@ -11,7 +11,7 @@ Kilometer pro Stunde) wird der Windchill wie folgt berechnet:
 
 ## Aufgabe:
 
-- Berechnen Sie den Windchill mit mit Hilfe der `calcWindchill(double t, double v)`
+- Berechnen Sie den Windchill in der `calcWindchill(double t, double v)`-Methode
 - Runden Sie den berechneten Windchill-Wert auf 2 Dezimalstellen.
 
 

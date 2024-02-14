@@ -1,11 +1,11 @@
 public class Task {
     public static boolean findLeapYear(int year) {
-        // TODO: Überprüfen Sie, ob das gegebene Jahr ein Schaltjahr ist.
 
-        boolean isLeapYear = false;
+        boolean isLeapYear;
 
-
-
+        isLeapYear = (year % 4 == 0);
+        isLeapYear = isLeapYear && (year % 100 !=0);
+        isLeapYear = isLeapYear  || (year % 400 == 0);
 
         return isLeapYear;
     }

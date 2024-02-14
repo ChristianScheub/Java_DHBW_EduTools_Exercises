@@ -2,5 +2,16 @@ type: edu
 files:
   - name: src/Task.java
     visible: true
+    placeholders:
+      - offset: 78
+        length: 5
+        placeholder_text: "/* TODO: Addieren Sie 1 zu bei dazu */"
+      - offset: 164
+        length: 24
+        placeholder_text: "/* TODO: Definieren und initialisieren Sie die byte-Variable\
+      \ mit dem größtmöglichen Wert*/"
+      - offset: 314
+        length: 132
+        placeholder_text: ""
   - name: test/Tests.java
     visible: false

@@ -4,3 +4,8 @@ files:
     visible: false
   - name: src/Beleg.java
     visible: true
+    placeholders:
+      - offset: 0
+        length: 290
+        placeholder_text: "/* TODO: Implementieren Sie die Beleg-Klasse mit allen geforderte\
+      \ Attributen und Methoden. */"

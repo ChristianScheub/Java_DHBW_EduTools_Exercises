@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Tests" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-10-09T20:21:46" hostname="CORONA17" time="0.018">
+<testsuite name="Tests" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-12-22T19:09:47" hostname="CORONA17" time="0.019">
   <properties/>
-  <testcase name="testFileCopySuccess" classname="Tests" time="0.006"/>
-  <testcase name="testFileCopyFailure" classname="Tests" time="0.012"/>
+  <testcase name="testFileCopySuccess" classname="Tests" time="0.009"/>
+  <testcase name="testFileCopyFailure" classname="Tests" time="0.009"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[java.io.FileNotFoundException: non_existent_file.txt (Das System kann die angegebene Datei nicht finden)
 	at java.base/java.io.FileInputStream.open0(Native Method)

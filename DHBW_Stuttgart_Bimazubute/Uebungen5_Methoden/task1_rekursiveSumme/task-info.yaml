@@ -2,5 +2,9 @@ type: edu
 files:
   - name: src/Task.java
     visible: true
+    placeholders:
+      - offset: 73
+        length: 60
+        placeholder_text: "/* TODO: Implementieren Sie die rekursive Methode. */"
   - name: test/Tests.java
     visible: false

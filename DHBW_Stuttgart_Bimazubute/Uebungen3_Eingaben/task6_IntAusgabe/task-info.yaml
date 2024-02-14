@@ -2,5 +2,11 @@ type: edu
 files:
   - name: src/PrintInteger.java
     visible: true
+    placeholders:
+      - offset: 83
+        length: 262
+        placeholder_text: "/* TODO: Geben Sie die Zahlen von 1000 bis 2000 aus, wobei\
+      \ fünf Zahlen pro Zeile erscheinen und zwischen jeder Zahl ein Leerzeichen ist.\
+      \ */"
   - name: test/Tests.java
     visible: false

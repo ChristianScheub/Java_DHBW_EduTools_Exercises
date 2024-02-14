@@ -1,6 +1,6 @@
 type: edu
 files:
   - name: src/ReadData.java
-    visible: true
+    visible: false
   - name: test/Tests.java
     visible: false

@@ -3,8 +3,23 @@ public class Artikel {
     private double preis;
 
     public Artikel(int id, double preis) {
-        // TODO: Implementieren Sie den Konstruktor
+        this.id = id;
+        this.preis = preis;
     }
 
-    // TODO: Getter- und Setter-Methoden
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public double getPreis() {
+        return preis;
+    }
+
+    public void setPreis(double preis) {
+        this.preis = preis;
+    }
 }

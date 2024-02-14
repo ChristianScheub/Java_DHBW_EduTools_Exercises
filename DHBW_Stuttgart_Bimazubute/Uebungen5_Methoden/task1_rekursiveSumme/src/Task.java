@@ -1,6 +1,9 @@
 public class Task {
     public static int recursiveSum(int n) {
-        // TODO: Implementieren Sie die rekursive Methode.
-        return 0;
+
+        if(n==0) return 0;
+        return n + recursiveSum( n - 1 );
+
+
     }
 }

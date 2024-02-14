@@ -4,3 +4,7 @@ files:
     visible: false
   - name: src/EmailInverter.java
     visible: true
+    placeholders:
+      - offset: 0
+        length: 658
+        placeholder_text: "/* TODO: Implementieren Sie den Email Inverter. */"

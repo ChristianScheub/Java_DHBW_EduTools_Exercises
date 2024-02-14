@@ -1,10 +1,16 @@
 public class Task {
     public static int[] reverseArray(int[] arr) {
 
-        // TODO: Implementieren Sie die Methode, die die Reihenfolge der Elemente des gegebenen Arrays umkehrt und geben Sie das umgekehrte Array zurück.
+        int [] reverseArray;
 
+        reverseArray = new int[arr.length];
+        int n = arr.length;
+        for (int i = 0 ; i < reverseArray.length ; i++){
+            --n;
+            reverseArray[i] = arr[n];
+        }
 
-        return arr;
+        return reverseArray;
     }
 
     public static void main(String[] args) {
