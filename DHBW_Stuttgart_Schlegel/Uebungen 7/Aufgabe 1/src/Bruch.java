@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class Bruch implements BruchInterface{
     public Bruch(int zaehler, int nenner) {
         if (nenner == 0) {
@@ -18,12 +20,13 @@ public class Bruch implements BruchInterface{
     }
 
     public String toString() {
+        Bruch tmpBruch = new BruchRechnung().kuerzen(this);
         StringBuilder out = new StringBuilder();
-        out.append(this.getZaehler());
+        out.append(tmpBruch.getZaehler());
         out.append('/');
-        out.append(this.getNenner());
+        out.append(tmpBruch.getNenner());
         out.append(" = ");
-        double tmp = (double)this.getZaehler()/(double) this.getNenner();
+        double tmp = (double)tmpBruch.getZaehler()/(double) tmpBruch.getNenner();
         out.append(tmp);
         return out.toString();
     }

@@ -11,27 +11,12 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Pruefung_Einfuehrung_Programmierung/Bankmanager" />
-            <option value="$PROJECT_DIR$/Uebungen1_1_SetUp/Task1_Datumsformat" />
-            <option value="$PROJECT_DIR$/Uebungen1_1_SetUp/Task2_SunJDK" />
-            <option value="$PROJECT_DIR$/Uebungen1_1_SetUp/Task3_SunJDK" />
-            <option value="$PROJECT_DIR$/Uebungen1_1_SetUp/Task4_SunJDK" />
-            <option value="$PROJECT_DIR$/Uebungen1_1_SetUp/Task5_SunJDK" />
-            <option value="$PROJECT_DIR$/Uebungen1_1_SetUp/Task6_CodeAusfuehren" />
-            <option value="$PROJECT_DIR$/Uebungen1_1_SetUp/Task7_FehlerFinden" />
             <option value="$PROJECT_DIR$/Uebungen1_Grundlagen/task1" />
             <option value="$PROJECT_DIR$/Uebungen1_Grundlagen/task2_datentyp" />
             <option value="$PROJECT_DIR$/Uebungen1_Grundlagen/task3_Compiler" />
             <option value="$PROJECT_DIR$/Uebungen1_Grundlagen/task4_ByteCode" />
             <option value="$PROJECT_DIR$/Uebungen1_Grundlagen/task5_Meldung" />
             <option value="$PROJECT_DIR$/Uebungen1_Grundlagen/task6_math" />
-            <option value="$PROJECT_DIR$/Uebungen2_2/task1_Ausgabe" />
-            <option value="$PROJECT_DIR$/Uebungen2_2/task2_Ausgabe" />
-            <option value="$PROJECT_DIR$/Uebungen2_2/task3_Ausgabe" />
-            <option value="$PROJECT_DIR$/Uebungen2_2/task4_Ausgabe" />
-            <option value="$PROJECT_DIR$/Uebungen2_2/task5_datentypen" />
-            <option value="$PROJECT_DIR$/Uebungen2_2/task6_umrechnung" />
-            <option value="$PROJECT_DIR$/Uebungen2_2/task7_Zufallszahl" />
-            <option value="$PROJECT_DIR$/Uebungen2_2/task8_Vergleich" />
             <option value="$PROJECT_DIR$/Uebungen2_Variablen/task1_Datentypen" />
             <option value="$PROJECT_DIR$/Uebungen2_Variablen/task2_Referenztypen" />
             <option value="$PROJECT_DIR$/Uebungen2_Variablen/task3_Zeichencodierung" />

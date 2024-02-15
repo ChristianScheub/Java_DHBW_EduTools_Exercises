@@ -7,16 +7,18 @@ files:
   - name: src/Bruch.java
     visible: true
     placeholders:
-      - offset: 46
-        length: 769
+      - offset: 73
+        length: 845
         placeholder_text: /* TODO */
   - name: src/BruchRechnung.java
     visible: true
     placeholders:
       - offset: 62
-        length: 1907
+        length: 1509
         placeholder_text: /* TODO */
   - name: src/BruchInterface.java
     visible: false
   - name: src/BruchRechnungInterface.java
     visible: false
+  - name: img.png
+    visible: true

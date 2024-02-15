@@ -1,10 +1,10 @@
 public class BruchRechnung implements BruchRechnungInterface{
     @Override
     public Bruch init(int zaehler, int nenner){
-        return kürzen(new Bruch(zaehler ,nenner));
+        return kuerzen(new Bruch(zaehler ,nenner));
     }
     @Override
-    public Bruch kürzen(Bruch bruch){
+    public Bruch kuerzen(Bruch bruch){
         int ggT = groestenGemeinsamenTeiler(bruch.getZaehler(),bruch.getNenner());
         return new Bruch(bruch.getZaehler()/ggT,bruch.getNenner()/ggT);
     }
@@ -22,29 +22,17 @@ public class BruchRechnung implements BruchRechnungInterface{
         return z1;
     }
     @Override
-    public String toString(Bruch bruch) {
-        bruch = kürzen(bruch);
-        StringBuilder out = new StringBuilder();
-        out.append(bruch.getZaehler());
-        out.append('/');
-        out.append(bruch.getNenner());
-        out.append(" = ");
-        double tmp = (double)bruch.getZaehler()/(double) bruch.getNenner();
-        out.append(tmp);
-        return out.toString();
-    }
-    @Override
     public Bruch multTo(Bruch faktor1, Bruch faktor2){
-        faktor1 = kürzen(faktor1);
-        faktor2 = kürzen(faktor2);
+        faktor1 = kuerzen(faktor1);
+        faktor2 = kuerzen(faktor2);
         return init(
                 faktor1.getZaehler() * faktor2.getZaehler(), faktor2.getNenner() * faktor2.getNenner()
         );
     }
     @Override
     public Bruch addTo(Bruch summant1, Bruch summant2){
-        summant1 = kürzen(summant1);
-        summant2 = kürzen(summant2);
+        summant1 = kuerzen(summant1);
+        summant2 = kuerzen(summant2);
         Bruch out;
         if(summant1.getNenner()==summant2.getNenner()){
             out = init(summant1.getZaehler()+summant2.getZaehler(),summant1.getNenner());
@@ -54,6 +42,6 @@ public class BruchRechnung implements BruchRechnungInterface{
                     ,summant1.getNenner()* summant2.getNenner()
             );
         }
-        return kürzen(out);
+        return kuerzen(out);
     }
 }
