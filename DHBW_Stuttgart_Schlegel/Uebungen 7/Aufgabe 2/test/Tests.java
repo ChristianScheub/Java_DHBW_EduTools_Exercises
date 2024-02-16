@@ -5,6 +5,6 @@ public class Tests {
   @Test
   public void testSolution() {
     // put your test here
-    Assert.fail("Tests not implemented for the task");
+    Statistik stat1 = new Statistik(new double[]{1,2.3,3134.4,342.2});
   }
 }
