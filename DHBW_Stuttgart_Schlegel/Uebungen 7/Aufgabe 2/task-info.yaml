@@ -1,0 +1,8 @@
+type: edu
+files:
+  - name: src/Statistik.java
+    visible: true
+  - name: test/Tests.java
+    visible: false
+  - name: src/StatistikInterface.java
+    visible: false
