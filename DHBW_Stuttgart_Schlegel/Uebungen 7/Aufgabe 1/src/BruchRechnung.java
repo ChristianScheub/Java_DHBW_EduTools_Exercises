@@ -26,7 +26,7 @@ public class BruchRechnung implements BruchRechnungInterface{
         faktor1 = kuerzen(faktor1);
         faktor2 = kuerzen(faktor2);
         return init(
-                faktor1.getZaehler() * faktor2.getZaehler(), faktor2.getNenner() * faktor2.getNenner()
+                faktor1.getZaehler() * faktor2.getZaehler(), faktor1.getNenner() * faktor2.getNenner()
         );
     }
     @Override

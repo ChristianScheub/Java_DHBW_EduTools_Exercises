@@ -1,15 +1,13 @@
-import java.util.Objects;
+
 
 public class Bruch implements BruchInterface{
+    private final int nenner, zaehler;
     public Bruch(int zaehler, int nenner) {
-        if (nenner == 0) {
-            throw new UnsupportedOperationException("Man darf nicht durch null teilen");
-        }
         this.nenner = nenner;
         this.zaehler = zaehler;
     }
 
-    private final int nenner, zaehler;
+
     @Override
     public int getNenner() {
         return nenner;
@@ -30,4 +28,13 @@ public class Bruch implements BruchInterface{
         out.append(tmp);
         return out.toString();
     }
+// Do not delete or Tests will fail.
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Bruch bruch = (Bruch) o;
+        return nenner == bruch.getNenner() && zaehler == bruch.getZaehler();
+    }
+
 }
