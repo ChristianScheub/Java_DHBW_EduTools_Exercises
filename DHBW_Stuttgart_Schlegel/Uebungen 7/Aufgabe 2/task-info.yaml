@@ -2,6 +2,10 @@ type: edu
 files:
   - name: src/Statistik.java
     visible: true
+    placeholders:
+      - offset: 107
+        length: 1058
+        placeholder_text: /* TODO */
   - name: test/Tests.java
     visible: false
   - name: src/StatistikInterface.java
