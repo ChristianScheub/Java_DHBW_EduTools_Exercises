@@ -1,0 +1,11 @@
+type: edu
+files:
+  - name: src/Dokument.java
+    visible: true
+    placeholders:
+      - offset: 307
+        length: 182
+        placeholder_text: /* Implementieren Sie die Getter-Methoden für die gegebenen
+          Felder */
+  - name: test/Tests.java
+    visible: false
