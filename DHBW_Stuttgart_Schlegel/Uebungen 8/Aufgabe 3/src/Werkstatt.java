@@ -12,7 +12,7 @@ public class Werkstatt {
       }
       fahrzeuge[platz] = fahrzeug;
   }
-  public void removeFahrzeug(Fahrzeug fahrzeug,int platz){
+  public void removeFahrzeug(int platz){
       fahrzeuge[platz] = null;
   }
   public String druckeListe(){
@@ -25,5 +25,9 @@ public class Werkstatt {
           i++;
       }
       return fahrzeugListe.toString();
+  }
+
+  public Fahrzeug[] getFahrzeuge() {
+      return fahrzeuge;
   }
 }
