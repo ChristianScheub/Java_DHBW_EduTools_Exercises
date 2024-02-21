@@ -2,7 +2,27 @@ type: edu
 files:
   - name: src/Werkstatt.java
     visible: true
+    placeholders:
+      - offset: 25
+        length: 108
+        placeholder_text: /* TODO */
+      - offset: 190
+        length: 155
+        placeholder_text: /* TODO */
+      - offset: 391
+        length: 31
+        placeholder_text: /* TODO */
+      - offset: 457
+        length: 284
+        placeholder_text: /* TODO */
+      - offset: 790
+        length: 17
+        placeholder_text: /* TODO */
   - name: test/Tests.java
     visible: false
   - name: src/Fahrzeug.java
     visible: true
+    placeholders:
+      - offset: 24
+        length: 508
+        placeholder_text: /* TODO */

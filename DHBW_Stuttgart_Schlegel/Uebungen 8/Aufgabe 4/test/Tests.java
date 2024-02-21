@@ -1,10 +1,7 @@
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.lang.reflect.*;
-import java.util.Arrays;
-import java.util.List;
-import java.util.stream.Collectors;
+import java.lang.reflect.Method;
 
 public class Tests {
     @Test

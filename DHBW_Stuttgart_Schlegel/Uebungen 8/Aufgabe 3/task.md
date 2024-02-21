@@ -11,8 +11,8 @@
 <p>Die Klasse Werkstatt soll als Datenfeld ein Array zur Verfügung stellen, in dem Objekte der Klasse Fahrzeug abgelegt werden können. Die Erzeugung des Arrays soll im Konstruktor der Klasse Werkstatt vorgenommen werden. Die Arraylänge, die dem Konstruktor durch einen Parameter übergeben wird, ergibt sich aus der Anzahl der Reparaturplätze des neu erzeugten Werkstatt-Objekts.</p>
 <p>Die Klasse Werkstatt soll folgende Methoden beinhalten:</p>
 <ul>
-  <li>anmeldenFahrzeug (Meldet ein Fahrzeug an einem Reparaturplatz an)</li>
-  <li>abmeldenFahrzeug (Meldet ein Fahrzeug von einem Reparaturplatz ab, d.h. Reparatur beendet)</li>
+  <li>addFahrzeug (Meldet ein Fahrzeug an einem Reparaturplatz an)</li>
+  <li>removeFahrzeug (Meldet ein Fahrzeug von einem Reparaturplatz ab, d.h. Reparatur beendet)</li>
   <li>druckeListe (gibt eine Liste aller Arbeitsplätze und deren Belegung (Fahrzeugtyp und Eigentümer) aus)</li>
 </ul>
 <p>Beachten Sie, dass immer nur ein Fahrzeug an einem Arbeitsplatz angemeldet werden kann!</p>
