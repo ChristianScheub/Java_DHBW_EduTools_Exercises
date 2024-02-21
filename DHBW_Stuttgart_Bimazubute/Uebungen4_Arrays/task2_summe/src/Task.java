@@ -1,9 +1,13 @@
 public class Task {
     public static int sumArray(int[] arr) {
-        // TODO: Implementieren Sie die Methode, die die Summe der Elemente des gegebenen Arrays berechnet und zurückgibt.
 
+        int sum = 0;
 
-        return 0;
+        for(int i = 0; i < arr.length; i++){
+            sum += arr[i];
+        }
+
+        return sum;
     }
 
 

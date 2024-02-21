@@ -2,5 +2,10 @@ type: edu
 files:
   - name: src/Task.java
     visible: true
+    placeholders:
+      - offset: 98
+        length: 150
+        placeholder_text: "/* TODO: Implementieren Sie die Methode, die das Minimum der\
+      \ Elemente des gegebenen Arrays zurückgibt. */"
   - name: test/Tests.java
     visible: false

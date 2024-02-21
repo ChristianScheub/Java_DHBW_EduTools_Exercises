@@ -1,12 +1,12 @@
-import java.util.Scanner;
-
 public class HarmonicSeries {
 
     public static double calcHarmonicNum(int n){
 
-        int harmonicNum = 0;
+        double harmonicNum = 0;
 
-        // TODO: Berechnen Sie die n-te harmonische Zahl und geben Sie die Summe zurück.
+        for (int i = 1; i<= n ; i++){
+            harmonicNum = harmonicNum + ((double) 1 /i);
+        }
 
         return harmonicNum;
     }

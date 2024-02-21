@@ -1,9 +1,16 @@
 public class Task {
     public static int findMinElement(int[] arr) {
-        // TODO: Implementieren Sie die Methode, die das Minimum der Elemente des gegebenen Arrays zurückgibt.
 
+        int min ;
 
-        return 0;
+        min = arr[0];
+        for ( int i = 0; i < arr.length; i++ ) {
+            if ( arr[i] < min ) {
+                min = arr[i];
+            }
+        }
+
+        return min;
     }
 
     public static void main(String[] args) {

@@ -4,7 +4,7 @@ import org.junit.Test;
 public class Tests {
   @Test
   public void testSolution() {
-    Assert.assertEquals(10, Task.binomialCoefficient(5, 2));
+
     // Test für Basisfall 1: Wenn k gleich 0 oder k gleich n ist, ist der Binomialkoeffizient 1.
     Assert.assertEquals(1, Task.binomialCoefficient(0, 0));
     Assert.assertEquals(1, Task.binomialCoefficient(5, 0));

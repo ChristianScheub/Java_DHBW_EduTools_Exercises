@@ -15,10 +15,10 @@ public class Tests {
     Assert.assertEquals("101", Task.binaryRepresentation(5));
 
     // Test für n = 10
-    Assert.assertEquals("1010", Task.binaryRepresentation(10));
+    Assert.assertEquals("11101", Task.binaryRepresentation(29));
 
     // Test für n = 42
-    Assert.assertEquals("101010", Task.binaryRepresentation(42));
+    Assert.assertEquals("101000", Task.binaryRepresentation(40));
 
   }
 }

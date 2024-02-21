@@ -4,3 +4,7 @@ files:
     visible: false
   - name: src/StringFormatter.java
     visible: true
+    placeholders:
+      - offset: 0
+        length: 590
+        placeholder_text: "/* TODO: Implementieren Sie die Klasse StringFormatter */"

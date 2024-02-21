@@ -2,5 +2,9 @@ type: edu
 files:
   - name: src/Task.java
     visible: true
+    placeholders:
+      - offset: 95
+        length: 73
+        placeholder_text: "/* TODO: Berechnen Sie die Summe des übergebenen Arrays */"
   - name: test/Tests.java
     visible: false

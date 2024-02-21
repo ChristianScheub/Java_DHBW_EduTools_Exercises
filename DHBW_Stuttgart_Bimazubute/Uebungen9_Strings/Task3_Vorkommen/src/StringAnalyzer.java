@@ -1,11 +1,11 @@
 public class StringAnalyzer {
-
-    // Hier sollten Sie Ihre Methode implementieren
-    public void printOccurrences(String input, char toFind) {
-        // TODO: Implementieren Sie diese Methode
-    }
-
-    public static void main(String[] args) {
-        // Hier können Sie Ihre Methode testen
+    public int findOccurence(String input, char charToSearch) {
+        int count = 0;
+        for (int i=0; i < input.length(); i++){
+            if (input.charAt(i) == charToSearch) {
+                count++;
+            }
+        }
+        return count;
     }
 }

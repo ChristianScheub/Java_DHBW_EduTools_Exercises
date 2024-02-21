@@ -1,7 +1,11 @@
 public class Task {
     public static String getMessage() {
-        // TODO: Geben Sie die Meldung "Hallo Edu!" zurück.
-        return "";
+
+        String helloEdu;
+
+        helloEdu = "Hallo Edu!";
+
+        return helloEdu;
     }
 
     public static void main(String[] args) {

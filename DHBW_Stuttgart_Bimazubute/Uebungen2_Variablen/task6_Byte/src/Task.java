@@ -1,14 +1,20 @@
 public class Task {
-    public static byte addOneToMaxByte() {
-        // TODO: Definieren und initialisieren Sie die byte-Variable mit dem größtmöglichen Wert und addieren Sie 1.
+    public static byte addOneToMaxByte(byte b) {
 
+        b ++;
 
-        return 0;
+        return b;
     }
 
     public static void main(String[] args) {
 
-        System.out.println("Ergebnis: " + addOneToMaxByte());
+        byte b = Byte.MAX_VALUE;
+
+        System.out.println("Wert von b: "+b);
+        System.out.println("Wert von b + 1: " + addOneToMaxByte(b));
+
+        // Nach Überschreiten des Maximalwertes (127) springt der Inhalt der Variable
+        // auf den Minimalwert (-128) von Byte zurück.
 
     }
 }

@@ -1,5 +1,5 @@
 
-### Aufgabe 2 - Prüfen auf Palindrom
+### Prüfen auf Palindrom
 
 
 Ein Palindrom ist eine Zeichenkette, die von vorwärts und rückwärts gelesen, jeweils
@@ -9,6 +9,9 @@ Palindrom ist.
 **Beispiel:**
 
 ```plaintext
-"aaabaaa"
 "Uhu"
 "Radar"
+```
+
+## Tipp
+Achte beim String Vergleich auf Groß- und Kleinschreibung

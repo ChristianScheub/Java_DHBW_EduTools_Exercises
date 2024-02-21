@@ -2,7 +2,9 @@ type: edu
 files:
   - name: src/FindWord.java
     visible: true
+    placeholders:
+      - offset: 197
+        length: 444
+        placeholder_text: "/* TODO: Implementieren Sie die Methode. */"
   - name: test/Tests.java
     visible: false
-  - name: test_example.txt
-    visible: true

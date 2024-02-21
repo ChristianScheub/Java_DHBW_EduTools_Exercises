@@ -1,0 +1,31 @@
+type: edu
+files:
+  - name: test/Tests.java
+    visible: false
+  - name: src/Obst.java
+    visible: true
+    placeholders:
+      - offset: 0
+        length: 71
+        placeholder_text: "/* TODO: Implementieren Sie das Interface Obst. */"
+  - name: src/Apfel.java
+    visible: true
+    placeholders:
+      - offset: 19
+        length: 166
+        placeholder_text: "/* TODO: Implementieren Sie die Klasse Apfel, die das Interface\
+      \ Obst implementiert. */"
+  - name: src/Orange.java
+    visible: true
+    placeholders:
+      - offset: 20
+        length: 171
+        placeholder_text: "/* TODO: Implementieren Sie die Klasse Orange, die das Interface\
+      \ Obst implementiert. */"
+  - name: src/Birne.java
+    visible: true
+    placeholders:
+      - offset: 19
+        length: 170
+        placeholder_text: "/* TODO: Implementieren Sie die Klasse Birne, die das Interface\
+      \ Obst implementiert. */"

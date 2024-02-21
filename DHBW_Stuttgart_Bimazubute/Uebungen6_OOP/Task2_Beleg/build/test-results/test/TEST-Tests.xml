@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Tests" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-10-22T11:42:49" hostname="DESKTOP-0ERH70K" time="0.003">
+<testsuite name="Tests" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-12-22T09:23:16" hostname="CORONA17" time="0.003">
   <properties/>
   <testcase name="testBelegnummerInkrement" classname="Tests" time="0.002"/>
-  <testcase name="testResetBelegnummer" classname="Tests" time="0.0"/>
+  <testcase name="testResetBelegnummer" classname="Tests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

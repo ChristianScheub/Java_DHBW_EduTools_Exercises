@@ -1,10 +1,18 @@
+import java.util.ArrayList;
+import java.util.StringTokenizer;
+
 public class StringSplitter {
-
     public void printSubstrings(String input) {
-        // TODO: Implementieren Sie diese Methode
-    }
+            StringTokenizer st = new StringTokenizer( input );
+            ArrayList result = new ArrayList();
 
-    public static void main(String[] args) {
-        // Hier können Sie Ihre Methode testen
+            while ( st.hasMoreTokens() ) {
+                String t = st.nextToken();
+                result.add(t);
+            }
+
+            for(int i=0; i < result.size(); i++) {
+                System.out.println(result.get(i));
+            }
     }
 }

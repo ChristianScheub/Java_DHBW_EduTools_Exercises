@@ -1,11 +1,19 @@
 public class Task {
     public static boolean[] sieveOfEratosthenes() {
-        // TODO: Implementieren Sie das Sieb des Erathostenes, um alle Primzahlen kleiner als 50 zu ermitteln.
-        // Das Rückgabe-Array primes sollte 'true' an einer Position haben, wenn die Zahl (Index) eine Primzahl ist.
 
         boolean[] primes = new boolean[50];
 
+        for ( int i = 2; i < primes.length; i++ ) {
+            primes[i] = true;
+        }
 
+        for ( int i = 2; i < primes.length; i++ ){
+            if ( primes[i]  ){                                     // i ist Primzahl
+                for (int j = 2*i; j < primes.length; j=j+i) {     //Markiere Vielfache von i als nicht Primzahl
+                    primes[j] = false;
+                }
+            }
+        }
 
         return primes;
     }

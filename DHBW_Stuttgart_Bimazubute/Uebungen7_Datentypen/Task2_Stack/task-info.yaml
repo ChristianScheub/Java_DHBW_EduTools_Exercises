@@ -2,5 +2,9 @@ type: edu
 files:
   - name: src/Stack.java
     visible: true
+    placeholders:
+      - offset: 58
+        length: 602
+        placeholder_text: "/* TODO: Implementieren Sie die Stack-Klasse. */"
   - name: test/Tests.java
     visible: false

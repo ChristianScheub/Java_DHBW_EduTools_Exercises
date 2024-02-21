@@ -1,6 +1,16 @@
 public class Task {
     public static String binaryRepresentation(int n) {
-        // TODO: Implementieren Sie die Methode.
-        return "";
+
+        if (n == 0) {
+            return "0";
+        }
+        String binary = "";
+        while (n > 0) {
+            int rem = n % 2;
+            binary = rem + binary;
+            n = n / 2;
+        }
+        return binary;
+
     }
 }

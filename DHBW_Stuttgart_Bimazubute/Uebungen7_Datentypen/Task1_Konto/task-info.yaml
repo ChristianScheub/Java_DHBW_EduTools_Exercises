@@ -2,5 +2,9 @@ type: edu
 files:
   - name: src/Konto.java
     visible: true
+    placeholders:
+      - offset: 78
+        length: 520
+        placeholder_text: "/* TODO: Implementieren Sie die Klasse Konto. */"
   - name: test/Tests.java
     visible: false

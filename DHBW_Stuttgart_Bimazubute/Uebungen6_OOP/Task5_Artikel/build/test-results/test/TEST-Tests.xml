@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Tests" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-10-22T11:53:09" hostname="DESKTOP-0ERH70K" time="0.013">
+<testsuite name="Tests" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-12-22T10:40:39" hostname="CORONA17" time="0.003">
   <properties/>
   <testcase name="testArtikel" classname="Tests" time="0.002"/>
-  <testcase name="testAuftrag" classname="Tests" time="0.01"/>
+  <testcase name="testAuftrag" classname="Tests" time="0.001"/>
   <testcase name="testGesamtwert" classname="Tests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

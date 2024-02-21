@@ -2,5 +2,9 @@ type: edu
 files:
   - name: src/RandomPrintWriter.java
     visible: true
+    placeholders:
+      - offset: 210
+        length: 437
+        placeholder_text: "/* TODO: Implementieren Sie die Methode */"
   - name: test/Tests.java
     visible: false

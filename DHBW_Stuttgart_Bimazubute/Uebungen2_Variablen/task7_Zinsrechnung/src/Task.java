@@ -1,9 +1,12 @@
 public class Task {
     public static double calculateInterest() {
-        // TODO: Errechnen Sie den Kontostand nach Ablauf von 2 Jahren.
 
-       double newInterest = 0.0;
+       double newInterest;
 
+       double startBalance = 500.0;
+       double interestRate = 0.09;
+       newInterest = startBalance * Math.pow(1 + interestRate, 2);
+       newInterest = Math.round(newInterest * 100.0) / 100.00;
 
         return newInterest;
     }

@@ -2,5 +2,10 @@ type: edu
 files:
   - name: src/Task.java
     visible: true
+    placeholders:
+      - offset: 103
+        length: 24
+        placeholder_text: /* TODO Multiplizieren Sie die Variable number mit 10 und speichern
+          Sie das Ergebnis in der Variable newNumber */
   - name: test/Tests.java
     visible: false

@@ -6,26 +6,20 @@ import static org.junit.Assert.assertEquals;
 public class Tests {
 
   @Test
-  public void testPrintOccurrences() {
+  public void testCharacterFound1() {
     StringAnalyzer analyzer = new StringAnalyzer();
-    ByteArrayOutputStream outContent = new ByteArrayOutputStream();
-    System.setOut(new PrintStream(outContent));
-
-    analyzer.printOccurrences("hello world", 'l');
-
-    String expectedOutput = "2;" + "3;" + "9;";  // Die Zeichen 'l' sind an den Positionen 2, 3 und 9.
-    assertEquals(expectedOutput, outContent.toString());
+    assertEquals("l kommt 3 mal in Hello World vor.",3, analyzer.findOccurence("Hello World", 'l'));
   }
 
   @Test
   public void testCharacterNotFound() {
     StringAnalyzer analyzer = new StringAnalyzer();
-    ByteArrayOutputStream outContent = new ByteArrayOutputStream();
-    System.setOut(new PrintStream(outContent));
+    assertEquals("Z kommt nicht in Hello World vor.",0, analyzer.findOccurence("hello world", 'z'));
+  }
 
-    analyzer.printOccurrences("hello world", 'z');
-
-    String expectedOutput = "Character not found";
-    assertEquals(expectedOutput, outContent.toString());
+  @Test
+  public void testCharacterFound2() {
+    StringAnalyzer analyzer = new StringAnalyzer();
+    assertEquals(". kommt 2 mal in www.dhbw-stuttgart.de vor.",2, analyzer.findOccurence("www.dhbw-stuttgart.de", '.'));
   }
 }

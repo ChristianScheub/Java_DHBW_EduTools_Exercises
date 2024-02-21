@@ -4,3 +4,7 @@ files:
     visible: false
   - name: src/StringAnalyzer.java
     visible: true
+    placeholders:
+      - offset: 0
+        length: 294
+        placeholder_text: "/* TODO: Implementieren Sie die Klasse StringAnalyzer. */"

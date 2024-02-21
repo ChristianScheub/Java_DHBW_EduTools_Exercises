@@ -1,6 +1,11 @@
 type: edu
 files:
-  - name: src/Task.java
+  - name: src/Datatypes.java
     visible: true
+    placeholders:
+      - offset: 29
+        length: 189
+        placeholder_text: /* TODO Definieren und Initialisieren Sie alle primitiven Datentypen
+          */
   - name: test/Tests.java
     visible: false

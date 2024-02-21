@@ -2,5 +2,9 @@ type: edu
 files:
   - name: src/HarmonicSeries.java
     visible: true
+    placeholders:
+      - offset: 122
+        length: 96
+        placeholder_text: "/* TODO: Berechnen Sie die n-te harmonische Zahl */"
   - name: test/Tests.java
     visible: false

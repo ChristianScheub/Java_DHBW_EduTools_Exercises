@@ -5,7 +5,9 @@ public class Summe {
 
         int sum = 0;
 
-        // TODO: Berechnen Sie die Summe sum = 1+2+3+…+n und geben Sie die Summe zurück.
+        for(int i = 0; i<=n; i++){
+            sum = sum + i;
+        }
 
         return sum;
     }

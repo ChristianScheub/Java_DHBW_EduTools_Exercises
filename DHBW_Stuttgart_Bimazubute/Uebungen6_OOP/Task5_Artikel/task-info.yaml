@@ -4,5 +4,13 @@ files:
     visible: false
   - name: src/Artikel.java
     visible: true
+    placeholders:
+      - offset: 27
+        length: 389
+        placeholder_text: "/* TODO: Implementieren Sie die Klasse Artikel. */"
   - name: src/Auftrag.java
     visible: true
+    placeholders:
+      - offset: 27
+        length: 744
+        placeholder_text: "/* TODO: Implementieren Sie die Klasse Auftrag. */"

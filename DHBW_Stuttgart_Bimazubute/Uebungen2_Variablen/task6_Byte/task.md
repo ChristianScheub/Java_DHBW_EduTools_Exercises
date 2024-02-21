@@ -1,7 +1,8 @@
 ## Byte-Überlauf
 
-Definieren Sie eine byte-Variable und initialisieren Sie diese mit dem größstmöglichen Wert. Zählen Sie eins dazu und geben Sie das Ergebnis mit System.out.println() aus. Was passiert dann?
+Definieren Sie eine byte-Variable und initialisieren Sie diese mit dem größstmöglichen Wert. 
+Zählen Sie in der Methode `addOneToMaxByte(byte b)` eins dazu. 
 
-Tipp: Mit dem Befehl `return` können sie Variablen aus einer Funktion zurückgeben.
+Was passiert dann?
 
-Mit Hilfe der main-Methode können Sie ihr Ergebnis testen.
+Mit Hilfe der main-Methode können Sie ihr Ergebnis testen und herausfinden was mit der byte-Variable passiert.

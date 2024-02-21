@@ -1,10 +1,16 @@
 public class Task {
     public static int findMaxElement(int[] arr) {
 
-        // TODO: Implementieren Sie die Methode, die das Maximum der Elemente des gegebenen Arrays zurückgibt.
+        int max;
 
+        max = arr[0];
+        for ( int i = 0; i < arr.length; i++ ) {
+            if ( arr[i] > max ) {
+                max = arr[i];
+            }
+        }
 
-        return 0;
+        return max;
     }
 
     public static void main(String[] args) {

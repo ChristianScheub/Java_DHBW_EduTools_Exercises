@@ -4,3 +4,7 @@ files:
     visible: false
   - name: src/InvertString.java
     visible: true
+    placeholders:
+      - offset: 85
+        length: 230
+        placeholder_text: "/* TODO: Implementieren Sie die Methode. */"

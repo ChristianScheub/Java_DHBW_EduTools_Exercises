@@ -1,0 +1,37 @@
+type: edu
+files:
+  - name: test/Tests.java
+    visible: false
+  - name: src/Obstlager.java
+    visible: true
+    placeholders:
+      - offset: 74
+        length: 343
+        placeholder_text: "/* TODO: Implementieren Sie die Klasse Obstlager. */"
+  - name: src/Birne.java
+    visible: true
+    placeholders:
+      - offset: 19
+        length: 166
+        placeholder_text: "/* TODO: Implementieren Sie die Klasse Birne, die von der Klasse\
+      \ Obst erbt. */"
+  - name: src/Orange.java
+    visible: true
+    placeholders:
+      - offset: 20
+        length: 169
+        placeholder_text: "/* TODO: Implementieren Sie die Klasse Orange, die von der\
+      \ Klasse Obst erbt. */"
+  - name: src/Apfel.java
+    visible: true
+    placeholders:
+      - offset: 19
+        length: 165
+        placeholder_text: "/* TODO: Implementieren Sie die Klasse Apfel, die von der Klasse\
+      \ Obst erbt. */"
+  - name: src/Obst.java
+    visible: true
+    placeholders:
+      - offset: 0
+        length: 107
+        placeholder_text: "/* TODO: Implementieren Sie die abstrakte Klasse Obst. */"

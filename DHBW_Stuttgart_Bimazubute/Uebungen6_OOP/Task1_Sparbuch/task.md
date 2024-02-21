@@ -1,14 +1,14 @@
-# Aufgabe: Implementierung einer Sparbuch-Klasse
+# Implementierung einer Sparbuch-Klasse
 
-Ihre Aufgabe besteht darin, eine Java-Klasse mit dem Namen `Sparbuch` zu implementieren. Diese Klasse soll die Verwaltung eines Sparbuchs ermöglichen, einschließlich Einzahlungen, Abhebungen, Verzinsungen und Abfrage von Kontoinformationen.
+Implementieren Sie eine Java-Klasse mit dem Namen `Sparbuch`. Diese Klasse soll die Verwaltung eines Sparbuchs ermöglichen, einschließlich Einzahlungen, Abhebungen, Verzinsungen und Abfrage von Kontoinformationen.
 
 ## Klasse `Sparbuch`
 
-Die `Sparbuch`-Klasse soll die folgenden Attribute haben:
+Die `Sparbuch`-Klasse soll die folgenden Attribute enthalten:
 
 - `kontonummer` (Typ: String): Die Kontonummer des Sparbuchs.
 - `kapital` (Typ: double): Der aktuelle Kontostand des Sparbuchs.
-- `zinssatz` (Typ: double): Der jährliche Zinssatz des Sparbuchs (z.B., 0.05 für 5%).
+- `zinssatz` (Typ: double): Der jährliche Zinssatz des Sparbuchs (z.B. 0.05 für 5%).
 
 Die Klasse sollte die folgenden Methoden unterstützen:
 

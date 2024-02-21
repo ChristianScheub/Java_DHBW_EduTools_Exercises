@@ -4,3 +4,7 @@ files:
     visible: false
   - name: src/StringSplitter.java
     visible: true
+    placeholders:
+      - offset: 63
+        length: 445
+        placeholder_text: "/* TODO: Implementieren Sie die Klasse StringSplitter. */"

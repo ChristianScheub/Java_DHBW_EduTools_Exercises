@@ -2,6 +2,15 @@ type: edu
 files:
   - name: src/Person.java
     visible: true
+    placeholders:
+      - offset: 990
+        length: 60
+        placeholder_text: "/* TODO: Implementieren Sie die Methode, um ein Array nach\
+      \ Namen zu sortieren. Nutzen Sie dafür dir Comparator Klasse. */"
+      - offset: 1125
+        length: 59
+        placeholder_text: "/* TODO: Implementieren Sie die Methode, um ein Array nach\
+      \ PLZ zu sortieren. Nutzen Sie dafür dir Comparator Klasse. */"
   - name: test/Tests.java
     visible: false
   - name: src/PLZComparator.java

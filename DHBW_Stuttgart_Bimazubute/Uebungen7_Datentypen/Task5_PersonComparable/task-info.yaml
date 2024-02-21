@@ -2,5 +2,10 @@ type: edu
 files:
   - name: src/Person.java
     visible: true
+    placeholders:
+      - offset: 522
+        length: 688
+        placeholder_text: "/* TODO: Implementieren Sie die benötigte compareTo Methode.\
+      \ */"
   - name: test/Tests.java
     visible: false

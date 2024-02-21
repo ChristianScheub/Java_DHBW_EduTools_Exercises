@@ -1,14 +1,20 @@
 public class Task {
-    public static double convertIntToDouble(int number) {
-        // TODO: Konvertieren Sie den int-Wert zu double und geben Sie das Ergebnis zurück.
+    public static double convertIntToDouble(int intNumber) {
 
-        return 0.0;
+        double doubleNumber;
+
+        doubleNumber = intNumber;
+
+        return doubleNumber;
     }
 
-    public static int convertDoubleToInt(double number) {
-        // TODO: Konvertieren Sie den double-Wert zu int und geben Sie das Ergebnis zurück.
+    public static int convertDoubleToInt(double doubleNumber) {
 
-        return 0;
+        int intNumber;
+
+        intNumber = (int) doubleNumber;
+
+        return intNumber;
     }
 
 

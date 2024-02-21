@@ -2,5 +2,10 @@ type: edu
 files:
   - name: src/Paar.java
     visible: true
+    placeholders:
+      - offset: 30
+        length: 266
+        placeholder_text: "/* TODO: Implementieren Sie die generische Klasse Paar<T,U>\
+      \ */"
   - name: test/Tests.java
     visible: false

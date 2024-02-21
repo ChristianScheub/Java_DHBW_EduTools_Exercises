@@ -6,7 +6,6 @@ public class Tests {
   @Test
   public void testInvertDomain() {
     EmailInverter inverter = new EmailInverter();
-    String result = inverter.invertDomain("student@wi.dhbw-stuttgart.de");
-    assertEquals("student@de.dhbw-stuttgart.wi", result);
+    assertEquals("student@wi.dhbw-stuttgart.de sollte zu student@de.dhbw-stuttgart.wi konvertiert werden.","student@de.dhbw-stuttgart.wi", inverter.invertDomain("student@wi.dhbw-stuttgart.de"));
   }
 }

@@ -2,5 +2,10 @@ type: edu
 files:
   - name: src/MultiTable.java
     visible: true
+    placeholders:
+      - offset: 228
+        length: 97
+        placeholder_text: "/* TODO: Erstellen Sie die Multiplikationstabelle von n und\
+      \ geben Sie diese aus. */"
   - name: test/Tests.java
     visible: false

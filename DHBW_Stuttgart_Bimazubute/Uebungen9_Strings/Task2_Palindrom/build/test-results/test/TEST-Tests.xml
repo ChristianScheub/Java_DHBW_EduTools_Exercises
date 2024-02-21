@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Tests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-22T11:58:28" hostname="DESKTOP-0ERH70K" time="0.003">
+<testsuite name="Tests" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-12-22T19:28:28" hostname="CORONA17" time="0.004">
   <properties/>
-  <testcase name="testIsPalindrome" classname="Tests" time="0.003"/>
+  <testcase name="testIsPalindrome1" classname="Tests" time="0.002"/>
+  <testcase name="testIsPalindrome2" classname="Tests" time="0.0"/>
+  <testcase name="testIsPalindrome3" classname="Tests" time="0.0"/>
+  <testcase name="testIsPalindrome4" classname="Tests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

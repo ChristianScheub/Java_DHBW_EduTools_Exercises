@@ -3,9 +3,11 @@ public class Product {
 
     public static int multiInt(int n){
 
-        int product = 0;
+        int product = 1;
 
-        // TODO: Berechnen Sie das Produkt product n! = 1 * 2 * 3 *…*n und geben Sie das Produkt zurück.
+        for(int i = 1; i<=n; i++){
+            product = product * i;
+        }
 
         return product;
     }
