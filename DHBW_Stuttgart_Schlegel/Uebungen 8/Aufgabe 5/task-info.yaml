@@ -1,0 +1,12 @@
+type: edu
+files:
+  - name: src/Polynom.java
+    visible: true
+    placeholders:
+      - offset: 64
+        length: 2014
+        placeholder_text: /* TODO */
+  - name: test/Tests.java
+    visible: false
+  - name: src/APolynom.java
+    visible: false

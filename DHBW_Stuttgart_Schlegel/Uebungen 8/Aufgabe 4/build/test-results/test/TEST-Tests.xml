@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Tests" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-02-19T18:24:08" hostname="DESKTOP-FI62M8B" time="0.003">
+<testsuite name="Tests" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-02-24T09:18:04" hostname="DESKTOP-FI62M8B" time="0.011">
   <properties/>
-  <testcase name="testImplementation" classname="Tests" time="0.002"/>
+  <testcase name="testBiene" classname="Tests" time="0.01"/>
+  <testcase name="testImplementation" classname="Tests" time="0.0"/>
   <testcase name="testInterfaceFliegen" classname="Tests" time="0.0"/>
+  <testcase name="testAbflug" classname="Tests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
