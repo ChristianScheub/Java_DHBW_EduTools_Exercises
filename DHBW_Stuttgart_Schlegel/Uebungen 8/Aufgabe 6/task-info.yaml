@@ -1,0 +1,36 @@
+type: edu
+files:
+  - name: src/Bank.java
+    visible: true
+    placeholders:
+      - offset: 99
+        length: 988
+        placeholder_text: /* TODO */
+  - name: test/Tests.java
+    visible: false
+  - name: src/SparKonto.java
+    visible: true
+    placeholders:
+      - offset: 23
+        length: 13
+        placeholder_text: /* TODO */
+      - offset: 39
+        length: 589
+        placeholder_text: /* TODO */
+  - name: src/GiroKonto.java
+    visible: true
+    placeholders:
+      - offset: 23
+        length: 13
+        placeholder_text: /* TODO */
+      - offset: 39
+        length: 444
+        placeholder_text: /* TODO */
+  - name: src/Konto.java
+    visible: true
+    placeholders:
+      - offset: 30
+        length: 613
+        placeholder_text: /* TODO */
+  - name: src/Kontotyp.java
+    visible: true

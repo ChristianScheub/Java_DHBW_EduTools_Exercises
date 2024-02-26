@@ -1,0 +1,10 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Speichern in Datenfelder
+    is_correct: true
+  - text: Threading zur parallelen Berechnung
+    is_correct: false
+files:
+  - name: src/Main.java
+    visible: true

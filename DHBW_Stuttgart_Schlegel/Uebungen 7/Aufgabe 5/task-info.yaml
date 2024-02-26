@@ -1,0 +1,37 @@
+type: edu
+files:
+  - name: src/Kurs.java
+    visible: true
+    placeholders:
+      - offset: 46
+        length: 151
+        placeholder_text: /* TODO */
+      - offset: 241
+        length: 63
+        placeholder_text: throw new UnsupportedOperationException();
+      - offset: 343
+        length: 22
+        placeholder_text: throw new UnsupportedOperationException();
+      - offset: 407
+        length: 26
+        placeholder_text: throw new UnsupportedOperationException();
+      - offset: 490
+        length: 36
+        placeholder_text: throw new UnsupportedOperationException();
+      - offset: 571
+        length: 27
+        placeholder_text: throw new UnsupportedOperationException();
+      - offset: 658
+        length: 38
+        placeholder_text: throw new UnsupportedOperationException();
+      - offset: 747
+        length: 38
+        placeholder_text: throw new UnsupportedOperationException();
+      - offset: 862
+        length: 60
+        placeholder_text: throw new UnsupportedOperationException();
+      - offset: 973
+        length: 332
+        placeholder_text: throw new UnsupportedOperationException();
+  - name: test/Tests.java
+    visible: false

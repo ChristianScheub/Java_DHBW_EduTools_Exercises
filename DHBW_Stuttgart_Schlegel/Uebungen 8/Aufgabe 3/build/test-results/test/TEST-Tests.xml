@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Tests" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-02-19T17:23:07" hostname="DESKTOP-FI62M8B" time="0.003">
+  <properties/>
+  <testcase name="testListe" classname="Tests" time="0.002"/>
+  <testcase name="testFahrzeug" classname="Tests" time="0.0"/>
+  <testcase name="testWerkstatt" classname="Tests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
