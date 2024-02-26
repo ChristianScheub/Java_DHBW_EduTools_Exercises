@@ -3,7 +3,7 @@ files:
   - name: src/Task.java
     visible: true
     placeholders:
-      - offset: 95
+      - offset: 102
         length: 24
         placeholder_text: "/* TODO: Initialisieren Sie den String mit den Wert \"Hallo\
       \ Edu!\" */"

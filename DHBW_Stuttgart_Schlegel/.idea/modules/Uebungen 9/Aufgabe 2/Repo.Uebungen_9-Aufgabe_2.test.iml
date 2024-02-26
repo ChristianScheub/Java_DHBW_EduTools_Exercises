@@ -4,9 +4,7 @@
     <output-test url="file://$MODULE_DIR$/../../../../Uebungen 9/Aufgabe 2/out/test/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../Uebungen 9/Aufgabe 2/src/test" />
-    <content url="file://$MODULE_DIR$/../../../../Uebungen 9/Aufgabe 2/test">
-      <sourceFolder url="file://$MODULE_DIR$/../../../../Uebungen 9/Aufgabe 2/test" isTestSource="true" />
-    </content>
+    <content url="file://$MODULE_DIR$/../../../../Uebungen 9/Aufgabe 2/test" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Repo.Uebungen_9-Aufgabe_2.main" />

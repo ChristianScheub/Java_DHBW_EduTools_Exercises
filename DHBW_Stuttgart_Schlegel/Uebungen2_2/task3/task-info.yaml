@@ -1,0 +1,6 @@
+type: edu
+files:
+  - name: src/Umrechnung.java
+    visible: true
+  - name: test/Tests.java
+    visible: false
