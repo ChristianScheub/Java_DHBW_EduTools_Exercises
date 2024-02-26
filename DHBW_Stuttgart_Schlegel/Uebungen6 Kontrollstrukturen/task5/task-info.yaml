@@ -1,0 +1,12 @@
+type: edu
+files:
+  - name: src/Sternchen_1.java
+    visible: true
+  - name: test/Tests.java
+    visible: false
+  - name: src/Sternchen_2.java
+    visible: true
+  - name: src/Sternchen_3.java
+    visible: true
+  - name: src/Sternchen_4.java
+    visible: true
