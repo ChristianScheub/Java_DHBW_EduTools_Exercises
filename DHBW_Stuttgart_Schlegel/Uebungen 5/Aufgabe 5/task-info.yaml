@@ -1,0 +1,10 @@
+type: edu
+files:
+  - name: src/Task.java
+    visible: true
+    placeholders:
+      - offset: 398
+        length: 569
+        placeholder_text: "/* TODO: Implementieren Sie den Primzahltest iterativ. */"
+  - name: test/Tests.java
+    visible: false

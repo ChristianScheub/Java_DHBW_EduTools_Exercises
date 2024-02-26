@@ -1,0 +1,11 @@
+type: edu
+files:
+  - name: src/Task.java
+    visible: true
+    placeholders:
+      - offset: 304
+        length: 157
+        placeholder_text: "/* TODO: Implementieren Sie die gleichwertige rekursive Methode\
+      \ zur Berechnung der Quersumme. */"
+  - name: test/Tests.java
+    visible: false
