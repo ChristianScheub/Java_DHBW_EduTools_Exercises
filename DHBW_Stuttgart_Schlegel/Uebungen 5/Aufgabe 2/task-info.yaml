@@ -1,0 +1,13 @@
+type: edu
+files:
+  - name: src/Task.java
+    visible: true
+    placeholders:
+      - offset: 68
+        length: 155
+        placeholder_text: "/* TODO: Implementieren Sie die Methode rekursiv. */"
+      - offset: 374
+        length: 258
+        placeholder_text: /* TODO */
+  - name: test/Tests.java
+    visible: false

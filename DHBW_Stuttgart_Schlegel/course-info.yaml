@@ -5,8 +5,12 @@ summary: Das ist ein Begleitkurs für die Vorlesung "Einführung in die Programm
   an der DHBW Stuttgart.
 programming_language: Java
 content:
-  - Uebungen1_1_SetUp
+  - Uebungen 1
   - Uebungen2_2
   - Uebungen 7
   - Uebungen 8
+<<<<<<< Updated upstream
   - Uebungen 9
+=======
+  - Uebungen 5
+>>>>>>> Stashed changes
