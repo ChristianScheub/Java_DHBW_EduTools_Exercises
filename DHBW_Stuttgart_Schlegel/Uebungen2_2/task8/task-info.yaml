@@ -1,11 +1,8 @@
 type: edu
 files:
-  - name: src/Passt.java
+  - name: src/Task.java
     visible: true
-    placeholders:
-      - offset: 531
-        length: 117
-        placeholder_text: /* TODO */
+
   - name: test/Tests.java
     visible: false
 solution_hidden: false

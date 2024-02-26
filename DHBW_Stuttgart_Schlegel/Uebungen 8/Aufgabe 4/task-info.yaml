@@ -1,0 +1,26 @@
+type: edu
+files:
+  - name: src/Biene.java
+    visible: true
+    placeholders:
+      - offset: 19
+        length: 18
+        placeholder_text: ""
+      - offset: 39
+        length: 82
+        placeholder_text: /* Implementieren Sie die fliegen() Methode */
+  - name: test/Tests.java
+    visible: false
+  - name: src/Fliegen.java
+    visible: true
+    placeholders:
+      - offset: 0
+        length: 58
+        placeholder_text: /* TODO Erstellen Sie das Interface Fliegen mit der Abstrakten
+          Methode fliegen() */
+  - name: src/Task.java
+    visible: true
+    placeholders:
+      - offset: 72
+        length: 83
+        placeholder_text: /* TODO */

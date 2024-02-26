@@ -1,0 +1,50 @@
+type: edu
+files:
+  - name: src/Animal.java
+    visible: true
+  - name: test/Tests.java
+    visible: false
+  - name: src/Dog.java
+    visible: true
+    placeholders:
+      - offset: 26
+        length: 14
+        placeholder_text: ""
+  - name: src/Cat.java
+    visible: true
+    placeholders:
+      - offset: 43
+        length: 14
+        placeholder_text: ""
+      - offset: 59
+        length: 76
+        placeholder_text: /* Implementieren Sie die eat() Methode */
+  - name: src/GoldenRetriever.java
+    visible: true
+    placeholders:
+      - offset: 29
+        length: 11
+        placeholder_text: ""
+      - offset: 42
+        length: 76
+        placeholder_text: /* Implementieren Sie die eat() Methode */
+      - offset: 120
+        length: 236
+        placeholder_text: /* Implementieren Sie die shakeTail() Methode */
+      - offset: 358
+        length: 83
+        placeholder_text: /* Implementieren Sie die bark() Methode */
+  - name: src/Plant.java
+    visible: true
+  - name: src/Sunflower.java
+    visible: true
+    placeholders:
+      - offset: 23
+        length: 13
+        placeholder_text: ""
+      - offset: 38
+        length: 68
+        placeholder_text: /* Implementieren Sie die grow() Methode */
+      - offset: 107
+        length: 72
+        placeholder_text: /* Implementieren Sie die bloom() Methode */

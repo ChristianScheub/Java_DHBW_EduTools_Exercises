@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Tests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-02-25T18:15:20" hostname="DESKTOP-FI62M8B" time="0.008">
+  <properties/>
+  <testcase name="testAddition" classname="Tests" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Es wird versucht zu addieren: [5.0, 2.0] [4.0, 3.0, -1.0]
+]]></system-err>
+</testsuite>

@@ -1,0 +1,21 @@
+type: edu
+files:
+  - name: src/InputFile.java
+    visible: true
+    placeholders:
+      - offset: 212
+        length: 5
+        placeholder_text: ""
+      - offset: 279
+        length: 86
+        placeholder_text: ""
+      - offset: 493
+        length: 5
+        placeholder_text: ""
+      - offset: 1160
+        length: 75
+        placeholder_text: ""
+  - name: test/Tests.java
+    visible: false
+  - name: src/ExceptionCaught.java
+    visible: false

@@ -1,0 +1,16 @@
+type: edu
+files:
+  - name: src/Circle.java
+    visible: true
+    placeholders:
+      - offset: 168
+        length: 102
+        placeholder_text: throw new UnsupportedOperationException();
+      - offset: 468
+        length: 251
+        placeholder_text: throw new UnsupportedOperationException();
+      - offset: 851
+        length: 63
+        placeholder_text: throw new UnsupportedOperationException();
+  - name: test/Tests.java
+    visible: false
