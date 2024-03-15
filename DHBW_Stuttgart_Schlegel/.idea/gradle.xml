@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -16,11 +17,30 @@
             <option value="$PROJECT_DIR$/Uebungen 1/Task5_SunJDK" />
             <option value="$PROJECT_DIR$/Uebungen 1/Task6_CodeAusfuehren" />
             <option value="$PROJECT_DIR$/Uebungen 1/Task7_FehlerFinden" />
+            <option value="$PROJECT_DIR$/Uebungen 2/task1" />
+            <option value="$PROJECT_DIR$/Uebungen 2/task2" />
+            <option value="$PROJECT_DIR$/Uebungen 2/task3" />
+            <option value="$PROJECT_DIR$/Uebungen 2/task4" />
+            <option value="$PROJECT_DIR$/Uebungen 2/task5" />
+            <option value="$PROJECT_DIR$/Uebungen 2/task6" />
+            <option value="$PROJECT_DIR$/Uebungen 2/task7" />
+            <option value="$PROJECT_DIR$/Uebungen 2/task8" />
+            <option value="$PROJECT_DIR$/Uebungen 4/task1" />
+            <option value="$PROJECT_DIR$/Uebungen 4/task2" />
+            <option value="$PROJECT_DIR$/Uebungen 4/task3" />
+            <option value="$PROJECT_DIR$/Uebungen 4/task4" />
+            <option value="$PROJECT_DIR$/Uebungen 4/task5" />
             <option value="$PROJECT_DIR$/Uebungen 5/Aufgabe 1" />
             <option value="$PROJECT_DIR$/Uebungen 5/Aufgabe 2" />
             <option value="$PROJECT_DIR$/Uebungen 5/Aufgabe 3" />
             <option value="$PROJECT_DIR$/Uebungen 5/Aufgabe 4" />
             <option value="$PROJECT_DIR$/Uebungen 5/Aufgabe 5" />
+            <option value="$PROJECT_DIR$/Uebungen 6/task1" />
+            <option value="$PROJECT_DIR$/Uebungen 6/task2" />
+            <option value="$PROJECT_DIR$/Uebungen 6/task3" />
+            <option value="$PROJECT_DIR$/Uebungen 6/task4" />
+            <option value="$PROJECT_DIR$/Uebungen 6/task5" />
+            <option value="$PROJECT_DIR$/Uebungen 6/task6" />
             <option value="$PROJECT_DIR$/Uebungen 7/Aufgabe 1" />
             <option value="$PROJECT_DIR$/Uebungen 7/Aufgabe 2" />
             <option value="$PROJECT_DIR$/Uebungen 7/Aufgabe 3" />
@@ -34,25 +54,6 @@
             <option value="$PROJECT_DIR$/Uebungen 8/Aufgabe 6" />
             <option value="$PROJECT_DIR$/Uebungen 9/Aufgabe 1" />
             <option value="$PROJECT_DIR$/Uebungen 9/Aufgabe 2" />
-            <option value="$PROJECT_DIR$/Uebungen2_2/task1" />
-            <option value="$PROJECT_DIR$/Uebungen2_2/task2" />
-            <option value="$PROJECT_DIR$/Uebungen2_2/task3" />
-            <option value="$PROJECT_DIR$/Uebungen2_2/task4" />
-            <option value="$PROJECT_DIR$/Uebungen2_2/task5" />
-            <option value="$PROJECT_DIR$/Uebungen2_2/task6" />
-            <option value="$PROJECT_DIR$/Uebungen2_2/task7" />
-            <option value="$PROJECT_DIR$/Uebungen2_2/task8" />
-            <option value="$PROJECT_DIR$/Uebungen4 Arrays und Enumeration/task1" />
-            <option value="$PROJECT_DIR$/Uebungen4 Arrays und Enumeration/task2" />
-            <option value="$PROJECT_DIR$/Uebungen4 Arrays und Enumeration/task3" />
-            <option value="$PROJECT_DIR$/Uebungen4 Arrays und Enumeration/task4" />
-            <option value="$PROJECT_DIR$/Uebungen4 Arrays und Enumeration/task5" />
-            <option value="$PROJECT_DIR$/Uebungen6 Kontrollstrukturen/task1" />
-            <option value="$PROJECT_DIR$/Uebungen6 Kontrollstrukturen/task2" />
-            <option value="$PROJECT_DIR$/Uebungen6 Kontrollstrukturen/task3" />
-            <option value="$PROJECT_DIR$/Uebungen6 Kontrollstrukturen/task4" />
-            <option value="$PROJECT_DIR$/Uebungen6 Kontrollstrukturen/task5" />
-            <option value="$PROJECT_DIR$/Uebungen6 Kontrollstrukturen/task6" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>
