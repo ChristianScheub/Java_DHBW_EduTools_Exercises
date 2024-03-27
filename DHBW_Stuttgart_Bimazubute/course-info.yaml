@@ -1,5 +1,5 @@
 type: marketplace
-title: Wirtschaftsinformatik_EinfuehrungInJava
+title: WI_EinfuehrungInJava_Bimazubute
 language: German
 summary: Das ist ein Begleitkurs für die Vorlesung "Einführung in die Programmierung"
   an der DHBW Stuttgart.
@@ -14,5 +14,4 @@ content:
   - Uebungen7_Datentypen
   - Uebungen8_Streams
   - Uebungen9_Strings
-  - Pruefung_Einfuehrung_Programmierung
 solutions_hidden: false

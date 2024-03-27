@@ -1,0 +1,14 @@
+type: edu
+files:
+  - name: test/Tests.java
+    visible: false
+  - name: src/Feeder.java
+    visible: true
+  - name: src/Penguin.java
+    visible: true
+  - name: src/Lion.java
+    visible: true
+  - name: src/Food.java
+    visible: true
+  - name: src/Animal.java
+    visible: true

@@ -1,0 +1,9 @@
+type: marketplace
+title: WI_FortgeschritteneProgrammierung_Menzel
+language: German
+summary: Das ist ein Begleitkurs für die Vorlesung "Fortgeschrittene Programmierung"
+  an der DHBW Stuttgart.
+programming_language: Java
+content:
+  - Lesson1
+  - OOP

@@ -1,15 +1,15 @@
 type: marketplace
-title: Wirtschaftsinformatik_EinfuehrungInJava
+title: WI_EinfuehrungInJava_Schlegel
 language: German
 summary: Das ist ein Begleitkurs für die Vorlesung "Einführung in die Programmierung"
   an der DHBW Stuttgart.
 programming_language: Java
 content:
   - Uebungen 1
-  - Uebungen2_2
-  - Uebungen4 Arrays und Enumeration
+  - Uebungen 2
+  - Uebungen 4
   - Uebungen 5
-  - Uebungen6 Kontrollstrukturen
+  - Uebungen 6
   - Uebungen 7
   - Uebungen 8
   - Uebungen 9
