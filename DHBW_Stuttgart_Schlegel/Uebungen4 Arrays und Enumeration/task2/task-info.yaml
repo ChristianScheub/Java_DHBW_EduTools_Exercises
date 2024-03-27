@@ -2,5 +2,5 @@ type: edu
 files:
   - name: src/Histogramm.java
     visible: true
-  - name: test/Tests.java
+  - name: test/HistogrammTest.java
     visible: false

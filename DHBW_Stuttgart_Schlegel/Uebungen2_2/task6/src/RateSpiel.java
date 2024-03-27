@@ -1,11 +1,13 @@
 import java.util.Scanner;
 
-public class RateSpiel
-{
-    public static void main(String[] args)
-    {
-        java.util.Scanner scan = new java.util.Scanner( System.in );
+public class RateSpiel {
 
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        spielen(scan);
+    }
+
+    public static void spielen(Scanner scan) {
         int zufallszahl = (int)(Math.random() * 100);
 
         int tip;
@@ -31,4 +33,3 @@ public class RateSpiel
         System.out.print("Nach " + tipCounter + " Tipp(s) haben Sie einen Treffer gelandet!");
     }
 }
-

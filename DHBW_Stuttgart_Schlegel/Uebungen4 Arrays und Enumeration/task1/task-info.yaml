@@ -2,5 +2,5 @@ type: edu
 files:
   - name: src/SuperStar.java
     visible: true
-  - name: test/Tests.java
+  - name: test/SuperStarTest.java
     visible: false

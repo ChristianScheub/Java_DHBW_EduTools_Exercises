@@ -2,5 +2,5 @@ type: edu
 files:
   - name: src/RateSpiel.java
     visible: true
-  - name: test/Tests.java
+  - name: test/RateSpielTest.java
     visible: false

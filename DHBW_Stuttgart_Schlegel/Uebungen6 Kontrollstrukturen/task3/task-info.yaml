@@ -2,5 +2,5 @@ type: edu
 files:
   - name: src/Morse.java
     visible: true
-  - name: test/Tests.java
+  - name: test/MorseTest.java
     visible: false

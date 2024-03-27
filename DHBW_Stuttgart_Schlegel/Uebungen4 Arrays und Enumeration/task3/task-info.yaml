@@ -2,5 +2,5 @@ type: edu
 files:
   - name: src/MatrixMultiplikation.java
     visible: true
-  - name: test/Tests.java
+  - name: test/MatrixMultiplicationTest.java
     visible: false

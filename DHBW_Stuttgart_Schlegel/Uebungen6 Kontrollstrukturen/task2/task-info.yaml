@@ -2,5 +2,5 @@ type: edu
 files:
   - name: src/Fakultaet.java
     visible: true
-  - name: test/Tests.java
+  - name: test/FakultaetTest.java
     visible: false

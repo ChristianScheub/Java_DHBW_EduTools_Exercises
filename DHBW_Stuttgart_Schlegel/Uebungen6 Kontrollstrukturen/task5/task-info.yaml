@@ -2,7 +2,7 @@ type: edu
 files:
   - name: src/Sternchen_1.java
     visible: true
-  - name: test/Tests.java
+  - name: test/Sternchen_1Test.java
     visible: false
   - name: src/Sternchen_2.java
     visible: true

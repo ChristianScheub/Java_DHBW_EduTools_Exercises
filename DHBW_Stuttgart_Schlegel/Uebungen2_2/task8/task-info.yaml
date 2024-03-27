@@ -1,8 +1,5 @@
 type: edu
 files:
-  - name: src/Task.java
-    visible: true
-
-  - name: test/Tests.java
+  - name: test/PasstTest.java
     visible: false
 solution_hidden: false
