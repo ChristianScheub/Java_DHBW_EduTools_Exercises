@@ -2,5 +2,12 @@ type: edu
 files:
   - name: src/Math.java
     visible: true
-  - name: src/Main.java
-    visible: true
+    placeholders:
+      - offset: 83
+        length: 325
+        placeholder_text: /* Implementieren Sie die Methode */
+      - offset: 462
+        length: 231
+        placeholder_text: /* Testen Sie Ihre Implementation */
+  - name: test/Tests.java
+    visible: false
