@@ -21,6 +21,15 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Repo.util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Repo.util.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Repo.util.main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Repo.util.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Repo.util.test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Repo.util.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lesson1/Task2/Task2.Repo.Lesson1-Task2.iml" filepath="$PROJECT_DIR$/.idea/modules/Lesson1/Task2/Task2.Repo.Lesson1-Task2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lesson1/Task2/Task2.Repo.Lesson1-Task2.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Lesson1/Task2/Task2.Repo.Lesson1-Task2.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lesson1/Task2/Task2.Repo.Lesson1-Task2.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Lesson1/Task2/Task2.Repo.Lesson1-Task2.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lesson1/Task3/Task3.Repo.Lesson1-Task3.iml" filepath="$PROJECT_DIR$/.idea/modules/Lesson1/Task3/Task3.Repo.Lesson1-Task3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lesson1/Task3/Task3.Repo.Lesson1-Task3.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Lesson1/Task3/Task3.Repo.Lesson1-Task3.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lesson1/Task3/Task3.Repo.Lesson1-Task3.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Lesson1/Task3/Task3.Repo.Lesson1-Task3.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lesson1/Task4/Task4.Repo.Lesson1-Task4.iml" filepath="$PROJECT_DIR$/.idea/modules/Lesson1/Task4/Task4.Repo.Lesson1-Task4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lesson1/Task4/Task4.Repo.Lesson1-Task4.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Lesson1/Task4/Task4.Repo.Lesson1-Task4.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lesson1/Task4/Task4.Repo.Lesson1-Task4.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Lesson1/Task4/Task4.Repo.Lesson1-Task4.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/Pruefung_Einfuehrung_Programmierung/Bankmanager/src/api/api.iml" filepath="$PROJECT_DIR$/Pruefung_Einfuehrung_Programmierung/Bankmanager/src/api/api.iml" />
     </modules>
   </component>
