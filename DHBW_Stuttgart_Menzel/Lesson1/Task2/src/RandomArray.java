@@ -1,14 +1,15 @@
 import java.util.Arrays;
 import java.util.Random;
+
 public class RandomArray {
 
     public void createArray() {
-        int [] array = new int[50];
+        int[] array = new int[50];
         Random number = new Random();
         int sum = 0;
         double arith = 0;
         int menge = 0;
-        for (int i = 0; i < array.length; i++){
+        for (int i = 0; i < array.length; i++) {
             int randomNumber = number.nextInt(9);
             array[i] = randomNumber;
         }
@@ -16,7 +17,7 @@ public class RandomArray {
         sum = doSum(array);
         System.out.println("Die Summe des Arrays beträgt: " + sum);
         arith = doArith(array);
-        System.out.println("Das arithmetische Mittel des Array beträgt: " +arith);
+        System.out.println("Das arithmetische Mittel des Array beträgt: " + arith);
         showQuantity(array);
     }
 
