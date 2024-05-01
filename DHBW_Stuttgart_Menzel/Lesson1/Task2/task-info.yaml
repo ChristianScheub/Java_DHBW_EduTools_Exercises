@@ -5,9 +5,9 @@ files:
   - name: src/RandomArray.java
     visible: true
     placeholders:
-      - offset: 124
+      - offset: 150
         length: 88
         placeholder_text: /* Testen Sie Ihre Implementierung hier */
-      - offset: 220
-        length: 2050
+      - offset: 246
+        length: 2271
         placeholder_text: /* Implementieren Sie die Klasse hier */

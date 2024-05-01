@@ -57,11 +57,27 @@ public class Tests {
             Assert.fail("showQuantity Methode nicht implementiert");
             return;
         }
+        Integer[] result = null;
         try {
-            int[] test = new int[]{1,1,1,1,2,3};
-            int[] result = (int[]) m.invoke(o,test);
-            Assert.assertArrayEquals(new int[]{4,1,1},result);
+            int[] test = {1,1,1,1,2,3};
+            Object s = m.invoke(o, test);
+            result = (Integer[]) s;
+            Assert.assertArrayEquals(new Integer[]{4,1,1},result);
         } catch (IllegalAccessException | InvocationTargetException e) {
+            Assert.fail("Fehler aufgetreten. Klasse nicht Aufgaben konform");
+        }
+        m=null;
+        try {
+            m = randomArr.getDeclaredMethod("doArith", int[].class);
+        } catch (NoSuchMethodException e) {
+            Assert.fail("doArith Methode nicht implementiert.");
+            return;
+        }
+        try {
+            int[] test = {3,2,1};
+            double res = (double) m.invoke(o,test);
+            Assert.assertEquals(2,res,0.000001);
+        }catch (IllegalAccessException | InvocationTargetException e){
             Assert.fail("Fehler aufgetreten. Klasse nicht Aufgaben konform");
         }
     }
