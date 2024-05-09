@@ -1,9 +1,16 @@
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.Random;
 
 public class RandomArray {
 
-    public void createArray() {
+    public static void main(String[] args) {
+        RandomArray randomArray = new RandomArray();
+
+        randomArray.createArray();
+    }
+
+    public int[] createArray() {
         int[] array = new int[50];
         Random number = new Random();
         int sum = 0;
@@ -19,10 +26,16 @@ public class RandomArray {
         arith = doArith(array);
         System.out.println("Das arithmetische Mittel des Array beträgt: " + arith);
         showQuantity(array);
+        return array;
     }
 
-    private void showQuantity(int[] array) {
-        int[] frequency = new int[array.length];
+    public Integer[] showQuantity(int[] array) {
+        HashMap<Integer,Integer> frequencies = new HashMap<>();
+        for (int x: array){
+            frequencies.merge(x,1,(o, n)->o+n);
+        }
+        return frequencies.values().toArray(new Integer[0]);
+        /*int[] frequency = new int[array.length];
         Arrays.fill(frequency, -1); // Initialisierung des Frequenz-Arrays
 
         for (int i = 0; i < array.length; i++) {
@@ -41,16 +54,19 @@ public class RandomArray {
         System.out.println("---------------------------------------");
         System.out.println(" Element | Frequency");
         System.out.println("---------------------------------------");
+
         for (int i = 0; i < frequency.length; i++) {
             if (frequency[i] != 0) {
                 System.out.println("    " + array[i] + "    |    " + frequency[i]);
+
             }
         }
         System.out.println("----------------------------------------");
+        //return frequency;*/
     }
 
 
-    private double doArith(int[] array) {
+    public double doArith(int[] array) {
         double arith = 0;
         int sum = 0;
         sum = doSum(array);
@@ -65,7 +81,5 @@ public class RandomArray {
         }
         return sum;
     }
-
-    ;
 
 }
