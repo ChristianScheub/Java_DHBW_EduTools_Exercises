@@ -1,8 +1,13 @@
 type: edu
 files:
-  - name: src/Main.java
-    visible: true
   - name: test/Tests.java
     visible: false
   - name: src/RandomArray.java
     visible: true
+    placeholders:
+      - offset: 150
+        length: 88
+        placeholder_text: /* Testen Sie Ihre Implementierung hier */
+      - offset: 246
+        length: 2271
+        placeholder_text: /* Implementieren Sie die Klasse hier */

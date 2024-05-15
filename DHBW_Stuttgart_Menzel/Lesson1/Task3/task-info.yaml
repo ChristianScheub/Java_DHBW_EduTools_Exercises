@@ -1,8 +1,13 @@
 type: edu
 files:
-  - name: src/ArrayShifter.java
-    visible: true
   - name: test/Tests.java
     visible: false
-  - name: src/Main.java
+  - name: src/ArrayShifter.java
     visible: true
+    placeholders:
+      - offset: 125
+        length: 695
+        placeholder_text: /* Testen SIe Ihre Implementierung hier */
+      - offset: 829
+        length: 889
+        placeholder_text: /* Implementieren Sie die Aufgabe hier */
