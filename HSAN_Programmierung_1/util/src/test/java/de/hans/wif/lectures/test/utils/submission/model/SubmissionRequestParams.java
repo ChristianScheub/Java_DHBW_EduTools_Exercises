@@ -26,4 +26,11 @@ public class SubmissionRequestParams {
 
     @JsonProperty("course")
     private int course;
+
+
+    @JsonProperty("email")
+    private String email;
+
+    @JsonProperty("exerciseId")
+    private int exerciseId;
 }

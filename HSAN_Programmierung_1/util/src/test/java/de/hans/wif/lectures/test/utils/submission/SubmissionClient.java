@@ -1,5 +1,8 @@
 package de.hans.wif.lectures.test.utils.submission;
 
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.common.base.Charsets;
 import com.google.common.collect.Lists;
 import com.google.common.hash.Hashing;
@@ -12,6 +15,7 @@ import jakarta.ws.rs.client.ClientBuilder;
 import jakarta.ws.rs.client.Entity;
 import jakarta.ws.rs.client.WebTarget;
 import jakarta.ws.rs.core.MediaType;
+
 import org.glassfish.jersey.media.multipart.FormDataMultiPart;
 import org.glassfish.jersey.media.multipart.MultiPartFeature;
 import org.glassfish.jersey.media.multipart.file.FileDataBodyPart;
@@ -21,6 +25,9 @@ import java.io.IOException;
 import java.net.NetworkInterface;
 import java.net.SocketException;
 import java.nio.charset.StandardCharsets;
+
+import java.nio.file.Paths;
+
 import java.util.Enumeration;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -42,8 +49,11 @@ public class SubmissionClient {
         );
 
         MACHINE_HASH = getMachineHash();
-        INSTANCE = new SubmissionClient();
+
+       INSTANCE = new SubmissionClient();
     }
+
+
 
     private Client client;
     private WebTarget basePath;
@@ -55,7 +65,9 @@ public class SubmissionClient {
 
         if (PublicSettings.pLearnEnabled()) {
             // create a web target for the base path
-            final String apiUrl = PublicSettings.get(PublicSettings.PLEARN_API_URL);
+
+           final String apiUrl = PublicSettings.get(PublicSettings.PLEARN_API_URL);
+
             basePath = client.target(apiUrl);
 
             // try to log this instance in
@@ -76,20 +88,88 @@ public class SubmissionClient {
     protected void login() {
         if (PublicSettings.pLearnEnabled()) {
             LoginRequestParams loginRequestParams = new LoginRequestParams()
-                    .setIdentifier(PublicSettings.get(PublicSettings.USERNAME))
+
+                    .setEmail(PublicSettings.get(PublicSettings.USERNAME))
                     .setPassword(PublicSettings.get(PublicSettings.PASSWORD));
 
-            WebTarget loginTarget = basePath.path("auth/local");
+
+
+          WebTarget loginTarget = basePath.path("/auth/login");
+
             LoginResponse response = loginTarget
                     .request(MediaType.APPLICATION_JSON_TYPE)
                     .post(Entity.entity(loginRequestParams, MediaType.APPLICATION_JSON_TYPE), LoginResponse.class);
 
-            if (null == response || null == response.getJwt() || response.getJwt().isEmpty()) {
+
+
+
+            if (null == response || null == response.getAccessToken() || response.getAccessToken().isEmpty()) {
                 throw new RuntimeException("Could not log into the submission system! Check your preferences!");
             }
 
-            PublicSettings.setAuthenticationToken(response.getJwt());
-            PublicSettings.setUserId(response.getUser().getId());
+
+            PublicSettings.setAuthenticationToken(response.getAccessToken());
+            PublicSettings.setUserEmail(response.getUserEmail());
+        }
+    }
+    public void submitAllProjectFiles(SubmissionRequestParams submissionRequestParams, String allProjectFiles) {
+        if (checkLoggedIn()) {
+
+            // compute the submission hash code
+            File projectZip = null;
+            String hashCode = null;
+            try {
+                 projectZip = Paths.get(allProjectFiles).toFile();
+                hashCode = Files.asByteSource(projectZip).hash(Hashing.sha256()).toString();
+            } catch (IOException e) {
+                hashCode ="";
+            }
+
+
+
+
+            submissionRequestParams
+                    .setMachineHash(MACHINE_HASH)
+                    .setSolutionHash(hashCode)
+                    .setEmail(PublicSettings.getUserEmail())
+                    .setExerciseId(Integer.parseInt(PublicSettings.get(PublicSettings.EXERCISE_ID)));
+
+            String urlSubmissions ="/api/v1/submissions";
+
+
+            ObjectMapper objectMapper = new ObjectMapper();
+
+            String submission = null;
+            try {
+                submission = objectMapper.writeValueAsString(submissionRequestParams);
+            } catch (JsonProcessingException e) {
+                e.printStackTrace();
+
+                //throw new RuntimeException(e);
+            }
+
+            try (FormDataMultiPart formData = new FormDataMultiPart()) {
+                // Add the DTO as a JSON part
+                formData.field("submission", submission, MediaType.APPLICATION_JSON_TYPE);
+
+                // Add the file part
+                formData.bodyPart(new FileDataBodyPart("submissionFile", projectZip, MediaType.APPLICATION_OCTET_STREAM_TYPE));
+
+                SubmissionResponse submissionResponse = basePath.path(urlSubmissions)
+                        .request(MediaType.APPLICATION_JSON)
+                        .header("Authorization", "Bearer " + PublicSettings.getAuthenticationToken())
+                        .post(Entity.entity(formData, formData.getMediaType()),  SubmissionResponse.class);
+                System.out.println("Einreichung erstellt = "+ submissionResponse.toString());
+
+
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+        }
+        else{
+            System.out.println("not logged in....");
+
         }
     }
 
@@ -108,20 +188,31 @@ public class SubmissionClient {
                     .collect(Collectors.joining("-"));
             hashCode = Hashing.sha256().hashString(hashCode, StandardCharsets.UTF_8).toString();
 
+
             submissionRequestParams
                     .setMachineHash(MACHINE_HASH)
                     .setSolutionHash(hashCode)
-                    .setUser(PublicSettings.getUserId())
-                    .setCourse(Integer.parseInt(PublicSettings.get(PublicSettings.COURSE_ID)));
+                    .setEmail(PublicSettings.getUserEmail())
+                    .setExerciseId(Integer.parseInt(PublicSettings.get(PublicSettings.EXERCISE_ID)));
 
-            // upload submission reqcord
-            SubmissionResponse response = basePath.path("submissions")
+            String urlSubmissions ="/api/v1/submissions";
+            SubmissionResponse response = basePath.path(urlSubmissions)
+
                     .request(MediaType.APPLICATION_JSON_TYPE)
                     .header("Authorization", "Bearer " + PublicSettings.getAuthenticationToken())
                     .post(Entity.entity(submissionRequestParams, MediaType.APPLICATION_JSON_TYPE), SubmissionResponse.class);
 
-            // now upload files
+
+
             files.forEach(f -> uploadFile(response.getId(), "submission", f));
+
+
+
+
+        }
+        else{
+            System.out.println("not logged in....");
+
         }
     }
 

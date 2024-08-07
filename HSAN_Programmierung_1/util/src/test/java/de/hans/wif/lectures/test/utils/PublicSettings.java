@@ -10,6 +10,9 @@ public abstract class PublicSettings {
     public static final String PASSWORD = "plearn.password";
 
     public static final String COURSE_ID = "plearn.course.id";
+
+    public static final String EXERCISE_ID = "plearn.exercise.id";
+
     public static final String PLEARN_API_URL = "plearn.api.url";
 
     public static final String AUTHENTICATION_TOKEN = "plearn.authentication.token";
@@ -48,19 +51,27 @@ public abstract class PublicSettings {
                 !((String) properties.getOrDefault(COURSE_ID, "")).isEmpty();
     }
 
-    public static int getUserId() {
-        return Integer.parseInt(get(USER_ID));
-    }
+
 
     public static String getAuthenticationToken() {
         return get(AUTHENTICATION_TOKEN);
     }
 
+
+    public static int getUserId() {
+        return Integer.parseInt(get(USER_ID));
+    }
     public static void setUserId(int userId) {
         properties.setProperty(USER_ID, Integer.toString(userId));
     }
 
     public static void setAuthenticationToken(String authenticationToken) {
         properties.setProperty(AUTHENTICATION_TOKEN, authenticationToken);
+    }
+    public static String getUserEmail() {
+        return get(USERNAME);
+    }
+    public static void setUserEmail(String email) {
+        properties.setProperty(USERNAME, email);
     }
 }

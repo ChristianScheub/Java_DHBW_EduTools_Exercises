@@ -1,0 +1,1 @@
+/* Implementieren Sie hier die Klasse RectCalculator */

@@ -1,0 +1,74 @@
+type: edu
+files:
+  - name: src/de/hans/wif/lectures/prog1/HalloAnsbach.java
+    visible: true
+    placeholders:
+      - offset: 111
+        length: 12
+        placeholder_text: /* Insert valid class name */
+        initial_state:
+          length: 29
+          offset: 111
+        initialized_from_dependency: false
+        encrypted_possible_answer: HalloAnsbach
+        selected: false
+        status: Failed
+      - offset: 129
+        length: 94
+        placeholder_text: /* Write your program here */
+        initial_state:
+          length: 29
+          offset: 148
+        initialized_from_dependency: false
+        encrypted_possible_answer: |-
+          public static void main(String[] args) {
+                  // print "Hallo, Ansbach!" on the screen
+                  System.out.println("Hallo, Ansbach!");
+              }
+        selected: true
+        status: Failed
+    text: |-
+      package de.hans.wif.lectures.prog1; // you may ignore this line but keep it and don't delete it!
+      
+      public class /* Insert valid class name */ {
+      
+          /* Write your program here */
+      
+      }
+    learner_created: false
+  - name: test/de/hans/wif/lectures/prog1/tests/HalloAnsbachTests.java
+    visible: false
+    text: |
+      package de.hans.wif.lectures.prog1.tests;
+      
+      import de.hans.wif.lectures.prog1.HalloAnsbach;
+      import de.hans.wif.lectures.test.utils.ConsoleIOBaseTest;
+      import org.junit.Assert;
+      import org.junit.FixMethodOrder;
+      import org.junit.Test;
+      import org.junit.runners.MethodSorters;
+      
+      @FixMethodOrder(MethodSorters.NAME_ASCENDING)
+      public class HalloAnsbachTests extends ConsoleIOBaseTest {
+      
+          @Test
+          public void test_01_Output() {
+              flush();
+              HalloAnsbach.main(new String[0]);
+              final String output = getConsoleOutput(true);
+      
+              Assert.assertEquals("Achten Sie auf den genauen Wortlaut der Ausgabe auf der Konsole. Ihre Ausgabe '" + output + "' stimmt nicht mit der in der Aufgabenstellung geforderten überein!",
+                      "Hallo, Ansbach!",
+                      output);
+          }
+      }
+    learner_created: false
+status: Failed
+feedback:
+  message: Achten Sie auf den genauen Wortlaut der Ausgabe auf der Konsole. Ihre Ausgabe
+    &#39;Hallo Ansbach&#39; stimmt nicht mit der in der Aufgabenstellung geforderten
+    überein!
+  time: "Mon, 22 Jul 2024 09:46:52 UTC"
+  expected: "Hallo, Ansbach!"
+  actual: Hallo Ansbach
+record: -1

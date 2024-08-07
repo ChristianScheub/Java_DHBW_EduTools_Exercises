@@ -3,8 +3,11 @@ content:
   - 03 - Formula Implementation
   - 04 - Gross-Net
   - 05 - Modulo
+<<<<<<< HEAD
   - 06 - Integer Tester
   - 07 - Double Tester
   - 08 - Light Switch
   - 09 - Cross Connection
   - 10 - Emergency Shutdown
+=======
+>>>>>>> ce0921f (Verbindung zu Grading-Server hergestellt)

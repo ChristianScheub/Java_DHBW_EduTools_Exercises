@@ -73,7 +73,11 @@ public class InterestRateTests extends ConsoleIOBaseTest {
                 output[1]
         );
     }
+<<<<<<< HEAD
 
+=======
+/*
+>>>>>>> ce0921f (Verbindung zu Grading-Server hergestellt)
     @Test
     public void testC() {
         flush();
@@ -95,5 +99,9 @@ public class InterestRateTests extends ConsoleIOBaseTest {
                 "Nach 10 Jahren betraegt das angesparte Kapital 8144.47313388721EUR",
                 output[1]
         );
+<<<<<<< HEAD
     }
+=======
+    }*/
+>>>>>>> ce0921f (Verbindung zu Grading-Server hergestellt)
 }

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="de.hans.wif.lectures.prog1.tests.HalloAnsbachTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-07-22T09:50:13" hostname="MacBook-Pro-von-Raymond.local" time="0.068">
+  <properties/>
+  <testcase name="test_01_Output" classname="de.hans.wif.lectures.prog1.tests.HalloAnsbachTests" time="0.068"/>
+  <system-out><![CDATA[Hallo, Ansbach!
+
+bin is hier
+zip file fuer Einreichung: /Users/raymond/Downloads/Java_DHBW_EduTools_Exercises-main 2/Programmierung 1/Lektion 01 - Grundlagen/00 - Hallo Ansbach/build/raymond.bimazubute@lehre.dh.de.zip
+bin is hier
+not logged in....
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

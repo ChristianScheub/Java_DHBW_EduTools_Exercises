@@ -10,7 +10,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+<<<<<<< HEAD
             <option value="$PROJECT_DIR$/Pruefung_Einfuehrung_Programmierung/Bankmanager" />
+=======
+>>>>>>> ce0921f (Verbindung zu Grading-Server hergestellt)
             <option value="$PROJECT_DIR$/Uebungen1_Grundlagen/task1" />
             <option value="$PROJECT_DIR$/Uebungen1_Grundlagen/task2_datentyp" />
             <option value="$PROJECT_DIR$/Uebungen1_Grundlagen/task3_Compiler" />

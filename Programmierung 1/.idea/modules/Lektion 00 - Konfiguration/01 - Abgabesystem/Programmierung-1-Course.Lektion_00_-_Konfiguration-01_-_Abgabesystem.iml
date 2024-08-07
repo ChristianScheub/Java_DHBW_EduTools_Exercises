@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Lektion_00_-_Konfiguration-01_-_Abgabesystem" external.linked.project.path="$MODULE_DIR$/../../../../Lektion 00 - Konfiguration/01 - Abgabesystem" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="Programmierung-1-Course" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../Lektion 00 - Konfiguration/01 - Abgabesystem">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Lektion 00 - Konfiguration/01 - Abgabesystem/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Lektion 00 - Konfiguration/01 - Abgabesystem/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Lektion 00 - Konfiguration/01 - Abgabesystem/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

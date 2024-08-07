@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Lektion_02_-_Datentypen_und_Tastatureingaben-03_-_Formula_Implementation" external.linked.project.path="$MODULE_DIR$/../../../../Lektion 02 - Datentypen und Tastatureingaben/03 - Formula Implementation" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="Programmierung-1-Course" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../Lektion 02 - Datentypen und Tastatureingaben/03 - Formula Implementation">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Lektion 02 - Datentypen und Tastatureingaben/03 - Formula Implementation/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Lektion 02 - Datentypen und Tastatureingaben/03 - Formula Implementation/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Lektion 02 - Datentypen und Tastatureingaben/03 - Formula Implementation/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

@@ -9,10 +9,21 @@ import org.junit.rules.TestWatcher;
 import org.junit.runner.Description;
 
 import java.io.File;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.nio.file.FileVisitOption;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
+import java.util.zip.ZipOutputStream;
+import java.util.zip.*;
+
 
 public abstract class AbstractSubmissionEnabledBaseTest {
 
@@ -23,6 +34,39 @@ public abstract class AbstractSubmissionEnabledBaseTest {
 
             submit(description, false);
         }
+
+
+        public static void zipFiles(List<File> files, File zipFile) throws IOException {
+            // Ensure the parent directory exists
+            if (zipFile.getParentFile() != null) {
+                zipFile.getParentFile().mkdirs();
+            }
+
+            try (FileOutputStream fos = new FileOutputStream(zipFile);
+                 ZipOutputStream zos = new ZipOutputStream(fos)) {
+
+                for (File file : files) {
+                    addToZipFile(file, zos);
+                }
+            }
+        }
+
+        private static void addToZipFile(File file, ZipOutputStream zos) throws IOException {
+            try (FileInputStream fis = new FileInputStream(file)) {
+                ZipEntry zipEntry = new ZipEntry(file.getName());
+                zos.putNextEntry(zipEntry);
+
+                byte[] buffer = new byte[1024];
+                int length;
+                while ((length = fis.read(buffer)) >= 0) {
+                    zos.write(buffer, 0, length);
+                }
+
+                zos.closeEntry();
+            }
+        }
+
+
 
         @Override
         protected void succeeded(Description description) {
@@ -38,11 +82,65 @@ public abstract class AbstractSubmissionEnabledBaseTest {
                     .setTestIdentifier(description.getClassName())
                     .setTestDetailIdentifier(description.getMethodName());
 
-            submissionClient.submitResult(params, getFilePaths(description.getTestClass()));
+
+            List<File> files = getFilePaths(description.getTestClass());
+            List<File> allJavaFiles = getJavaFilesInProject(description.getTestClass());
+            String fileName = PublicSettings.get(PublicSettings.USERNAME);
+            String pathZipFile = System.getProperty("user.dir")  + File.separator + "build" + File.separator + fileName+".zip";
+            String pathZipFileAll = System.getProperty("user.dir")  + File.separator + "build" + File.separator + fileName+"_All.zip";
+
+            File zipFile = new File(pathZipFile);
+            File zipFileAll = new File(pathZipFileAll);
+            try {
+                zipFiles(files, zipFile);
+                zipFiles(allJavaFiles, zipFileAll);
+                System.out.println("zip file fuer Einreichung: "+ pathZipFile);
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+
+            submissionClient.submitAllProjectFiles(params, pathZipFileAll);
+
+        }
+        public List<File> getJavaFilesInProject(Class<?> testClass) {
+            String currentDirPath = System.getProperty("user.dir");
+            System.out.println(currentDirPath);
+            File currentDirFile = new File(currentDirPath);
+            File parentFile = currentDirFile
+                                .getParentFile()
+                                .getParentFile();
+
+            List<File> filesInProject = findJavaFiles(parentFile.toPath());
+            return filesInProject;
+        }
+
+        public static List<File> findJavaFiles(Path rootDir) {
+            try (Stream<Path> pathStream = Files.walk(rootDir, FileVisitOption.FOLLOW_LINKS)) {
+                return pathStream
+                        .filter(Files::isRegularFile)
+                        .filter(path -> path.toString().endsWith(".java"))
+                        .filter(path -> !path.getFileName().toString().contains("Test"))
+                        .map(Path::toFile) // Convert Path to File
+                        .collect(Collectors.toList());
+            } catch (IOException e) {
+                e.printStackTrace();
+                return List.of();
+            }
+
         }
 
         private List<File> getFilePaths(Class<?> testClass) {
             String path = System.getProperty("user.dir") + File.separator + "src";
+
+            String pathTarget = System.getProperty("user.dir") + File.separator + "target";
+            String pathBin = System.getProperty("user.dir") + File.separator + "build";
+            if(Files.exists(Path.of(pathTarget))){
+                System.out.println("target is hier");
+            }
+            if(Files.exists(Path.of(pathBin))){
+                System.out.println("bin is hier");
+            }
+
 
             File baseFolder = new File(path);
             List<File> files2Process = Lists.newArrayList();
@@ -80,7 +178,9 @@ public abstract class AbstractSubmissionEnabledBaseTest {
     public void setupConnection() {
         if (null == submissionClient) {
             PublicSettings.initialize(getClassLoader());
-            submissionClient = SubmissionClient.getInstance();
+
+           submissionClient = SubmissionClient.getInstance();
+
         }
     }
 

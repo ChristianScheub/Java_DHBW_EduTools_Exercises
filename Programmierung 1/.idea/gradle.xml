@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#JAVA_INTERNAL" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Lektion 00 - Konfiguration/01 - Abgabesystem" />
+            <option value="$PROJECT_DIR$/Lektion 01 - Grundlagen/00 - Hallo Ansbach" />
+            <option value="$PROJECT_DIR$/Lektion 01 - Grundlagen/03 - Rectangle Calculator" />
+            <option value="$PROJECT_DIR$/Lektion 01 - Grundlagen/04 - Circle Calculator" />
+            <option value="$PROJECT_DIR$/Lektion 01 - Grundlagen/05 - Erroneous Java" />
+            <option value="$PROJECT_DIR$/Lektion 02 - Datentypen und Tastatureingaben/02 - Interest Rate" />
+            <option value="$PROJECT_DIR$/Lektion 02 - Datentypen und Tastatureingaben/03 - Formula Implementation" />
+            <option value="$PROJECT_DIR$/Lektion 02 - Datentypen und Tastatureingaben/04 - Gross-Net" />
+            <option value="$PROJECT_DIR$/Lektion 02 - Datentypen und Tastatureingaben/05 - Modulo" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

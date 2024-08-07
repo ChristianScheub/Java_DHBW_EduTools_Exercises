@@ -1,0 +1,88 @@
+type: edu
+files:
+  - name: src/Formula.java
+    visible: true
+    placeholders:
+      - offset: 76
+        length: 41
+        placeholder_text: /* Implementieren Sie die Aufgabe hier */
+        initial_state:
+          length: 41
+          offset: 76
+        initialized_from_dependency: false
+        encrypted_possible_answer: |-
+          System.out.print("Bitte geben Sie den Wert für x ein: ");
+                  double x = new java.util.Scanner(System.in).nextDouble();
+          
+                  double result = 3 * x * x - 8 * x + 4;
+          
+                  System.out.println("Bei x = " + x + " ergibt die Gleichung den Wert " + result);
+        selected: false
+        status: Unchecked
+    text: |
+      public class Formula {
+          public static void main(String[] args) {
+              /* Implementieren Sie die Aufgabe hier */
+          }
+      }
+    learner_created: false
+  - name: test/FormulaTests.java
+    visible: false
+    text: |
+      import de.hans.wif.lectures.test.utils.ConsoleIOBaseTest;
+      import org.junit.Assert;
+      import org.junit.Test;
+      
+      public class FormulaTests extends ConsoleIOBaseTest {
+          private final static String TEST_CASE_A = "1" + System.lineSeparator();
+      
+          private final static String TEST_CASE_B = "2" + System.lineSeparator();
+      
+          private final static String TEST_CASE_C = "-5" + System.lineSeparator();
+      
+          @Test
+          public void testA() {
+              flush();
+              simulateInput(TEST_CASE_A);
+      
+              Formula.main(new String[] {});
+      
+              Assert.assertEquals(
+                      "Fehlerhafte Ausgabe gefunden!",
+                      "Bei x = 1.0 ergibt die Gleichung den Wert -1.0",
+                      getLastConsoleOutput()
+              );
+          }
+      
+          @Test
+          public void testB() {
+              flush();
+              simulateInput(TEST_CASE_B);
+      
+              Formula.main(new String[] {});
+      
+              Assert.assertEquals(
+                      "Fehlerhafte Ausgabe gefunden!",
+                      "Bei x = 2.0 ergibt die Gleichung den Wert 0.0",
+                      getLastConsoleOutput()
+              );
+          }
+      
+      
+          @Test
+          public void testC() {
+              flush();
+              simulateInput(TEST_CASE_C);
+      
+              Formula.main(new String[] {});
+      
+              Assert.assertEquals(
+                      "Fehlerhafte Ausgabe gefunden!",
+                      "Bei x = -5.0 ergibt die Gleichung den Wert 119.0",
+                      getLastConsoleOutput()
+              );
+          }
+      }
+    learner_created: false
+status: Unchecked
+record: -1

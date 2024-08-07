@@ -1,0 +1,14 @@
+title: Programmierung 1
+language: German
+summary: Java Einführung und Grundlagen
+programming_language: Java
+content:
+  - Lektion 00 - Konfiguration
+  - Lektion 01 - Grundlagen
+  - Lektion 02 - Datentypen und Tastatureingaben
+mode: Study
+environment_settings:
+  jvm_language_level: JDK_17
+solutions_hidden: true
+vendor:
+  name: Raymond Bimazubute

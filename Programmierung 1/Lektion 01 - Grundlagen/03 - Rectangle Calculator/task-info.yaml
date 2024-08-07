@@ -1,0 +1,66 @@
+type: edu
+files:
+  - name: src/RectCalculator.java
+    visible: true
+    placeholders:
+      - offset: 0
+        length: 55
+        placeholder_text: /* Implementieren Sie hier die Klasse RectCalculator */
+        initial_state:
+          length: 55
+          offset: 0
+        initialized_from_dependency: false
+        encrypted_possible_answer: |-
+          public class RectCalculator {
+              public static void main(String[] args) {
+                  int a = 3;              // a erhält den Wert 3
+                  int b = 4;              // b erhält den Wert 4
+          
+                  int u = 2 * a + 2 * b;  // berechne u
+                  int f = a * b;          // berechne f
+          
+                  System.out.print("Der Wert von u lautet: ");
+                  System.out.println(u);
+          
+                  System.out.print("Der Wert von f lautet: ");
+                  System.out.println(f);
+              }
+          }
+        selected: false
+        status: Unchecked
+    text: /* Implementieren Sie hier die Klasse RectCalculator */
+    learner_created: false
+  - name: test/RectCalculatorTests.java
+    visible: false
+    text: |-
+      import de.hans.wif.lectures.test.utils.ConsoleIOBaseTest;
+      import de.hans.wif.lectures.test.utils.ReflectionHelper;
+      import org.junit.Assert;
+      import org.junit.FixMethodOrder;
+      import org.junit.Test;
+      import org.junit.runners.MethodSorters;
+      
+      @FixMethodOrder(MethodSorters.NAME_ASCENDING)
+      public class RectCalculatorTests extends ConsoleIOBaseTest {
+      
+        @Test
+        public void test_Implementation_and_Output() {
+          flush();
+      
+          try {
+            ReflectionHelper.invokeMain("RectCalculator", true, true);
+          } catch (AssertionError e) {
+            Assert.fail(e.getMessage());
+          }
+      
+          Assert.assertEquals(
+                  "Die Ausgabe Ihres Programms stimmt nicht mit der erwarteten Ausgabe überein. Prüfen Sie Ihr Programm, ob dieses dem vorgegebenen Code entspricht!",
+                  "Der Wert von u lautet: 14 " + "Der Wert von f lautet: 12",
+                  getConsoleOutput(true)
+          );
+        }
+      
+      }
+    learner_created: false
+status: Unchecked
+record: -1

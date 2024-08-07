@@ -1,0 +1,1 @@
+/* Fügen Sie hier den Code aus der Aufgabenstellung ein */

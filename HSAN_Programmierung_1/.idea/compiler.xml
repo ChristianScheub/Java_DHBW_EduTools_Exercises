@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.30/f195ee86e6c896ea47a1d39defbe20eb59cd149d/lombok-1.18.30.jar" />
+        </processorPath>
+        <module name="Programmierung-1-Course.util.main" />
+        <module name="Programmierung-1-Course.Lektion_02_-_Datentypen_und_Tastatureingaben-05_-_Modulo.main" />
+        <module name="Programmierung-1-Course.Lektion_01_-_Grundlagen-04_-_Circle_Calculator.main" />
+        <module name="Programmierung-1-Course.Lektion_00_-_Konfiguration-01_-_Abgabesystem.main" />
+        <module name="Programmierung-1-Course.Lektion_02_-_Datentypen_und_Tastatureingaben-02_-_Interest_Rate.main" />
+        <module name="Programmierung-1-Course.Lektion_01_-_Grundlagen-05_-_Erroneous_Java.main" />
+        <module name="Programmierung-1-Course.Lektion_02_-_Datentypen_und_Tastatureingaben-02_-_Interest_Rate.test" />
+        <module name="Programmierung-1-Course.Lektion_02_-_Datentypen_und_Tastatureingaben-03_-_Formula_Implementation.test" />
+        <module name="Programmierung-1-Course.Lektion_01_-_Grundlagen-05_-_Erroneous_Java.test" />
+        <module name="Programmierung-1-Course.Lektion_02_-_Datentypen_und_Tastatureingaben-05_-_Modulo.test" />
+        <module name="Programmierung-1-Course.Lektion_01_-_Grundlagen-04_-_Circle_Calculator.test" />
+        <module name="Programmierung-1-Course.Lektion_02_-_Datentypen_und_Tastatureingaben-03_-_Formula_Implementation.main" />
+        <module name="Programmierung-1-Course.util.test" />
+        <module name="Programmierung-1-Course.Lektion_01_-_Grundlagen-03_-_Rectangle_Calculator.test" />
+        <module name="Programmierung-1-Course.Lektion_02_-_Datentypen_und_Tastatureingaben-04_-_Gross-Net.main" />
+        <module name="Programmierung-1-Course.Lektion_01_-_Grundlagen-00_-_Hallo_Ansbach.test" />
+        <module name="Programmierung-1-Course.Lektion_02_-_Datentypen_und_Tastatureingaben-04_-_Gross-Net.test" />
+        <module name="Programmierung-1-Course.Lektion_00_-_Konfiguration-01_-_Abgabesystem.test" />
+        <module name="Programmierung-1-Course.Lektion_01_-_Grundlagen-03_-_Rectangle_Calculator.main" />
+        <module name="Programmierung-1-Course.Lektion_01_-_Grundlagen-00_-_Hallo_Ansbach.main" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="17" />
+  </component>
+</project>
