@@ -73,35 +73,5 @@ public class InterestRateTests extends ConsoleIOBaseTest {
                 output[1]
         );
     }
-<<<<<<< HEAD
 
-=======
-/*
->>>>>>> ce0921f (Verbindung zu Grading-Server hergestellt)
-    @Test
-    public void testC() {
-        flush();
-        simulateInput(TEST_CASE_C);
-
-        InterestRate.main(null);
-
-        final String[] output = getLastConsoleOutput(2);
-        final String message = getMessage(TEST_CASE_C);
-
-        Assert.assertEquals(
-                message,
-                "Der Gewinn durch Zinsen betraegt: 3144.4731338872098EUR",
-                output[0]
-        );
-
-        Assert.assertEquals(
-                message,
-                "Nach 10 Jahren betraegt das angesparte Kapital 8144.47313388721EUR",
-                output[1]
-        );
-<<<<<<< HEAD
-    }
-=======
-    }*/
->>>>>>> ce0921f (Verbindung zu Grading-Server hergestellt)
 }
