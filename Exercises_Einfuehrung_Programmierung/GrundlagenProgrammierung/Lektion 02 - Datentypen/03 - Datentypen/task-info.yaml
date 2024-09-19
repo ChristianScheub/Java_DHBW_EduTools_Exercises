@@ -1,0 +1,11 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Der Datentyp ist String.
+    is_correct: false
+  - text: Der Datentyp ist char. Der Input repräsentiert das Zeichen '4'
+    is_correct: true
+files:
+  - name: src/Main.java
+    visible: true
+local_check: true

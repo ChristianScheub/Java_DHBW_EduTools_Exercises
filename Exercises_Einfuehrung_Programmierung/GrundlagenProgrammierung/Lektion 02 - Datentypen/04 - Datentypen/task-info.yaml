@@ -1,0 +1,12 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Der Datentyp ist char.
+    is_correct: false
+  - text: "Der Datentyp ist String. Der Input repräsentiert eine Zeichenkette, die ein\
+    \ einzelnes Zeichen '4' enthält"
+    is_correct: true
+files:
+  - name: src/WhichOption.java
+    visible: true
+local_check: true

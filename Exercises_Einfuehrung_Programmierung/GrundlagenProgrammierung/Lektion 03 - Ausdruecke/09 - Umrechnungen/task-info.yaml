@@ -1,0 +1,11 @@
+type: edu
+files:
+  - name: src/MilesToKilometers.java
+    visible: true
+    placeholders:
+      - offset: 113
+        length: 371
+        placeholder_text: /* TODO */
+  - name: test/Tests.java
+    visible: false
+    propagatable: false

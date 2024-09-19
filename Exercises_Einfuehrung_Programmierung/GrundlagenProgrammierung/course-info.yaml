@@ -1,0 +1,14 @@
+title: Grundlagen der Programmierung - Kapitel 1
+language: German
+summary: Java Einführung und Grundlagen - Kapitel 1
+vendor:
+  name: Raymond Bimazubute
+programming_language: Java
+content:
+  - Lektion 00 - Konfiguration
+  - Lektion 00 - Grundlagen - Vorbereitung
+  - Lektion 01 - Grundlagen
+  - Lektion 02 - Datentypen
+  - Lektion 03 - Ausdruecke
+environment_settings:
+  jvm_language_level: JDK_17

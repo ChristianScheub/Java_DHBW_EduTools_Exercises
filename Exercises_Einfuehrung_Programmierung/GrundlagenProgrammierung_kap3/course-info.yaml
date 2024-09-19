@@ -1,0 +1,11 @@
+title: Übungen Kapitel 3
+language: German
+summary: Kapitel 3
+vendor:
+  name: Raymond Bimazubute
+programming_language: Java
+content:
+  - Lektion 00 - Konfiguration
+  - Lektion 01 - Klassen und Objekte
+environment_settings:
+  jvm_language_level: JDK_17

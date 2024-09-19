@@ -1,0 +1,13 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: 15
+    is_correct: false
+  - text: 500
+    is_correct: false
+  - text: 1000
+    is_correct: true
+files:
+  - name: src/ValueOfSum.java
+    visible: true
+local_check: true

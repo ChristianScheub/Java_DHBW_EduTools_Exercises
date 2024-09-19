@@ -1,0 +1,11 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: 4 ist ein eine ganze Zahl. Der Datentyp ist integer.
+    is_correct: true
+  - text: 4 ist eine Gleitkomma-Zahl. Der Datentyp ist double
+    is_correct: false
+files:
+  - name: src/Main.java
+    visible: true
+local_check: true

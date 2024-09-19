@@ -1,0 +1,11 @@
+type: edu
+files:
+  - name: src/PersonInfo.java
+    visible: true
+    placeholders:
+      - offset: 156
+        length: 727
+        placeholder_text: /* TODO */
+  - name: test/Tests.java
+    visible: false
+    propagatable: false

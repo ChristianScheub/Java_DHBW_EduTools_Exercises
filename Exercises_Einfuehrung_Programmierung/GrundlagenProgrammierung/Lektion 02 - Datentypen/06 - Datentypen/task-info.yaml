@@ -1,0 +1,11 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "Ja, Anforderung wird erfüllt"
+    is_correct: false
+  - text: Anforderung nicht erfüllt.
+    is_correct: true
+files:
+  - name: src/CheckOutput.java
+    visible: true
+local_check: true

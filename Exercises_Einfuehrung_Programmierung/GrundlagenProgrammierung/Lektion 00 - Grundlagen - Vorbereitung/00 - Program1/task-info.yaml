@@ -1,0 +1,10 @@
+type: edu
+files:
+  - name: src/Mystery.java
+    visible: true
+    placeholders:
+      - offset: 30
+        length: 111
+        placeholder_text: /* TODO */
+  - name: test/MysteryTest.java
+    visible: false

@@ -1,0 +1,11 @@
+type: edu
+files:
+  - name: src/CircleRadiusCalculator.java
+    visible: true
+    placeholders:
+      - offset: 118
+        length: 516
+        placeholder_text: /* TODO */
+  - name: test/Tests.java
+    visible: false
+    propagatable: false

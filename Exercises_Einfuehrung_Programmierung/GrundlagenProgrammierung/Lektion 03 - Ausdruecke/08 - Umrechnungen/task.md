@@ -1,0 +1,2 @@
+Schreiben Sie ein Programm, das Werte für eine Entfernung in Kilometern, Metern und Zentimetern einliest und dann die entsprechende Gesamtanzahl von Zentimetern ausgibt.  
+Zum Beispiel entsprechen 10 Kilometer, 50 Meter und 20 Zentimeter 1.005.020 Zentimetern.

@@ -1,0 +1,6 @@
+type: edu
+files:
+  - name: src/Dummy.java
+    visible: true
+  - name: test/DummyTests.java
+    visible: false

@@ -1,0 +1,10 @@
+type: edu
+files:
+  - name: src/HalloWelt.java
+    visible: true
+    placeholders:
+      - offset: 124
+        length: 34
+        placeholder_text: /* TODO */
+  - name: test/HalloWeltTest.java
+    visible: false

@@ -1,0 +1,1 @@
+Schreiben Sie eine Anweisung, die die Anzahl der Zeichen in einem String-Objekt mit dem Namen overview ausgibt.

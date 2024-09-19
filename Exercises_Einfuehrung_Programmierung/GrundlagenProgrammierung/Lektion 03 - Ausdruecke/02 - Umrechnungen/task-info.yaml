@@ -1,0 +1,11 @@
+type: edu
+files:
+  - name: src/TypingTimeCalculator.java
+    visible: true
+    placeholders:
+      - offset: 116
+        length: 623
+        placeholder_text: /* TODO */
+  - name: test/Tests.java
+    visible: false
+    propagatable: false

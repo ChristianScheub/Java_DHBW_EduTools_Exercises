@@ -1,0 +1,11 @@
+type: edu
+files:
+  - name: src/Minimum.java
+    visible: true
+    placeholders:
+      - offset: 83
+        length: 282
+        placeholder_text: /* TODO */
+  - name: test/A2Test.java
+    visible: false
+    propagatable: false

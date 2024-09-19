@@ -1,0 +1,11 @@
+type: edu
+files:
+  - name: src/ProverbPrinter.java
+    visible: true
+    placeholders:
+      - offset: 83
+        length: 105
+        placeholder_text: /* TODO */
+  - name: test/Tests.java
+    visible: false
+    propagatable: false

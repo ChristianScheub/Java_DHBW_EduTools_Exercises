@@ -1,0 +1,11 @@
+type: edu
+files:
+  - name: src/FavoriteBook.java
+    visible: true
+    placeholders:
+      - offset: 82
+        length: 506
+        placeholder_text: /* TODO */
+  - name: test/Tests.java
+    visible: false
+    propagatable: false

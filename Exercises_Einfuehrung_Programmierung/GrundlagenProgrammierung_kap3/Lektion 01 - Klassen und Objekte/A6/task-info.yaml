@@ -1,0 +1,14 @@
+type: edu
+files:
+  - name: src/WochentageEnum.java
+    visible: true
+    placeholders:
+      - offset: 158
+        length: 68
+        placeholder_text: /* TODO */
+      - offset: 286
+        length: 167
+        placeholder_text: /* TODO */
+  - name: test/A6Test.java
+    visible: false
+    propagatable: false

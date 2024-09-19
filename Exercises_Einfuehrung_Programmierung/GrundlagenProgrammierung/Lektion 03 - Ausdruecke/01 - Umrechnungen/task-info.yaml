@@ -1,0 +1,11 @@
+type: edu
+files:
+  - name: src/GramToPound.java
+    visible: true
+    placeholders:
+      - offset: 117
+        length: 608
+        placeholder_text: /* TODO */
+  - name: test/Tests.java
+    visible: false
+    propagatable: false

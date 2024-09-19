@@ -1,0 +1,2 @@
+Schreiben Sie ein Programm, das nach zwei Ganzzahlen fragt und diese einliest, welche die Länge und Breite eines Rechtecks darstellen.  
+Anschließend soll es den Umfang und die Fläche des Rechtecks ausgeben.

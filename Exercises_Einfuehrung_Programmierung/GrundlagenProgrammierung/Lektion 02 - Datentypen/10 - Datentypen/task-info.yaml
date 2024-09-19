@@ -1,0 +1,11 @@
+type: edu
+files:
+  - name: src/DiamondShape.java
+    visible: true
+    placeholders:
+      - offset: 210
+        length: 720
+        placeholder_text: /* TODO */
+  - name: test/Tests.java
+    visible: false
+    propagatable: false

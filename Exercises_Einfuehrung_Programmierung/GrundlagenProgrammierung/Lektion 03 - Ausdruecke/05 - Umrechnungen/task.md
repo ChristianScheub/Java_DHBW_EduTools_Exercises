@@ -1,0 +1,1 @@
+Schreiben Sie ein Programm, das den Umfang eines Kreises als Gleitkommawert (double) einliest und anschließend den Radius des Kreises ausgibt.

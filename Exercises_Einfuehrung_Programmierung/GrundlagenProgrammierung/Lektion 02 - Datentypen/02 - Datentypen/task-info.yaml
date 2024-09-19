@@ -1,0 +1,11 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Der Datentyp ist integer.
+    is_correct: false
+  - text: Der Datentyp ist double
+    is_correct: true
+files:
+  - name: src/Main.java
+    visible: true
+local_check: true

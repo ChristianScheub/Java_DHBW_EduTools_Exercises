@@ -1,0 +1,11 @@
+type: edu
+files:
+  - name: src/UppercaseString.java
+    visible: true
+    placeholders:
+      - offset: 83
+        length: 420
+        placeholder_text: /* TODO */
+  - name: test/A3Test.java
+    visible: false
+    propagatable: false

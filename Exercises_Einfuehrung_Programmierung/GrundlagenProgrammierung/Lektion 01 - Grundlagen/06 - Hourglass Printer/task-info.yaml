@@ -1,0 +1,14 @@
+type: edu
+files:
+  - name: src/HourglassPrinter.java
+    visible: true
+    placeholders:
+      - offset: 77
+        length: 0
+        placeholder_text: /* TODO */
+      - offset: 82
+        length: 751
+        placeholder_text: /* TODO */
+  - name: test/Tests.java
+    visible: false
+    propagatable: false

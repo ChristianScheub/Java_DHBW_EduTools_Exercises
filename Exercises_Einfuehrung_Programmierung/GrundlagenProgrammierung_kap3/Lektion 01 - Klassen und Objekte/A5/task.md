@@ -1,0 +1,1 @@
+Schreibe eine Zuweisung, die die Quadratwurzel der Summe von num1 und num2 berechnet und das Ergebnis num3 zuweist.

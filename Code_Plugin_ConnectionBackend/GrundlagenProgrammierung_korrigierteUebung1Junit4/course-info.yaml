@@ -1,0 +1,11 @@
+title: Prüfung Eine Einreichung Kap1
+language: German
+summary: Java Einführung und Grundlagen
+vendor:
+  name: Raymond Bimazubute
+programming_language: Java
+content:
+  - Lektion 00 - Konfiguration
+  - Lektion 01 - Pruefung
+environment_settings:
+  jvm_language_level: JDK_17

@@ -1,0 +1,11 @@
+type: edu
+files:
+  - name: src/TravelTime.java
+    visible: true
+    placeholders:
+      - offset: 105
+        length: 585
+        placeholder_text: /* TODO */
+  - name: test/Tests.java
+    visible: false
+    propagatable: false

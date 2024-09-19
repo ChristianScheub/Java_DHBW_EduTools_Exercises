@@ -1,0 +1,11 @@
+type: edu
+files:
+  - name: src/CharacterCount.java
+    visible: true
+    placeholders:
+      - offset: 84
+        length: 179
+        placeholder_text: /* TODO */
+  - name: test/A1Test.java
+    visible: false
+    propagatable: false

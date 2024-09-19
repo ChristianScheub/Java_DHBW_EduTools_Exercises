@@ -1,0 +1,13 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: 20
+    is_correct: false
+  - text: 10
+    is_correct: true
+  - text: 30
+    is_correct: false
+files:
+  - name: src/CheckOutputStringInteger.java
+    visible: true
+local_check: true

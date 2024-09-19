@@ -1,0 +1,11 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: 50 plus 25 is 75
+    is_correct: false
+  - text: 50 plus 25 is 5025
+    is_correct: true
+files:
+  - name: src/StringIntegerConcatenation.java
+    visible: true
+local_check: true

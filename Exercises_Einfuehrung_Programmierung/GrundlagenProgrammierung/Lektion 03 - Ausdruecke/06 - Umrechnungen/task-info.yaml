@@ -1,0 +1,11 @@
+type: edu
+files:
+  - name: src/TempConverter.java
+    visible: true
+    placeholders:
+      - offset: 109
+        length: 417
+        placeholder_text: /* TODO */
+  - name: test/Tests.java
+    visible: false
+    propagatable: false

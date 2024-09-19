@@ -1,0 +1,11 @@
+type: edu
+files:
+  - name: src/ReplaceCommas.java
+    visible: true
+    placeholders:
+      - offset: 82
+        length: 303
+        placeholder_text: /* TODO */
+  - name: test/A4Test.java
+    visible: false
+    propagatable: false

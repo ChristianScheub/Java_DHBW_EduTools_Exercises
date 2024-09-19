@@ -1,0 +1,1 @@
+Deklariere eine String-Variable namens upperCaseVariable und initialisiere sie so, dass sie die gleichen Zeichen wie ein String-Objekt namens name enthält, jedoch in Großbuchstaben.

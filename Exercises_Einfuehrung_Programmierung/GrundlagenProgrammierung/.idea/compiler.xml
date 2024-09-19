@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.30/f195ee86e6c896ea47a1d39defbe20eb59cd149d/lombok-1.18.30.jar" />
+        </processorPath>
+        <module name="Programmierung-1-Course.Lektion_02_-_Datentypen-09_-_Datentypen.test" />
+        <module name="Programmierung-1-Course.Lektion_03_-_Ausdruecke-09_-_Umrechnungen.test" />
+        <module name="Programmierung-1-Course.Lektion_00_-_Grundlagen_-_Vorbereitung-01-_phrase.test" />
+        <module name="Programmierung-1-Course.Lektion_03_-_Ausdruecke-00_-_Eingaben.main" />
+        <module name="Programmierung-1-Course.Lektion_00_-_Grundlagen_-_Vorbereitung-00_-_Program1.main" />
+        <module name="Programmierung-1-Course.Lektion_02_-_Datentypen-07_-_Datentypen.main" />
+        <module name="Programmierung-1-Course.util.test" />
+        <module name="Programmierung-1-Course.Lektion_03_-_Ausdruecke-03_-_Umrechnungen.test" />
+        <module name="Programmierung-1-Course.Lektion_03_-_Ausdruecke-06_-_Umrechnungen.main" />
+        <module name="Programmierung-1-Course.Lektion_02_-_Datentypen-02_-_Datentypen.main" />
+        <module name="Programmierung-1-Course.Lektion_01_-_Grundlagen-03_-_Proverb_Printer_2_Rows.main" />
+        <module name="Programmierung-1-Course.Lektion_02_-_Datentypen-01_-_Ausgabe.main" />
+        <module name="Programmierung-1-Course.Lektion_02_-_Datentypen-03_-_Datentypen.test" />
+        <module name="Programmierung-1-Course.Lektion_03_-_Ausdruecke-01_-_Umrechnungen.main" />
+        <module name="Programmierung-1-Course.Lektion_02_-_Datentypen-08_-_Datentypen.main" />
+        <module name="Programmierung-1-Course.Lektion_01_-_Grundlagen-06_-_Hourglass_Printer.main" />
+        <module name="Programmierung-1-Course.Lektion_02_-_Datentypen-10_-_Datentypen.test" />
+        <module name="Programmierung-1-Course.Lektion_01_-_Grundlagen-00_-_Hallo_Welt.main" />
+        <module name="Programmierung-1-Course.util.main" />
+        <module name="Programmierung-1-Course.Lektion_02_-_Datentypen-02_-_Datentypen.test" />
+        <module name="Programmierung-1-Course.Lektion_02_-_Datentypen-03_-_Datentypen.main" />
+        <module name="Programmierung-1-Course.Lektion_00_-_Grundlagen_-_Vorbereitung-00_-_Program1.test" />
+        <module name="Programmierung-1-Course.Lektion_00_-_Konfiguration-01_-_Abgabesystem.main" />
+        <module name="Programmierung-1-Course.Lektion_03_-_Ausdruecke-04_-_Umrechnungen.main" />
+        <module name="Programmierung-1-Course.Lektion_03_-_Ausdruecke-09_-_Umrechnungen.main" />
+        <module name="Programmierung-1-Course.Lektion_02_-_Datentypen-07_-_Datentypen.test" />
+        <module name="Programmierung-1-Course.Lektion_03_-_Ausdruecke-02_-_Umrechnungen.test" />
+        <module name="Programmierung-1-Course.Lektion_02_-_Datentypen-09_-_Datentypen.main" />
+        <module name="Programmierung-1-Course.Lektion_01_-_Grundlagen-00_-_Hallo_Welt.test" />
+        <module name="Programmierung-1-Course.Lektion_02_-_Datentypen-08_-_Datentypen.test" />
+        <module name="Programmierung-1-Course.Lektion_03_-_Ausdruecke-05_-_Umrechnungen.main" />
+        <module name="Programmierung-1-Course.Lektion_03_-_Ausdruecke-01_-_Umrechnungen.test" />
+        <module name="Programmierung-1-Course.Lektion_03_-_Ausdruecke-06_-_Umrechnungen.test" />
+        <module name="Programmierung-1-Course.Lektion_01_-_Grundlagen-04_-_Proverb_Printer_Box.main" />
+        <module name="Programmierung-1-Course.Lektion_03_-_Ausdruecke-03_-_Umrechnungen.main" />
+        <module name="Programmierung-1-Course.Lektion_01_-_Grundlagen-03_-_Proverb_Printer_2_Rows.test" />
+        <module name="Programmierung-1-Course.Lektion_02_-_Datentypen-04_-_Datentypen.main" />
+        <module name="Programmierung-1-Course.Lektion_03_-_Ausdruecke-08_-_Umrechnungen.main" />
+        <module name="Programmierung-1-Course.Lektion_02_-_Datentypen-05_-_Datentypen.main" />
+        <module name="Programmierung-1-Course.Lektion_03_-_Ausdruecke-07_-_Umrechnungen.test" />
+        <module name="Programmierung-1-Course.Lektion_00_-_Grundlagen_-_Vorbereitung-01-_phrase.main" />
+        <module name="Programmierung-1-Course.Lektion_02_-_Datentypen-00_-_Datentypen.test" />
+        <module name="Programmierung-1-Course.Lektion_02_-_Datentypen-06_-_Datentypen.test" />
+        <module name="Programmierung-1-Course.Lektion_01_-_Grundlagen-02_-_Proverb_Printer.main" />
+        <module name="Programmierung-1-Course.Lektion_01_-_Grundlagen-04_-_Proverb_Printer_Box.test" />
+        <module name="Programmierung-1-Course.Lektion_02_-_Datentypen-00_-_Datentypen.main" />
+        <module name="Programmierung-1-Course.Lektion_03_-_Ausdruecke-05_-_Umrechnungen.test" />
+        <module name="Programmierung-1-Course.Lektion_02_-_Datentypen-06_-_Datentypen.main" />
+        <module name="Programmierung-1-Course.Lektion_02_-_Datentypen-05_-_Datentypen.test" />
+        <module name="Programmierung-1-Course.Lektion_03_-_Ausdruecke-07_-_Umrechnungen.main" />
+        <module name="Programmierung-1-Course.Lektion_03_-_Ausdruecke-08_-_Umrechnungen.test" />
+        <module name="Programmierung-1-Course.Lektion_02_-_Datentypen-04_-_Datentypen.test" />
+        <module name="Programmierung-1-Course.Lektion_03_-_Ausdruecke-00_-_Eingaben.test" />
+        <module name="Programmierung-1-Course.Lektion_03_-_Ausdruecke-02_-_Umrechnungen.main" />
+        <module name="Programmierung-1-Course.Lektion_01_-_Grundlagen-02_-_Proverb_Printer.test" />
+        <module name="Programmierung-1-Course.Lektion_01_-_Grundlagen-06_-_Hourglass_Printer.test" />
+        <module name="Programmierung-1-Course.Lektion_02_-_Datentypen-01_-_Ausgabe.test" />
+        <module name="Programmierung-1-Course.Lektion_03_-_Ausdruecke-04_-_Umrechnungen.test" />
+        <module name="Programmierung-1-Course.Lektion_00_-_Konfiguration-01_-_Abgabesystem.test" />
+        <module name="Programmierung-1-Course.Lektion_02_-_Datentypen-10_-_Datentypen.main" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="17" />
+  </component>
+</project>

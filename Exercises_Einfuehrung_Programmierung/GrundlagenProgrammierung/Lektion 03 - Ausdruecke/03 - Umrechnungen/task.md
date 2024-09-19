@@ -1,0 +1,2 @@
+Schreiben Sie ein Programm, das Werte für das Gewicht in Kilogramm, Gramm und Milligramm einliest und dann das entsprechende Gewicht in Milligramm ausgibt.  
+Zum Beispiel entsprechen 1 Kilogramm, 50 Gramm und 42 Milligramm insgesamt 1.050.042 Milligramm.

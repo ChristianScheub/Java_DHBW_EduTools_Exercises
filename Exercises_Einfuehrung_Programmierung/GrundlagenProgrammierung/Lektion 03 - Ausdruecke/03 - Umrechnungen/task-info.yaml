@@ -1,0 +1,11 @@
+type: edu
+files:
+  - name: src/WeightConverter.java
+    visible: true
+    placeholders:
+      - offset: 162
+        length: 680
+        placeholder_text: /* TODO */
+  - name: test/Tests.java
+    visible: false
+    propagatable: false

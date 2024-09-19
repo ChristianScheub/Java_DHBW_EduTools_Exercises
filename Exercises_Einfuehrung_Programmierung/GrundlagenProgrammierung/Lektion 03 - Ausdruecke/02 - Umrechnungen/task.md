@@ -1,0 +1,2 @@
+Schreiben Sie ein Programm, das nach Ganzzahlwerten für die Tippgeschwindigkeit und die Anzahl der Zeichen im Dokument fragt und diese einliest. 
+Anschließend soll das Programm die Zeit, die zum Tippen benötigt wird, als Gleitkomma-Ergebnis ausgeben

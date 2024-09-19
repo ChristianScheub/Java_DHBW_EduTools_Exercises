@@ -1,0 +1,11 @@
+type: edu
+files:
+  - name: src/SquareRootCalculation.java
+    visible: true
+    placeholders:
+      - offset: 89
+        length: 376
+        placeholder_text: /* TODO */
+  - name: test/A5Test.java
+    visible: false
+    propagatable: false

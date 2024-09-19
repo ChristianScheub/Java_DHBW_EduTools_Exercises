@@ -1,0 +1,11 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: 6
+    is_correct: false
+  - text: 3
+    is_correct: true
+files:
+  - name: src/LineCount.java
+    visible: true
+local_check: true
