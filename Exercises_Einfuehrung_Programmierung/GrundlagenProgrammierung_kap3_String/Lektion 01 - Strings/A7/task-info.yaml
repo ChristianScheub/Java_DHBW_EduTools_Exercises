@@ -1,0 +1,11 @@
+type: edu
+files:
+  - name: src/Vehicle.java
+    visible: true
+    placeholders:
+      - offset: 25
+        length: 96
+        placeholder_text: /* TODO */
+  - name: test/A7Test.java
+    visible: false
+    propagatable: false

@@ -1,0 +1,1 @@
+Schreibe eine Methode, die zählt, wie oft ein bestimmtes Zeichen in einem String vorkommt.

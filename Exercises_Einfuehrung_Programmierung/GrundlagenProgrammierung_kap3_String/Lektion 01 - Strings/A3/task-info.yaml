@@ -1,0 +1,11 @@
+type: edu
+files:
+  - name: test/A3Test.java
+    visible: false
+    propagatable: false
+  - name: src/StringTasksReverse.java
+    visible: true
+    placeholders:
+      - offset: 88
+        length: 98
+        placeholder_text: /* TODO */

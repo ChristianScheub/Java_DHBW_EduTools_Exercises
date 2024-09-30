@@ -1,0 +1,1 @@
+Schreibe eine Methode, die überprüft, ob ein gegebener String ein Palindrom ist (d.h. ein String, der vorwärts und rückwärts gleich ist).

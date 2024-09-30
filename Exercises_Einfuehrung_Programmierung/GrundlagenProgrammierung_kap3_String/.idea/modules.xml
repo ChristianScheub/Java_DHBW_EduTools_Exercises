@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/HSAN_Programmierung_1.iml" filepath="$PROJECT_DIR$/.idea/HSAN_Programmierung_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Programmierung-1-Course.iml" filepath="$PROJECT_DIR$/.idea/modules/Programmierung-1-Course.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lektion 00 - Konfiguration/01 - Abgabesystem/Programmierung-1-Course.Lektion_00_-_Konfiguration-01_-_Abgabesystem.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Lektion 00 - Konfiguration/01 - Abgabesystem/Programmierung-1-Course.Lektion_00_-_Konfiguration-01_-_Abgabesystem.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lektion 00 - Konfiguration/01 - Abgabesystem/Programmierung-1-Course.Lektion_00_-_Konfiguration-01_-_Abgabesystem.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Lektion 00 - Konfiguration/01 - Abgabesystem/Programmierung-1-Course.Lektion_00_-_Konfiguration-01_-_Abgabesystem.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lektion 01 - Strings/A1/Programmierung-1-Course.Lektion_01_-_Strings-A1.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Lektion 01 - Strings/A1/Programmierung-1-Course.Lektion_01_-_Strings-A1.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lektion 01 - Strings/A1/Programmierung-1-Course.Lektion_01_-_Strings-A1.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Lektion 01 - Strings/A1/Programmierung-1-Course.Lektion_01_-_Strings-A1.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lektion 01 - Strings/A2/Programmierung-1-Course.Lektion_01_-_Strings-A2.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Lektion 01 - Strings/A2/Programmierung-1-Course.Lektion_01_-_Strings-A2.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lektion 01 - Strings/A2/Programmierung-1-Course.Lektion_01_-_Strings-A2.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Lektion 01 - Strings/A2/Programmierung-1-Course.Lektion_01_-_Strings-A2.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lektion 01 - Strings/A3/Programmierung-1-Course.Lektion_01_-_Strings-A3.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Lektion 01 - Strings/A3/Programmierung-1-Course.Lektion_01_-_Strings-A3.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lektion 01 - Strings/A3/Programmierung-1-Course.Lektion_01_-_Strings-A3.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Lektion 01 - Strings/A3/Programmierung-1-Course.Lektion_01_-_Strings-A3.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lektion 01 - Strings/A4/Programmierung-1-Course.Lektion_01_-_Strings-A4.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Lektion 01 - Strings/A4/Programmierung-1-Course.Lektion_01_-_Strings-A4.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lektion 01 - Strings/A4/Programmierung-1-Course.Lektion_01_-_Strings-A4.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Lektion 01 - Strings/A4/Programmierung-1-Course.Lektion_01_-_Strings-A4.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lektion 01 - Strings/A5/Programmierung-1-Course.Lektion_01_-_Strings-A5.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Lektion 01 - Strings/A5/Programmierung-1-Course.Lektion_01_-_Strings-A5.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lektion 01 - Strings/A5/Programmierung-1-Course.Lektion_01_-_Strings-A5.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Lektion 01 - Strings/A5/Programmierung-1-Course.Lektion_01_-_Strings-A5.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lektion 01 - Strings/A6/Programmierung-1-Course.Lektion_01_-_Strings-A6.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Lektion 01 - Strings/A6/Programmierung-1-Course.Lektion_01_-_Strings-A6.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lektion 01 - Strings/A6/Programmierung-1-Course.Lektion_01_-_Strings-A6.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Lektion 01 - Strings/A6/Programmierung-1-Course.Lektion_01_-_Strings-A6.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lektion 01 - Strings/A7/Programmierung-1-Course.Lektion_01_-_Strings-A7.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Lektion 01 - Strings/A7/Programmierung-1-Course.Lektion_01_-_Strings-A7.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lektion 01 - Strings/A7/Programmierung-1-Course.Lektion_01_-_Strings-A7.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Lektion 01 - Strings/A7/Programmierung-1-Course.Lektion_01_-_Strings-A7.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lektion 01 - Strings/A8/Programmierung-1-Course.Lektion_01_-_Strings-A8.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Lektion 01 - Strings/A8/Programmierung-1-Course.Lektion_01_-_Strings-A8.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lektion 01 - Strings/A8/Programmierung-1-Course.Lektion_01_-_Strings-A8.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Lektion 01 - Strings/A8/Programmierung-1-Course.Lektion_01_-_Strings-A8.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lektion 01 - Strings/A9/Programmierung-1-Course.Lektion_01_-_Strings-A9.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Lektion 01 - Strings/A9/Programmierung-1-Course.Lektion_01_-_Strings-A9.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lektion 01 - Strings/A9/Programmierung-1-Course.Lektion_01_-_Strings-A9.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Lektion 01 - Strings/A9/Programmierung-1-Course.Lektion_01_-_Strings-A9.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Programmierung-1-Course.util.main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Programmierung-1-Course.util.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Programmierung-1-Course.util.test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Programmierung-1-Course.util.test.iml" />
+    </modules>
+  </component>
+</project>

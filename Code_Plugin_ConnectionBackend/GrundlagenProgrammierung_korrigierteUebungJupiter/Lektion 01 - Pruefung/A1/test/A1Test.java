@@ -30,7 +30,6 @@ public class A1Test extends ConsoleIOBaseTest {
    // int result = Factorial.computeFactorial(0);
    // Assert.assertEquals(result, 1);
     org.junit.jupiter.api.Assertions.assertTrue(true, "Einreichung abgegeben");
-    //Assert.assertTrue("Einreichung abgegeben", true);
   }
   @Test
   public void test_01_Berechnung3() {

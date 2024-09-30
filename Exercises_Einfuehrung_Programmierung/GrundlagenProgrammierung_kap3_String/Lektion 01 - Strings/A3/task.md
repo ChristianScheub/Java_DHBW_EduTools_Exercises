@@ -1,0 +1,1 @@
+Schreibe eine Methode, die einen String umkehrt. Der zurückgegebene String soll die Buchstaben in umgekehrter Reihenfolge enthalten.

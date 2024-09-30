@@ -1,0 +1,1 @@
+Schreibe eine Methode, die die Anzahl der Wörter in einem Satz zählt. Ein Wort ist definiert als eine Folge von Zeichen, die durch Leerzeichen getrennt ist.

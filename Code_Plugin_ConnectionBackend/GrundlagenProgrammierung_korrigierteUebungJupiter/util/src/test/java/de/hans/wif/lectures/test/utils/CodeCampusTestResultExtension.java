@@ -18,6 +18,7 @@ import java.io.IOException;
 import java.nio.file.FileVisitOption;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -79,7 +80,6 @@ public class CodeCampusTestResultExtension implements TestWatcher, AfterAllCallb
 
     @Override
     public void afterAll(ExtensionContext extensionContext) throws Exception {
-        System.out.println("har har har");
         setupConnection();
         submit(extensionContext, true);
     }
@@ -126,6 +126,31 @@ public class CodeCampusTestResultExtension implements TestWatcher, AfterAllCallb
 
 
 
+    public static String generateFileName(String email) {
+        // Step 1: Extract the portion before '@' from the email
+        String baseName = email.contains("@") ? email.substring(0, email.indexOf('@')) : email;
+
+        // Step 2: Sanitize the base name to remove invalid characters for file names
+        baseName = sanitizeFileName(baseName);
+
+        // Step 3: Add the current date and time to the file name
+        String dateTime = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
+
+        // Step 4: Generate a short UUID and take the first 8 characters
+        String shortUUID = UUID.randomUUID().toString().substring(0, 8);
+
+        // Step 5: Combine all components to create the new file name
+        String finalFileName = baseName + "_" + dateTime + "_" + shortUUID;
+
+        // Step 6: Sanitize the final file name and return it
+        return sanitizeFileName(finalFileName);
+    }
+
+    // Utility method to sanitize a string for use as a file name
+    private static String sanitizeFileName(String name) {
+        // Replace all invalid file name characters (like \ / : * ? " < > |) with an underscore
+        return name.replaceAll("[\\\\/:*?\"<>|]", "_");
+    }
 
     private void submit(ExtensionContext description, boolean passed) {
         SubmissionRequestParams params = new SubmissionRequestParams()
@@ -138,16 +163,35 @@ public class CodeCampusTestResultExtension implements TestWatcher, AfterAllCallb
         List<File> files = getFilePaths(description.getTestClass().get());
         List<File> allJavaFiles = getJavaFilesInProject(description.getTestClass().get());
         String fileName = PublicSettings.get(PublicSettings.USERNAME);
-        String pathZipFile = System.getProperty("user.dir")  + File.separator + "build" + File.separator + fileName+".zip";
-        String pathZipFileAll = System.getProperty("user.dir")  + File.separator + "build" + File.separator + fileName+"_All.zip";
+        fileName = generateFileName(fileName);
+
+
+        String userDir = System.getProperty("java.io.tmpdir");
+        String pathZipFile = userDir.endsWith(File.separator) ?
+                userDir + fileName + ".zip" :
+                userDir + File.separator + fileName + ".zip";
+
+        //String pathZipFileAll = userDir  + File.separator + fileName+"_All.zip";
+        String pathZipFileAll = userDir.endsWith(File.separator) ?
+                userDir + fileName + "_All.zip" :
+                userDir + File.separator + fileName + "_All.zip";
+
 
         File zipFile = new File(pathZipFile);
         File zipFileAll = new File(pathZipFileAll);
+        String parentDirectory = zipFileAll.getParent();
         try {
-            zipFiles(files, zipFile);
+            //zipFiles(files, zipFile);
             zipFiles(allJavaFiles, zipFileAll);
-            System.out.println("zip file fuer Einreichung: "+ pathZipFile);
-            LOG.info("zip file fuer Einreichung: "+ pathZipFile);
+            //System.out.println("zip file fuer Einreichung: "+ pathZipFile);
+
+            String fileUrl = Path.of(pathZipFile).toUri().toString();
+            String parentUrl = Path.of(parentDirectory).toUri().toString();
+            String htmlLink = "<a href=\"" + parentUrl + "\">Download Temporary File</a>";
+            LOG.info("Verzeichnis der Einreichung: "+ htmlLink);
+            LOG.info("Dateiname der Einreichung: "+ zipFileAll);
+
+
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -212,10 +256,10 @@ public class CodeCampusTestResultExtension implements TestWatcher, AfterAllCallb
         String pathTarget = System.getProperty("user.dir") + File.separator + "target";
         String pathBin = System.getProperty("user.dir") + File.separator + "build";
         if(Files.exists(Path.of(pathTarget))){
-            System.out.println("target is hier");
+            //System.out.println("target is hier");
         }
         if(Files.exists(Path.of(pathBin))){
-            System.out.println("bin is hier");
+            //System.out.println("bin is hier");
         }
 
 

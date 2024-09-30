@@ -1,0 +1,11 @@
+type: edu
+files:
+  - name: src/StringTasks.java
+    visible: true
+    placeholders:
+      - offset: 92
+        length: 165
+        placeholder_text: /* TODO */
+  - name: test/A1Test.java
+    visible: false
+    propagatable: false

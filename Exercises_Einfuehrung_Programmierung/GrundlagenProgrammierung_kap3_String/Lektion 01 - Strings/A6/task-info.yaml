@@ -1,0 +1,11 @@
+type: edu
+files:
+  - name: test/A6Test.java
+    visible: false
+    propagatable: false
+  - name: src/MonthEnum.java
+    visible: true
+    placeholders:
+      - offset: 27
+        length: 175
+        placeholder_text: /* TODO */

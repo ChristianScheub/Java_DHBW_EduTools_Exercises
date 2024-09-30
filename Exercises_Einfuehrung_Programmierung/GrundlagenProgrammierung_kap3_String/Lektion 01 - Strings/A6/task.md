@@ -1,0 +1,1 @@
+Erstellen Sie ein Enum namens MonthEnum, das die Monate des Jahres enthält. Schreiben Sie eine Methode, die den ordinalen Wert eines Monats zurückgibt.

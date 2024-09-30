@@ -1,0 +1,11 @@
+type: edu
+files:
+  - name: src/StringPalindrom.java
+    visible: true
+    placeholders:
+      - offset: 87
+        length: 192
+        placeholder_text: /* TODO */
+  - name: test/A5Test.java
+    visible: false
+    propagatable: false

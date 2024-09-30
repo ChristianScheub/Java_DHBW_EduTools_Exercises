@@ -1,0 +1,1 @@
+Schreibe eine Methode, die einen primitiven int-Wert als Parameter akzeptiert und ihn in die entsprechende Wrapper-Klasse Integer umwandelt.

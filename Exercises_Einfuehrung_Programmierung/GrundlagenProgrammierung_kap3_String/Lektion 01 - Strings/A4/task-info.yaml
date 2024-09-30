@@ -1,0 +1,11 @@
+type: edu
+files:
+  - name: src/WordsSentence.java
+    visible: true
+    placeholders:
+      - offset: 81
+        length: 157
+        placeholder_text: /* TODO */
+  - name: test/A4Test.java
+    visible: false
+    propagatable: false

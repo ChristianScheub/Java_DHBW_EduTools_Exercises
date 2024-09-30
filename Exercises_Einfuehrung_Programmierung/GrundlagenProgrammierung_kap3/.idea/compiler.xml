@@ -8,22 +8,6 @@
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.30/f195ee86e6c896ea47a1d39defbe20eb59cd149d/lombok-1.18.30.jar" />
         </processorPath>
-        <module name="Programmierung-1-Course.util.main" />
-        <module name="Programmierung-1-Course.Lektion_01_-_Klassen_und_Objekte-A5.main" />
-        <module name="Programmierung-1-Course.Lektion_01_-_Klassen_und_Objekte-A6.test" />
-        <module name="Programmierung-1-Course.Lektion_00_-_Konfiguration-01_-_Abgabesystem.main" />
-        <module name="Programmierung-1-Course.Lektion_01_-_Klassen_und_Objekte-A1.main" />
-        <module name="Programmierung-1-Course.Lektion_01_-_Klassen_und_Objekte-A6.main" />
-        <module name="Programmierung-1-Course.util.test" />
-        <module name="Programmierung-1-Course.Lektion_01_-_Klassen_und_Objekte-A3.test" />
-        <module name="Programmierung-1-Course.Lektion_01_-_Klassen_und_Objekte-A3.main" />
-        <module name="Programmierung-1-Course.Lektion_01_-_Klassen_und_Objekte-A4.test" />
-        <module name="Programmierung-1-Course.Lektion_01_-_Klassen_und_Objekte-A1.test" />
-        <module name="Programmierung-1-Course.Lektion_01_-_Klassen_und_Objekte-A4.main" />
-        <module name="Programmierung-1-Course.Lektion_01_-_Klassen_und_Objekte-A5.test" />
-        <module name="Programmierung-1-Course.Lektion_01_-_Klassen_und_Objekte-A2.test" />
-        <module name="Programmierung-1-Course.Lektion_00_-_Konfiguration-01_-_Abgabesystem.test" />
-        <module name="Programmierung-1-Course.Lektion_01_-_Klassen_und_Objekte-A2.main" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="17" />

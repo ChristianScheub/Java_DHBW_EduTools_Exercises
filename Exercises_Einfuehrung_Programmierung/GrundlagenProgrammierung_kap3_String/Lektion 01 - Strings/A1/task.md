@@ -1,0 +1,1 @@
+Schreibe eine Methode, die den Buchstaben an einer bestimmten Position in einem gegebenen String zurückgibt. Wenn der Index außerhalb des Bereichs des Strings liegt, soll die Methode eine Fehlermeldung ausgeben.

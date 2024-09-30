@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.30/f195ee86e6c896ea47a1d39defbe20eb59cd149d/lombok-1.18.30.jar" />
+        </processorPath>
+        <module name="Programmierung-1-Course.Lektion_01_-_Strings-A1.main" />
+        <module name="Programmierung-1-Course.Lektion_01_-_Strings-A2.test" />
+        <module name="Programmierung-1-Course.util.main" />
+        <module name="Programmierung-1-Course.Lektion_01_-_Strings-A4.main" />
+        <module name="Programmierung-1-Course.Lektion_01_-_Strings-A5.test" />
+        <module name="Programmierung-1-Course.Lektion_01_-_Strings-A7.main" />
+        <module name="Programmierung-1-Course.Lektion_01_-_Strings-A8.test" />
+        <module name="Programmierung-1-Course.Lektion_00_-_Konfiguration-01_-_Abgabesystem.main" />
+        <module name="Programmierung-1-Course.Lektion_01_-_Strings-A5.main" />
+        <module name="Programmierung-1-Course.Lektion_01_-_Strings-A2.main" />
+        <module name="Programmierung-1-Course.Lektion_01_-_Strings-A8.main" />
+        <module name="Programmierung-1-Course.util.test" />
+        <module name="Programmierung-1-Course.Lektion_01_-_Strings-A6.main" />
+        <module name="Programmierung-1-Course.Lektion_01_-_Strings-A7.test" />
+        <module name="Programmierung-1-Course.Lektion_01_-_Strings-A3.main" />
+        <module name="Programmierung-1-Course.Lektion_01_-_Strings-A4.test" />
+        <module name="Programmierung-1-Course.Lektion_01_-_Strings-A6.test" />
+        <module name="Programmierung-1-Course.Lektion_01_-_Strings-A3.test" />
+        <module name="Programmierung-1-Course.Lektion_01_-_Strings-A9.test" />
+        <module name="Programmierung-1-Course.Lektion_00_-_Konfiguration-01_-_Abgabesystem.test" />
+        <module name="Programmierung-1-Course.Lektion_01_-_Strings-A1.test" />
+        <module name="Programmierung-1-Course.Lektion_01_-_Strings-A9.main" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="17" />
+  </component>
+</project>

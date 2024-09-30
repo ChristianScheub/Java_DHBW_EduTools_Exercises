@@ -99,7 +99,7 @@ public class SubmissionClient {
 
 
 
-          WebTarget loginTarget = basePath.path("/auth/login");
+          WebTarget loginTarget = basePath.path("/api/auth/login");
 
             LoginResponse response = loginTarget
                     .request(MediaType.APPLICATION_JSON_TYPE)
@@ -163,18 +163,11 @@ public class SubmissionClient {
                 // Add the file part
                 formData.bodyPart(new FileDataBodyPart("submissionFile", projectZip, MediaType.APPLICATION_OCTET_STREAM_TYPE));
 
-                /*SubmissionResponse submissionResponse = basePath.path(urlSubmissions)
-                        .request(MediaType.APPLICATION_JSON)
-                        .header("Authorization", "Bearer " + PublicSettings.getAuthenticationToken())
-                        .post(Entity.entity(formData, formData.getMediaType()),  SubmissionResponse.class);*/
-                //System.out.println("Einreichung erstellt = "+ submissionResponse.toString());
-                //LOG.info("Einreichung erstellt = "+ submissionResponse.toString());;
                 response = basePath.path(urlSubmissions)
                         .request(MediaType.APPLICATION_JSON)
                         .header("Authorization", "Bearer " + PublicSettings.getAuthenticationToken())
                         .post(Entity.entity(formData, formData.getMediaType()));
 
-                // Check if the response status is successful (status code 2xx)
                 if (response.getStatus() >= 200 && response.getStatus() < 300) {
                     // Map the response body to the expected class
                     submissionResponse = response.readEntity(SubmissionResponse.class);

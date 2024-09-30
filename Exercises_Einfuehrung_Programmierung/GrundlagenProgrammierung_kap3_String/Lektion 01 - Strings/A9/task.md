@@ -1,0 +1,1 @@
+Erstelle eine Klasse Person, die die Attribute name (String) und age (int) enthält. Implementieren Sie die toString-Methode, um eine lesbare Darstellung der Person zu liefern, die folgendermaßen aussieht: "Name: [name], Age: [age]"

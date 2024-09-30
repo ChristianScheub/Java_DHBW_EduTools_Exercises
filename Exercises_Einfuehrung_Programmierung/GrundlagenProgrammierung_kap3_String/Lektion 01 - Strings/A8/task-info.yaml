@@ -1,0 +1,11 @@
+type: edu
+files:
+  - name: src/A8.java
+    visible: true
+    placeholders:
+      - offset: 81
+        length: 68
+        placeholder_text: /* TODO */
+  - name: test/A8Tests.java
+    visible: false
+    propagatable: false
