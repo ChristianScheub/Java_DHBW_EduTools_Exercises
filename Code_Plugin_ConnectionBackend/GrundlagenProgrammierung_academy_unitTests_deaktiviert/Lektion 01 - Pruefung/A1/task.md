@@ -1,0 +1,1 @@
+Programmieren Sie die Methode xyz, die die Fakultaet einer Zahl berechnet.
