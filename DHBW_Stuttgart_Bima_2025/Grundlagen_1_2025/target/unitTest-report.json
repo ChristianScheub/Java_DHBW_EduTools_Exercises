@@ -1,0 +1,61 @@
+[ {
+  "steps" : { },
+  "id" : "[engine:junit-jupiter]/[class:ExamUnitTest]/[method:testTask1_Add()]",
+  "name" : "Task1.Add",
+  "parentTestCaseId" : null,
+  "status" : "PASSED",
+  "duration" : null,
+  "throwable" : null,
+  "error" : null,
+  "keyword" : null,
+  "type" : null,
+  "testSteps" : { }
+}, {
+  "steps" : { },
+  "id" : "[engine:junit-jupiter]/[class:ExamUnitTest]/[method:testTask2_DestroyAliens()]",
+  "name" : "Task2.DestroyAliens",
+  "parentTestCaseId" : null,
+  "status" : "PASSED",
+  "duration" : null,
+  "throwable" : null,
+  "error" : null,
+  "keyword" : null,
+  "type" : null,
+  "testSteps" : { }
+}, {
+  "steps" : { },
+  "id" : "[engine:junit-jupiter]/[class:ExamUnitTest]/[method:testTask3_GetSmallestDivisor()]",
+  "name" : "Task3.GetSmallestDivisor",
+  "parentTestCaseId" : null,
+  "status" : "PASSED",
+  "duration" : null,
+  "throwable" : null,
+  "error" : null,
+  "keyword" : null,
+  "type" : null,
+  "testSteps" : { }
+}, {
+  "steps" : { },
+  "id" : "[engine:junit-jupiter]/[class:ExamUnitTest]/[method:testTask4_PostponeMeeting()]",
+  "name" : "Task4.PostponeMeeting",
+  "parentTestCaseId" : null,
+  "status" : "PASSED",
+  "duration" : null,
+  "throwable" : null,
+  "error" : null,
+  "keyword" : null,
+  "type" : null,
+  "testSteps" : { }
+}, {
+  "steps" : { },
+  "id" : "[engine:junit-jupiter]/[class:ExamUnitTest]/[method:testTask5_isGatekeeper()]",
+  "name" : "Task5.isGatekeeper",
+  "parentTestCaseId" : null,
+  "status" : "PASSED",
+  "duration" : null,
+  "throwable" : null,
+  "error" : null,
+  "keyword" : null,
+  "type" : null,
+  "testSteps" : { }
+} ]
